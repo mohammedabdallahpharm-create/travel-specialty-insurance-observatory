@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/schemas/entity.schema.json",
+  "title": "Observatory Entity",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["entity_id", "official_name", "entity_type", "market", "verified_roles", "relevant_sources", "related_signals", "verification_status", "last_reviewed"],
+  "properties": {
+    "entity_id": {"type": "string", "pattern": "^ENTITY-[0-9]{3,}$"},
+    "official_name": {"type": "string", "minLength": 1},
+    "entity_type": {"type": "string", "minLength": 1},
+    "market": {"type": "string", "minLength": 1},
+    "verified_roles": {"type": "array", "items": {"type": "string"}},
+    "official_website": {"type": ["string", "null"], "format": "uri"},
+    "relevant_sources": {"type": "array", "items": {"type": "string", "format": "uri"}},
+    "related_signals": {"type": "array", "items": {"type": "string", "pattern": "^SIGNAL-[0-9]{3,}$"}},
+    "verification_status": {"enum": ["Verified", "Partially Verified", "Unverified", "Disputed", "Historical"]},
+    "last_reviewed": {"type": "string", "format": "date"}
+  }
+}
