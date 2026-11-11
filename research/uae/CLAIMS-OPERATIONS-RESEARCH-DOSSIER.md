@@ -339,3 +339,142 @@ These are not yet signals or market-wide findings. They are testable proposition
 
 **Observation date for live pages:** 11 November 2026.  
 **Policy version caveat:** AIG and MetLife policy PDFs are older published documents; verify the current policy version before operational or legal use.
+
+
+---
+
+## 12. Who owns the claim decision — and who is accountable for the operational outcome?
+
+**Research question:** distinguish (a) the authority to make an individual claim decision, (b) responsibility for performing the outsourced workflow, and (c) the insurer's continuing regulatory and policyholder accountability.
+
+### 12.1 Regulatory baseline — insurer accountability survives outsourcing
+
+The CBUAE's Risk Management and Internal Controls Regulation for Insurance Companies, Article 12 (Outsourcing), states that:
+- outsourced material business activities/functions must be subject to oversight, accountability, review and assessment equivalent to activities performed internally;
+- the insurance company is fully responsible for risks arising from any process or activity it outsources;
+- the Board and Senior Management are ultimately responsible for outsourced functions or activities;
+- written contracts must define the parties' rights and obligations; and
+- the insurer remains responsible for compliance with applicable CBUAE laws and regulations in outsourced activities.
+
+**Finding — Verified regulatory baseline:** outsourcing does not transfer the insurer's ultimate regulatory accountability for its outsourced insurance operations. This does not, by itself, identify the individual employee or vendor staff member who has delegated authority to approve or decline a particular claim.
+
+The CBUAE's AML/CFT outsourcing guidance separately requires the outsourced entity to operate under the delegating insurer's internal policies and procedures and be subject to the insurer's control and monitoring.
+
+### 12.2 The three-layer accountability model
+
+| Layer | Core question | Accountable party (general UAE insurance baseline) | Evidence needed for a specific product |
+|---|---|---|---|
+| Policy / coverage obligation | Who owes the insured the benefit under the policy? | Licensed insurer named in the policy, subject to policy terms and applicable law | Current policy wording, certificate and endorsements |
+| Delegated claim decision | Who may approve, decline, reserve, settle or override a claim? | The person/entity expressly authorised by the insurer within a documented delegation; cannot be inferred from intake or assessment role | Delegated authority agreement, claims authority matrix, limits, escalation rules and decision letter |
+| Operational delivery | Who must process intake, evidence, review, communication and turnaround? | The operational service provider for its contracted tasks; insurer remains responsible for oversight and outsourced risk | Outsourcing/TPA agreement, SLA, process map, audit and quality controls |
+| Regulatory governance | Who remains answerable for the outsourced activity at insurer level? | Insurer, with Board and Senior Management ultimately responsible under CBUAE outsourcing requirements | Board-approved outsourcing framework, risk register, oversight reporting and material outsourcing approvals |
+
+**Important:** the vendor can be contractually accountable to the insurer for service failures, SLA breaches or negligent performance. That is a separate relationship from the insurer's continuing obligations to the policyholder and regulator.
+
+### 12.3 Product-level findings
+
+#### Allianz Travel UAE — Alliance Insurance / NEXtCARE
+
+**Verified**
+- The policy wording identifies Alliance Insurance PSC as underwriter and says claims are managed by an Allianz Partners-appointed Third Party Administrator, NEXtCARE.
+- The current Allianz UAE contact page identifies NEXtCARE as the policy servicing and claims administration contact, while separately identifying Alliance as insurer/underwriter.
+- Customers submit non-emergency claims through NEXtCARE channels; a claims assessor contacts the customer for further information where needed.
+
+**What this establishes:** NEXtCARE has an expressly identified claims-management / administration role, not merely an unrelated customer-service contact.
+
+**What it does not establish:** the public wording and pages reviewed do not disclose the precise binding authority to approve/decline, settle, waive policy conditions, authorise high-value payments or decide appeals.
+
+**Decision:** assign insurer-level accountability to Alliance; assign documented claims-management operations to NEXtCARE; mark final delegated decision rights **Unverified / Continue Research** until the authority agreement or explicit policy clause is found.
+
+#### MetLife Pet — American Life Insurance Company / MedNet
+
+**Verified**
+- The reviewed policy identifies American Life Insurance Company as insurer.
+- MetLife's product page identifies MedNet as its claims partner and routes customers to MedNet for reimbursement submission.
+- The historical claim form routes submissions to MedNet and requests veterinary records, itemised invoices, receipts and diagnostic evidence.
+- MetLife's public product page says approved claims are reimbursed to the policyholder's bank account.
+
+**What this establishes:** MedNet operates the named submission channel and receives the documentation package. MetLife is the insurer and public-facing payer of approved claims.
+
+**What it does not establish:** whether MedNet only performs intake/completeness checks, performs veterinary/clinical review, recommends outcomes, or holds delegated authority to issue binding approvals/declines.
+
+**Decision:** insurer-level accountability — MetLife / American Life Insurance Company; submission operations — MedNet; final delegated decision authority — **Unverified**.
+
+#### MooPet — QIC / MooCover / Kainos email route
+
+**Verified**
+- MooPet states that QIC underwrites policies issued on or after 1 June 2026.
+- The customer-facing claims instructions direct completed forms and supporting documents to claims.moopet@kainosint.com.
+- MooPet states that covered claims are typically settled within ten business days after receiving all required information.
+- The complaint instructions direct customers with post-1 June 2026 policies to QIC's complaint channel and then, if eligible, to Sanadak.
+
+**What this establishes:** QIC is the named underwriter for the new policy cohort; the Kainos email address is the published claims intake route; QIC is the named formal complaint route for that cohort.
+
+**What it does not establish:** the legal identity of the Kainos entity, whether it performs intake only or claim assessment, who signs off claim decisions, or which entity executes the bank payment.
+
+**Decision:** insurer-level accountability — QIC for policies issued on/after 1 June 2026; intake channel — Kainos-domain email; operational and delegated authority — **Unverified**. Do not name Kainos as adjudicator or TPA without corroboration.
+
+#### AIG Travel Guard — American Home Assurance Company (Dubai Branch)
+
+**Verified**
+- The reviewed policy identifies the insurer as the party to whom claims are notified and from whom claim instructions and further evidence may be requested.
+- The policy assigns indemnity payments to the insurer.
+- No external claims administrator is identified in the reviewed policy materials.
+
+**Decision:** insurer-led contractual claims responsibility is supported by the policy. Whether any unmentioned vendor performs back-office services remains unknown; do not overstate this as proof that every task is performed in-house.
+
+#### ADNIC Travel
+
+**Verified**
+- ADNIC publishes a customer claims route and states that it records and assesses submitted travel claims.
+- Its page refers to the assistance company identified in the individual policy schedule/certificate for emergencies.
+
+**Decision:** ADNIC is the visible insurer claims interface and assessment owner in the published journey. Internal delegation and vendor accountability remain unverified.
+
+### 12.4 Who is accountable when the claim goes wrong?
+
+Use this distinction when analysing a complaint or operational failure:
+
+1. **Wrong coverage decision:** the policyholder's claim is against the insurer named in the policy. If a delegate made the decision under delegated authority, the insurer's recourse against that delegate is a separate contractual matter.
+2. **Delay, lost documents or poor communication by a TPA:** the TPA may be contractually accountable to the insurer under the SLA; the insurer remains responsible for oversight and its obligations to the policyholder.
+3. **Failure of emergency assistance coordination:** identify the assistance provider's service obligation and the insurer's policy promise; assess the exact contract and circumstances rather than assuming the assistance provider carries the insured risk.
+4. **Regulatory control failure:** the insurer remains responsible for outsourced risks; Board and Senior Management retain ultimate responsibility for outsourced functions under CBUAE requirements.
+5. **Customer complaint / redress:** follow the insurer's formal complaint process and applicable Sanadak eligibility rules. A service-provider inbox is not automatically the final complaint owner.
+
+A 2026 UAE insurance litigation practice guide also explains that, in delegated-authority disputes, policyholders generally pursue the insurer for obligations under the policy, while the insurer may have a separate contractual claim against an MGA/TPA. Treat this as secondary legal commentary, not a substitute for primary law or case-specific legal advice.
+
+### 12.5 Operational accountability metrics to investigate
+
+For each insurer/TPA arrangement, seek evidence of named ownership and reporting for:
+- claim acknowledgement and first response time;
+- time from complete documentation to decision;
+- percentage of claims returned for missing documents;
+- clinical/veterinary review turnaround;
+- approval and decline rates by reason;
+- appeal and complaint volumes;
+- overturned decision rate;
+- payment execution time;
+- fraud referral and confirmed fraud rates;
+- SLA breaches and remediation;
+- system outage and business continuity incidents;
+- quality assurance sampling and audit findings.
+
+Do not publish target values or performance results unless a source provides them.
+
+### 12.6 Updated research conclusion
+
+**Verified general conclusion:** under CBUAE insurance outsourcing requirements, an insurer cannot outsource away its ultimate regulatory accountability for outsourced operations. The Board and Senior Management remain ultimately responsible for outsourced functions.
+
+**Product-specific conclusion:** we can identify some insurer and service-provider roles, but public sources do not yet establish the full delegated claims decision matrix for NEXtCARE, MedNet or Kainos.
+
+**Research decision:** Continue Research. The question is now narrowed from "who owns claims?" to "what exact decision rights are delegated, within which limits, under whose oversight, and how is operational performance escalated?"
+
+### 12.7 Additional sources
+
+15. CBUAE — Risk Management and Internal Controls Regulation for Insurance Companies, Article 12 (Outsourcing): https://rulebook.centralbank.ae/en/rulebook/risk-management-and-internal-controls-regulation-insurance-companies
+16. CBUAE Rulebook — Outsourcing guidance for AML/CFT functions: https://rulebook.centralbank.ae/en/rulebook/362-outsourcing
+17. Allianz Partners / UAE — Global Individual Policy Wording, including the appointed TPA and claims management: https://www.magroup-online.com/B2C/AE/EN/terms_conditions_en.pdf
+18. Allianz Travel UAE — Contact and entity disclosures: https://www.allianz-assistance.ae/en_AE/contact-us.html
+19. MetLife UAE — Pet Insurance claim submission form (older published form; version applicability to be confirmed): https://www.metlife.ae/content/dam/metlifecom/ae/PDFs/pet/Pet-Insurance-Claim-Form.pdf
+20. MooPet — Claims, underwriter and complaint instructions: https://www.moocover.com/moopet-claim
+21. Chambers and Partners — Insurance Litigation 2026, UAE, section on delegated authority and claims responsibility (secondary legal commentary): https://practiceguides.chambers.com/practice-guides/insurance-litigation-2026/uae/trends-and-developments/O27329
