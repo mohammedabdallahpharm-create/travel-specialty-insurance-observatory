@@ -478,3 +478,153 @@ Do not publish target values or performance results unless a source provides the
 19. MetLife UAE — Pet Insurance claim submission form (older published form; version applicability to be confirmed): https://www.metlife.ae/content/dam/metlifecom/ae/PDFs/pet/Pet-Insurance-Claim-Form.pdf
 20. MooPet — Claims, underwriter and complaint instructions: https://www.moocover.com/moopet-claim
 21. Chambers and Partners — Insurance Litigation 2026, UAE, section on delegated authority and claims responsibility (secondary legal commentary): https://practiceguides.chambers.com/practice-guides/insurance-litigation-2026/uae/trends-and-developments/O27329
+
+
+---
+
+## 13. Does outsourcing claims operations also delegate decision authority?
+
+**Research question:** when an insurer appoints a TPA, does the TPA receive authority to adjudicate claims, or does it only administer the workflow?
+
+### 13.1 Finding: delegation is possible, but not automatic
+
+The appointment of a TPA and the delegation of binding claim-decision authority are separate propositions.
+
+A TPA may be contracted to:
+- receive and register claims;
+- check documents and eligibility data;
+- apply benefit rules and exclusions;
+- conduct medical/veterinary or technical review;
+- recommend an outcome;
+- issue an approval or rejection within delegated limits;
+- authorise or execute payment;
+- manage complaints and appeals.
+
+The contract may allocate only some of these functions. A submission portal, claims email address, named assessor, or description such as "claims management" does not, by itself, prove every authority above.
+
+### 13.2 Regulatory distinction across UAE insurance segments
+
+**CBUAE-regulated insurance outsourcing — general insurer baseline**
+
+The CBUAE Risk Management and Internal Controls Regulation and Standards require board-approved outsourcing governance, written contracts, risk assessment, monitoring, oversight and access to information. The insurer remains fully responsible for risks arising from outsourced processes, and the Board and Senior Management remain ultimately responsible for outsourced functions. The CBUAE outsourcing standards also state that the Central Bank will generally not permit outsourcing of core insurance activities and key management/control functions, subject to assessment of individual requests.
+
+Source: https://rulebook.centralbank.ae/en/rulebook/12-outsourcing
+Source: https://rulebook.centralbank.ae/en/rulebook/risk-management-and-internal-controls-regulation-insurance-companies
+
+**Dubai health insurance — specific Claim Management Company framework**
+
+Dubai Administrative Resolution No. 78 of 2022 is specifically about health insurance in the Emirate of Dubai. It provides a more explicit arrangement:
+- Article 1 defines a Claim Management Company as an establishment licensed to conduct insurance claim settlement and authorised by DHIC for Dubai health insurance.
+- Article 3(6) requires an insurer to fulfil its responsibilities even when it contracts a Claim Management Company to manage claims.
+- Article 8(4) says the Claim Management Company assumes joint liability with the contracted Insurance Company for managing insurance claims.
+- Article 14 requires the insurer–Claim Management Company contract to specify, among other things, records and insurer access, claims settlement periods, statistical reporting, complaint-handling responsibility, payment obligations, service levels and performance indicators.
+
+Source: https://dlp.dubai.gov.ae/Legislation%20Reference/2022/Administrative%20Resolution%20No.%20(78)%20of%202022%20Issuing%20the%20Implementing%20Bylaw%20of%20Law%20No.%20(11)%20of%202013.html
+
+A DHA/DHIC circular issued 20 May 2026 also defines a Dubai health insurance TPA as performing claims management and claims review including adjudication, as well as management of the health insurance claims settlement cycle. The circular is directed to Dubai's health insurance system and must not be treated as a travel or pet insurance rule.
+
+Source: https://www.isahd.ae/content/docs/GC%2005-2026_Broker%20Guidelines%20Circular.pdf
+
+**Scope limitation:** the Dubai health-insurance provisions above cannot be automatically extended to Travel Insurance or Pet Insurance. Those domains require product-specific regulatory classification, the applicable policy and the actual outsourcing/delegation agreement. The CBUAE's general outsourcing rules also require attention to whether the outsourced task is considered a core insurance activity.
+
+### 13.3 What the public evidence shows in the Observatory's sample
+
+| Arrangement | Operational role evidenced | Decision authority evidence | Current conclusion |
+|---|---|---|---|
+| Alliance Insurance / NEXtCARE — Allianz Travel | Policy wording expressly says claims are managed by NEXtCARE, an appointed TPA | The wording establishes claims management, but does not disclose decision limits or whether all approvals/declines are binding decisions by NEXtCARE | Claims management delegated; extent of adjudication authority unresolved |
+| MetLife / MedNet — Pet | MedNet receives reimbursement submissions and supporting records; its live form says information is required by MedNet and the insurer to adjudicate reimbursement claims | The wording shows MedNet participates in adjudication workflow, but does not identify who has final binding approval/decline authority for this pet product | Adjudication participation evidenced; final delegated authority unresolved |
+| QIC / MooPet / Kainos email route — Pet | Kainos-domain email is the published intake route | No public evidence found establishing Kainos' legal identity, adjudication role or binding authority | Intake route evidenced; administration and decision authority unresolved |
+| AIG Travel Guard | Policy identifies insurer claims department and insurer payment obligations | Insurer-led contractual claims role is evidenced; back-office vendors not disclosed | Insurer-led public model; no external delegation established |
+| ADNIC Travel | ADNIC publishes direct intake and assessment journey | Public page attributes assessment to ADNIC; internal authority structure not disclosed | Insurer-facing assessment model; internal delegation unresolved |
+
+**Additional evidence — MedNet's current reimbursement form:** the member authorises treating providers to furnish medical records to both MedNet and the insurance company, stating that the information is required by both to adjudicate reimbursement claims. This supports MedNet's participation in the adjudication process, not proof that MedNet alone makes the final decision. The form also allows bank-transfer details and authorises MedNet to transmit reimbursement funds, which evidences a payment-processing role for the form's covered workflows, not necessarily for the separate MetLife pet product.
+
+Source: https://externalclients.mednet-global.com/members/reimbursement/submit.aspx
+
+**Additional evidence — Allianz policy:** the reviewed policy expressly names NEXtCARE as the appointed TPA that manages claims. This is stronger than a simple customer-service contact, but still does not disclose delegated authority limits.
+
+Source: https://www.magroup-online.com/B2C/AE/EN/Inbound_en_policy_wording_tcs.pdf
+
+### 13.4 How an insurer retains control when decision authority is delegated
+
+A defensible control model should include the following contractual and operational mechanisms. These are research criteria and good-practice controls, not assertions that every sampled company currently implements them.
+
+1. **Written Delegated Authority Matrix**
+   - claim types and policy sections in scope;
+   - approval, decline, settlement and payment permissions;
+   - monetary limits and aggregate exposure limits;
+   - exclusions or decisions reserved to the insurer;
+   - authority to waive conditions or make ex-gratia payments;
+   - referral triggers for complex, disputed, high-value or suspicious claims.
+
+2. **Rules and policy-version control**
+   - insurer-approved policy wording and rules engine configuration;
+   - effective dates and version history;
+   - controlled updates and testing;
+   - no unilateral TPA changes to coverage rules.
+
+3. **Human escalation and override**
+   - mandatory referral for exceptions and conflicts;
+   - insurer access to clinical, veterinary, legal and fraud specialists;
+   - documented override and appeal rights;
+   - no unreviewed automation for cases outside delegated limits.
+
+4. **File, data and audit rights**
+   - insurer access to complete claim files, evidence, decision rationale and audit trail;
+   - quality sampling and independent file reviews;
+   - regulator access where required;
+   - retention, portability and return of data at contract termination.
+
+5. **Performance and outcome monitoring**
+   - acknowledgement and end-to-end turnaround;
+   - complete-file-to-decision time;
+   - missing-document rates;
+   - approval/decline rates by reason and product;
+   - appeal volume and overturn rate;
+   - complaint rates and remediation time;
+   - payment accuracy, leakage and duplicate/fraud detection;
+   - SLA breaches, root-cause analysis and corrective actions.
+
+6. **Governance and intervention**
+   - named insurer owner for the outsourced function;
+   - regular operational and risk committees;
+   - escalation to senior management and the Board for material failures;
+   - remediation plans, step-in rights, suspension and termination rights;
+   - business continuity and exit plans.
+
+### 13.5 The practical test: delegated decision vs retained control
+
+For any sampled insurer–TPA relationship, the Observatory should seek documentary answers to these questions:
+
+- Can the TPA approve a claim without insurer sign-off?
+- Can it decline a claim without insurer sign-off?
+- What claim value and risk categories are within its authority?
+- Who approves exceptions, ex-gratia payments and policy-condition waivers?
+- Who owns clinical/veterinary disputes and fraud referrals?
+- Who signs the decision letter and whose name appears on it?
+- Who can reverse or override the TPA's decision?
+- Does the insurer receive all claim files and decision logs in real time?
+- What happens if SLA or decision-quality thresholds are breached?
+- Who is responsible for responding to the policyholder and regulator?
+
+### 13.6 Updated conclusion
+
+**General answer:** an insurer may delegate defined claims decision-making authority to a TPA where the applicable regulatory framework and contract permit it. Delegation is not implied merely by outsourcing claims operations or appointing a TPA.
+
+**Control answer:** the insurer retains control through a documented authority matrix, policy/rules governance, access to files and data, monitoring, audit, escalation, override, and Board/Senior Management oversight. Under CBUAE insurance outsourcing requirements, the insurer's ultimate regulatory accountability for outsourced risks remains.
+
+**Dubai health-insurance nuance:** the Dubai framework expressly recognises Claim Management Companies, claims adjudication and joint liability with the insurer for claims management. This is a segment-specific legal model, not a blanket rule for travel or pet insurance.
+
+**Sample-level conclusion:** NEXtCARE's claims management role is verified; MedNet's participation in adjudication is now evidenced by its live reimbursement form; neither source establishes the full final decision authority matrix for the sampled Travel/Pet products. Kainos remains unverified beyond the published intake email route.
+
+**Research decision:** Continue Research. The next evidence target is the actual insurer–TPA delegation agreement, or a public policy clause explicitly allocating approval, rejection, settlement and escalation powers.
+
+### 13.7 Additional sources
+
+22. CBUAE — Risk Management and Internal Controls Regulation for Insurance Companies, Article 12: https://rulebook.centralbank.ae/en/rulebook/risk-management-and-internal-controls-regulation-insurance-companies
+23. CBUAE — Outsourcing Standards, including material outsourcing, contracts, oversight and core insurance activity: https://rulebook.centralbank.ae/en/rulebook/12-outsourcing
+24. Dubai Administrative Resolution No. 78 of 2022, Articles 1, 3, 8 and 14: https://dlp.dubai.gov.ae/Legislation%20Reference/2022/Administrative%20Resolution%20No.%20(78)%20of%202022%20Issuing%20the%20Implementing%20Bylaw%20of%20Law%20No.%20(11)%20of%202013.html
+25. DHA/DHIC Circular GC 05-2026, Broker Guidelines Manual, including the health insurance TPA definition: https://www.isahd.ae/content/docs/GC%2005-2026_Broker%20Guidelines%20Circular.pdf
+26. MedNet — Live reimbursement form and adjudication authorisation: https://externalclients.mednet-global.com/members/reimbursement/submit.aspx
+27. Allianz Partners — UAE inbound travel policy wording identifying NEXtCARE as appointed TPA: https://www.magroup-online.com/B2C/AE/EN/Inbound_en_policy_wording_tcs.pdf
+28. Chambers and Partners — Insurance Litigation 2026, UAE, delegated authority and claims responsibility (secondary legal commentary): https://chambers.com/practice-guides/guides/insurance-litigation-2026/uae/law-and-practice
