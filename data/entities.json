@@ -1,1 +1,154 @@
-[]
+[
+  {
+    "entity_id": "ENTITY-001",
+    "official_name": "Central Bank of the UAE (CBUAE)",
+    "entity_type": "Regulator",
+    "market": "United Arab Emirates",
+    "verified_roles": [
+      "Insurance-sector licensing, regulation and supervision; publishes the 2026 insurance entities register"
+    ],
+    "official_website": "https://www.centralbank.ae/",
+    "relevant_sources": [
+      "https://centralbank.ae/en/licensing/"
+    ],
+    "related_signals": [],
+    "verification_status": "Verified",
+    "last_reviewed": "2026-11-11"
+  },
+  {
+    "entity_id": "ENTITY-002",
+    "official_name": "American Home Assurance Company (Dubai Branch)",
+    "entity_type": "Insurer / underwriting entity",
+    "market": "United Arab Emirates",
+    "verified_roles": [
+      "Underwriter of AIG Travel Guard travel insurance in the UAE"
+    ],
+    "official_website": "https://www.aig.ae/",
+    "relevant_sources": [
+      "https://www.aig.ae/home/risk-solutions/individual/travel-insurance",
+      "https://www.aig.ae/content/dam/aig/emea/regional-assets/documents/uae-travel-guard-policy-wording.pdf"
+    ],
+    "related_signals": [],
+    "verification_status": "Verified",
+    "last_reviewed": "2026-11-11"
+  },
+  {
+    "entity_id": "ENTITY-003",
+    "official_name": "Alliance Insurance Company P.S.C.",
+    "entity_type": "Insurer / underwriting entity",
+    "market": "United Arab Emirates",
+    "verified_roles": [
+      "Underwriter of Allianz Travel Insurance in the UAE (as stated on Allianz UAE contact page)"
+    ],
+    "official_website": "https://www.alliance-uae.com/",
+    "relevant_sources": [
+      "https://www.allianz-assistance.ae/en_AE/contact-us.html",
+      "https://www.allianz-assistance.ae/en_AE/claim-centre.html"
+    ],
+    "related_signals": [],
+    "verification_status": "Verified",
+    "last_reviewed": "2026-11-11"
+  },
+  {
+    "entity_id": "ENTITY-004",
+    "official_name": "NEXtCARE",
+    "entity_type": "Claims administrator / assistance services provider",
+    "market": "United Arab Emirates",
+    "verified_roles": [
+      "Policy servicing and claims administration for Allianz Travel Insurance in the UAE",
+      "24/7 emergency medical assistance contact and coordination for Allianz Travel Insurance in the UAE"
+    ],
+    "official_website": "https://www.nextcarehealth.com/",
+    "relevant_sources": [
+      "https://www.allianz-assistance.ae/en_AE/contact-us.html",
+      "https://www.allianz-assistance.ae/en_AE/claim-centre.html"
+    ],
+    "related_signals": [],
+    "verification_status": "Verified",
+    "last_reviewed": "2026-11-11"
+  },
+  {
+    "entity_id": "ENTITY-005",
+    "official_name": "Abu Dhabi National Insurance Company (ADNIC)",
+    "entity_type": "Insurer",
+    "market": "United Arab Emirates",
+    "verified_roles": [
+      "Publishes a UAE travel-claims process and accepts travel claims through its channels",
+      "Assesses travel claims submitted through its published process"
+    ],
+    "official_website": "https://www.adnic.ae/",
+    "relevant_sources": [
+      "https://www.adnic.ae/web/guest/personal-claim-travel"
+    ],
+    "related_signals": [],
+    "verification_status": "Verified",
+    "last_reviewed": "2026-11-11"
+  },
+  {
+    "entity_id": "ENTITY-006",
+    "official_name": "Metropolitan Life Insurance Company, Dubai, United Arab Emirates (MetLife UAE)",
+    "entity_type": "Insurance provider",
+    "market": "United Arab Emirates",
+    "verified_roles": [
+      "Offers pet insurance for dogs and cats in the UAE",
+      "States that approved pet claims are reimbursed to the policyholder",
+      "Names MedNet as its claims partner for pet-claim submission"
+    ],
+    "official_website": "https://www.metlife.ae/",
+    "relevant_sources": [
+      "https://www.metlife.ae/en/pet-insurance/"
+    ],
+    "related_signals": [],
+    "verification_status": "Verified",
+    "last_reviewed": "2026-11-11"
+  },
+  {
+    "entity_id": "ENTITY-007",
+    "official_name": "MedNet",
+    "entity_type": "Claims submission partner / platform",
+    "market": "United Arab Emirates",
+    "verified_roles": [
+      "Provides the online reimbursement-claim submission channel identified by MetLife as its pet-insurance claims partner"
+    ],
+    "official_website": "https://www.mednet-global.com/",
+    "relevant_sources": [
+      "https://www.metlife.ae/en/pet-insurance/"
+    ],
+    "related_signals": [],
+    "verification_status": "Verified",
+    "last_reviewed": "2026-11-11"
+  },
+  {
+    "entity_id": "ENTITY-008",
+    "official_name": "Qatar Insurance Company (QIC)",
+    "entity_type": "Insurer / underwriting entity",
+    "market": "United Arab Emirates",
+    "verified_roles": [
+      "Underwriter of MooPet policies issued on or after 1 June 2026, according to MooPet's official claims page"
+    ],
+    "official_website": "https://qicuae.com/",
+    "relevant_sources": [
+      "https://www.moocover.com/moopet-claim"
+    ],
+    "related_signals": [],
+    "verification_status": "Verified",
+    "last_reviewed": "2026-11-11"
+  },
+  {
+    "entity_id": "ENTITY-009",
+    "official_name": "MooPet (MooCover)",
+    "entity_type": "Pet-insurance product brand / distribution programme",
+    "market": "United Arab Emirates",
+    "verified_roles": [
+      "Publishes UAE pet-insurance product information and customer claims instructions",
+      "Directs policyholders to submit claim forms and supporting documents by email"
+    ],
+    "official_website": "https://www.moocover.com/",
+    "relevant_sources": [
+      "https://www.moocover.com/moopet-claim"
+    ],
+    "related_signals": [],
+    "verification_status": "Verified",
+    "last_reviewed": "2026-11-11"
+  }
+]
