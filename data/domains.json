@@ -1,0 +1,30 @@
+[
+  {
+    "domain_id": "TRAVEL",
+    "name_en": "Travel Insurance",
+    "name_ar": "تأمين السفر",
+    "subdomains": [
+      "EMERGENCY_MEDICAL",
+      "TRIP_CANCELLATION",
+      "TRIP_INTERRUPTION",
+      "FLIGHT_DELAY",
+      "EMERGENCY_ASSISTANCE",
+      "BAGGAGE"
+    ]
+  },
+  {
+    "domain_id": "PET",
+    "name_en": "Pet Insurance",
+    "name_ar": "تأمين الحيوانات الأليفة",
+    "scope": "Companion animals",
+    "subdomains": [
+      "ACCIDENTAL_INJURY",
+      "ILLNESS",
+      "VETERINARY_EXPENSES",
+      "SURGERY",
+      "DIAGNOSTICS_MEDICATION",
+      "EMERGENCY_VETERINARY_CARE",
+      "THIRD_PARTY_LIABILITY"
+    ]
+  }
+]
