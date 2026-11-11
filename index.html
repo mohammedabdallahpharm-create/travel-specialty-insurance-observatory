@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#09111f">
+  <meta name="description" content="An evidence-led observatory of UAE travel and pet insurance markets, claims operations and emerging technology.">
+  <title>Travel & Specialty Insurance Observatory</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/observatory.css">
+  <script defer src="/assets/js/observatory.js"></script>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="#overview" aria-label="Observatory home">
+        <span class="brand-mark"><span></span><span></span><span></span></span>
+        <span class="brand-copy"><strong>FIELDNOTE<span> / </span>OBSERVATORY</strong><small>TRAVEL & SPECIALTY INSURANCE</small></span>
+      </a>
+      <div class="side-label" data-i18n="workspace">WORKSPACE</div>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a class="nav-link active" href="#overview" data-section="overview"><span class="nav-icon">◫</span><span data-i18n="overview">Overview</span><span class="nav-arrow">↗</span></a>
+        <a class="nav-link" href="#travel" data-section="travel"><span class="nav-icon">↗</span><span data-i18n="travel">Travel insurance</span></a>
+        <a class="nav-link" href="#pet" data-section="pet"><span class="nav-icon">⌁</span><span data-i18n="pet">Pet insurance</span></a>
+        <a class="nav-link" href="#claims" data-section="claims"><span class="nav-icon">▤</span><span data-i18n="claims">Claims operations</span></a>
+        <a class="nav-link" href="#ai" data-section="ai"><span class="nav-icon">✳</span><span data-i18n="ai">AI & workforce</span></a>
+        <div class="side-divider"></div>
+        <div class="side-label" data-i18n="intelligence">INTELLIGENCE</div>
+        <a class="nav-link" href="#signals" data-section="signals"><span class="nav-icon">⌁</span><span data-i18n="signals">Signals</span><span class="nav-count" id="signal-count">0</span></a>
+        <a class="nav-link" href="#entities" data-section="entities"><span class="nav-icon">◎</span><span data-i18n="entities">Entity registry</span></a>
+        <a class="nav-link" href="#methodology" data-section="methodology"><span class="nav-icon">⊙</span><span data-i18n="methodology">Methodology</span></a>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="market-chip"><span class="pulse-dot"></span><span>UAE</span><span class="market-caption" data-i18n="initialMarket">INITIAL MARKET</span></div>
+        <div class="sidebar-note"><span class="note-mark">✳</span><p data-i18n="principle">AI prepares the work;<br>humans make the decision.</p></div>
+        <div class="sidebar-foot">INDEPENDENT RESEARCH<br><span>VERSION 1.0 · 2026</span></div>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <button class="mobile-menu" id="mobile-menu" aria-label="Open menu">☰</button>
+        <div class="breadcrumb"><span>OBSERVATORY</span><b>/</b><strong id="breadcrumb-current">OVERVIEW</strong></div>
+        <div class="top-actions">
+          <span class="live-label"><i></i><span data-i18n="evidenceLed">EVIDENCE-LED RESEARCH</span></span>
+          <button class="lang-toggle" id="lang-toggle" type="button">العربية <span>↗</span></button>
+        </div>
+      </header>
+
+      <section class="view active" id="view-overview">
+        <div class="page-intro">
+          <div class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="observatoryBrief">OBSERVATORY BRIEF</span><span class="eyebrow-date">11 NOV 2026</span></div>
+          <div class="hero-grid">
+            <div>
+              <h1 data-i18n="heroTitle">A clearer view of<br><em>insurance operations.</em></h1>
+              <p class="hero-lede" data-i18n="heroLead">Tracking how travel and pet insurance work in the UAE — who carries the risk, who handles the claim, and how technology is reshaping the work.</p>
+              <div class="hero-meta"><span class="meta-dot"></span><span data-i18n="uaeFirst">UAE FIRST</span><span class="meta-sep">/</span><span data-i18n="twoDomains">TWO RESEARCH DOMAINS</span><span class="meta-sep">/</span><span data-i18n="claimsPriority">CLAIMS OPERATIONS PRIORITY</span></div>
+            </div>
+            <div class="hero-visual" aria-hidden="true">
+              <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div>
+              <div class="orbit-core"><span>UAE</span><small>FIELD<br>OBSERVATION</small></div>
+              <span class="orbit-node node-a">TRAVEL</span><span class="orbit-node node-b">PET</span><span class="orbit-node node-c">CLAIMS</span><span class="orbit-node node-d">AI</span>
+              <div class="visual-coord">25° 12' N<br>55° 16' E</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-heading">
+          <div><span class="section-kicker" data-i18n="atAGlance">AT A GLANCE</span><h2 data-i18n="researchLandscape">Research landscape</h2></div>
+          <span class="updated-stamp"><span class="pulse-dot"></span><span data-i18n="registryDriven">LIVE FROM RESEARCH REGISTRIES</span></span>
+        </div>
+        <div class="metrics-grid">
+          <article class="metric-card"><div class="metric-top"><span data-i18n="domainsTracked">DOMAINS TRACKED</span><span class="metric-symbol">◫</span></div><strong id="metric-domains">02</strong><small data-i18n="separateResearchTracks">Separate research tracks</small></article>
+          <article class="metric-card"><div class="metric-top"><span data-i18n="entitiesMapped">ENTITIES MAPPED</span><span class="metric-symbol">◎</span></div><strong id="metric-entities">—</strong><small data-i18n="verifiedRegistry">In the entity registry</small></article>
+          <article class="metric-card"><div class="metric-top"><span data-i18n="publishedSignals">PUBLISHED SIGNALS</span><span class="metric-symbol">⌁</span></div><strong id="metric-signals">00</strong><small data-i18n="noInflatedCounts">No unverified counts</small></article>
+          <article class="metric-card metric-priority"><div class="metric-top"><span data-i18n="researchPriority">RESEARCH PRIORITY</span><span class="metric-symbol">↗</span></div><strong data-i18n="claims">Claims</strong><small data-i18n="operationsDecisionRights">Operations & decision rights</small></article>
+        </div>
+
+        <div class="section-heading domain-heading">
+          <div><span class="section-kicker" data-i18n="exploreTheMarket">EXPLORE THE MARKET</span><h2 data-i18n="twoLenses">Two domains. One methodology.</h2></div>
+          <p data-i18n="domainIntro">Distinct insurance products and claims realities, examined through a shared evidence framework.</p>
+        </div>
+        <div class="domain-grid">
+          <a class="domain-card travel-card" href="#travel" data-go="travel">
+            <div class="domain-card-top"><span class="domain-index">01 / DOMAIN</span><span class="domain-arrow">↗</span></div>
+            <div class="domain-art travel-art"><div class="travel-arc"></div><div class="travel-plane">✈</div><span class="art-label">TRAVEL / UAE</span></div>
+            <div class="domain-card-copy"><div class="domain-tag">TRAVEL INSURANCE</div><h3 data-i18n="travelTitle">When the journey<br>doesn't go to plan.</h3><p data-i18n="travelDescription">Medical emergencies, cancellation, interruption, delay and baggage protection.</p><div class="domain-footer"><span data-i18n="exploreDomain">EXPLORE DOMAIN</span><span>→</span></div></div>
+          </a>
+          <a class="domain-card pet-card" href="#pet" data-go="pet">
+            <div class="domain-card-top"><span class="domain-index">02 / DOMAIN</span><span class="domain-arrow">↗</span></div>
+            <div class="domain-art pet-art"><div class="pet-orbit"></div><div class="pet-paw">✣</div><span class="art-label">COMPANION ANIMALS / UAE</span></div>
+            <div class="domain-card-copy"><div class="domain-tag">PET INSURANCE</div><h3 data-i18n="petTitle">Care, coverage<br>and clinical evidence.</h3><p data-i18n="petDescription">Accident, illness, veterinary expenses, surgery and emergency care.</p><div class="domain-footer"><span data-i18n="exploreDomain">EXPLORE DOMAIN</span><span>→</span></div></div>
+          </a>
+        </div>
+
+        <div class="insight-strip">
+          <div class="insight-icon">↗</div><div><span class="section-kicker" data-i18n="coreQuestion">THE QUESTION BEHIND THE RESEARCH</span><p data-i18n="coreQuestionText">Who owns the claim decision — and who is accountable for the operational outcome?</p></div><a href="#claims" data-go="claims" class="text-link"><span data-i18n="followTheQuestion">FOLLOW THE QUESTION</span> ↗</a>
+        </div>
+        <footer class="page-footer"><span>FIELDNOTE / OBSERVATORY</span><span data-i18n="footerScope">UAE · TRAVEL & PET · CLAIMS OPERATIONS</span><span>INDEPENDENT · EVIDENCE-LED</span></footer>
+      </section>
+
+      <section class="view" id="view-travel">
+        <div class="view-header"><div class="eyebrow"><span class="eyebrow-line"></span>DOMAIN 01 / UAE</div><h1 data-i18n="travelTitle">When the journey<br>doesn't go to plan.</h1><p data-i18n="travelDescription">Medical emergencies, cancellation, interruption, delay and baggage protection.</p></div>
+        <div class="detail-banner travel-banner"><span>TRAVEL INSURANCE / UAE</span><strong data-i18n="travelBanner">A claim is a chain of responsibilities — not a single transaction.</strong></div>
+        <div class="section-heading"><div><span class="section-kicker" data-i18n="coverageMap">COVERAGE MAP</span><h2 data-i18n="researchScope">Research scope</h2></div></div>
+        <div class="scope-grid" id="travel-scope"></div>
+        <div class="section-heading"><div><span class="section-kicker" data-i18n="openQuestions">OPEN QUESTIONS</span><h2 data-i18n="questionsToResolve">Questions to resolve</h2></div></div>
+        <div class="question-list"><div><b>01</b><span data-i18n="travelQ1">Where does assistance coordination end and claims decision authority begin?</span></div><div><b>02</b><span data-i18n="travelQ2">How are baggage evidence, airline reports and policy exclusions validated?</span></div><div><b>03</b><span data-i18n="travelQ3">Which party owns customer communication, settlement and complaint escalation?</span></div></div>
+      </section>
+
+      <section class="view" id="view-pet">
+        <div class="view-header"><div class="eyebrow"><span class="eyebrow-line"></span>DOMAIN 02 / UAE</div><h1 data-i18n="petTitle">Care, coverage<br>and clinical evidence.</h1><p data-i18n="petDescription">Accident, illness, veterinary expenses, surgery and emergency care.</p></div>
+        <div class="detail-banner pet-banner"><span>PET INSURANCE / COMPANION ANIMALS</span><strong data-i18n="petBanner">Veterinary evidence meets policy rules, clinical judgement and reimbursement.</strong></div>
+        <div class="section-heading"><div><span class="section-kicker" data-i18n="coverageMap">COVERAGE MAP</span><h2 data-i18n="researchScope">Research scope</h2></div></div>
+        <div class="scope-grid" id="pet-scope"></div>
+        <div class="section-heading"><div><span class="section-kicker" data-i18n="openQuestions">OPEN QUESTIONS</span><h2 data-i18n="questionsToResolve">Questions to resolve</h2></div></div>
+        <div class="question-list"><div><b>01</b><span data-i18n="petQ1">Who interprets veterinary records against exclusions and pre-existing conditions?</span></div><div><b>02</b><span data-i18n="petQ2">How are waiting periods, sub-limits and deductibles applied in practice?</span></div><div><b>03</b><span data-i18n="petQ3">Which entity adjudicates, approves and pays the reimbursement?</span></div></div>
+      </section>
+
+      <section class="view" id="view-claims">
+        <div class="view-header"><div class="eyebrow"><span class="eyebrow-line"></span>OPERATING MODEL / UAE</div><h1 data-i18n="claimsTitle">Follow the claim.<br><em>Find the decision.</em></h1><p data-i18n="claimsLead">Map the chain from first notice to settlement — and identify where authority, accountability and customer outcomes sit.</p></div>
+        <div class="section-heading"><div><span class="section-kicker" data-i18n="referenceWorkflow">REFERENCE WORKFLOW</span><h2 data-i18n="claimLifecycle">The claim lifecycle</h2></div><span class="updated-stamp">ANALYTICAL MODEL · NOT UNIVERSAL</span></div>
+        <div class="workflow">
+          <div class="workflow-step"><span>01</span><b data-i18n="intake">Intake</b><small data-i18n="intakeDesc">FNOL & submission</small></div><i>→</i>
+          <div class="workflow-step"><span>02</span><b data-i18n="eligibility">Eligibility</b><small data-i18n="eligibilityDesc">Policy & coverage</small></div><i>→</i>
+          <div class="workflow-step"><span>03</span><b data-i18n="evidence">Evidence</b><small data-i18n="evidenceDesc">Documents & validation</small></div><i>→</i>
+          <div class="workflow-step"><span>04</span><b data-i18n="adjudication">Adjudication</b><small data-i18n="adjudicationDesc">Assessment & authority</small></div><i>→</i>
+          <div class="workflow-step"><span>05</span><b data-i18n="settlement">Settlement</b><small data-i18n="settlementDesc">Payment & closure</small></div>
+        </div>
+        <div class="authority-panel"><div><span class="section-kicker" data-i18n="decisionRights">DECISION RIGHTS</span><h2 data-i18n="notTheSameRole">Four roles. Not necessarily one organisation.</h2><p data-i18n="decisionRightsDesc">A provider may administer a claim without holding authority to make the final binding decision. Delegation must be evidenced, not assumed.</p></div><div class="role-list"><div><span>01</span><b data-i18n="riskCarrier">Risk carrier</b><small data-i18n="riskCarrierDesc">Underwriting & policy liability</small></div><div><span>02</span><b data-i18n="administrator">Administrator</b><small data-i18n="administratorDesc">Intake, processing & coordination</small></div><div><span>03</span><b data-i18n="decisionMaker">Decision-maker</b><small data-i18n="decisionMakerDesc">Binding approval / decline authority</small></div><div><span>04</span><b data-i18n="accountableParty">Accountable party</b><small data-i18n="accountablePartyDesc">Governance & customer outcome</small></div></div></div>
+        <div class="research-caveat"><span>!</span><p data-i18n="claimsCaveat">Travel and Pet claims workflows are researched separately. A TPA appointment, assistance contract or claims submission portal does not by itself prove delegated final decision authority.</p></div>
+      </section>
+
+      <section class="view" id="view-ai">
+        <div class="view-header"><div class="eyebrow"><span class="eyebrow-line"></span>TECHNOLOGY / WORKFORCE</div><h1 data-i18n="aiTitle">AI in the workflow.<br><em>Humans in control.</em></h1><p data-i18n="aiLead">Separate document automation, decision support and delegated automated decisions. The difference is operational — and material.</p></div>
+        <div class="ai-spectrum"><div class="spectrum-item"><span>01</span><b data-i18n="processAutomation">Process automation</b><p data-i18n="processDesc">Capture, OCR, extraction, classification and routing.</p><label class="evidence-label evidence-supported" data-i18n="observedAcrossMarket">OBSERVED IN UAE CROSS-LINE EXAMPLES</label></div><div class="spectrum-item"><span>02</span><b data-i18n="decisionSupport">Decision support</b><p data-i18n="supportDesc">Summarise evidence, flag exceptions and suggest next actions.</p><label class="evidence-label evidence-supported" data-i18n="emergingEvidence">EMERGING EVIDENCE</label></div><div class="spectrum-item"><span>03</span><b data-i18n="delegatedDecision">Delegated automated decision</b><p data-i18n="delegatedDesc">Approve, decline or settle within defined authority.</p><label class="evidence-label evidence-gap" data-i18n="notEstablished">NOT ESTABLISHED IN TRAVEL / PET SAMPLE</label></div><div class="spectrum-item"><span>04</span><b data-i18n="autonomousDecision">Autonomous high-impact decision</b><p data-i18n="autonomousDesc">Material claim decision without meaningful human involvement.</p><label class="evidence-label evidence-gap" data-i18n="notEstablished">NOT ESTABLISHED IN TRAVEL / PET SAMPLE</label></div></div>
+        <div class="human-control"><div class="human-icon">✳</div><div><span class="section-kicker" data-i18n="designPrinciple">DESIGN PRINCIPLE</span><h2 data-i18n="humanControlTitle">AI prepares the work. Humans make the decision.</h2><p data-i18n="humanControlDesc">The research question is not simply whether AI is used. It is what authority the system has, who can intervene, and who remains accountable when an outcome is wrong.</p></div></div>
+        <p class="small-note" data-i18n="aiScopeNote">Evidence shown here includes UAE insurance examples outside Travel and Pet. It is contextual evidence, not proof of deployment in either domain.</p>
+      </section>
+
+      <section class="view" id="view-signals">
+        <div class="view-header"><div class="eyebrow"><span class="eyebrow-line"></span>INTELLIGENCE / SIGNAL REGISTER</div><h1 data-i18n="signalsTitle">Signals, not noise.</h1><p data-i18n="signalsLead">A signal enters the register only when the evidence trail, competing explanations and research decision are documented.</p></div>
+        <div class="signal-status"><div><span class="signal-number" id="signal-total">00</span><span data-i18n="registeredSignals">REGISTERED SIGNALS</span></div><div class="status-key"><i class="key-verified"></i><span data-i18n="verified">Verified</span><i class="key-review"></i><span data-i18n="underReview">Under review</span><i class="key-hypothesis"></i><span data-i18n="hypothesis">Hypothesis</span></div></div>
+        <div id="signals-list" class="empty-state"><div class="empty-orbit">⌁</div><span class="section-kicker" data-i18n="registerIsOpen">REGISTER IS OPEN</span><h2 data-i18n="noSignalsYet">No signals have been published yet.</h2><p data-i18n="noSignalsDesc">Research is underway. Findings will appear here only after evidence review and a documented decision to publish.</p><a class="text-link" href="#methodology" data-go="methodology"><span data-i18n="howSignalsQualify">HOW SIGNALS QUALIFY</span> ↗</a></div>
+      </section>
+
+      <section class="view" id="view-entities">
+        <div class="view-header compact-header"><div class="eyebrow"><span class="eyebrow-line"></span>INTELLIGENCE / ENTITY REGISTER</div><h1 data-i18n="entitiesTitle">Who does what?</h1><p data-i18n="entitiesLead">A working map of insurers, administrators, assistance providers and oversight bodies — with roles limited to what the sources establish.</p></div>
+        <div class="registry-toolbar"><div class="registry-count"><strong id="entity-total">—</strong><span data-i18n="entitiesInRegistry">ENTITIES IN REGISTRY</span></div><input type="search" id="entity-search" data-i18n-placeholder="searchEntities" placeholder="Search organisations or roles…" aria-label="Search entities"><select id="entity-filter" aria-label="Filter by entity type"><option value="all">All entity types</option><option value="Insurer">Insurers</option><option value="Claims administrator / assistance services provider">Administrators / assistance</option><option value="Regulator">Regulators</option></select></div>
+        <div class="entity-table-wrap"><table class="entity-table"><thead><tr><th data-i18n="organisation">ORGANISATION</th><th data-i18n="entityType">ENTITY TYPE</th><th data-i18n="verifiedRole">VERIFIED ROLE</th><th data-i18n="status">STATUS</th><th></th></tr></thead><tbody id="entity-rows"></tbody></table></div>
+        <div id="entity-empty" class="empty-inline" hidden>No matching entities found.</div>
+        <p class="small-note" data-i18n="entityCaveat">A listed role is not a complete account of an organisation's contractual authority or operational responsibilities.</p>
+      </section>
+
+      <section class="view" id="view-methodology">
+        <div class="view-header"><div class="eyebrow"><span class="eyebrow-line"></span>HOW WE WORK / RESEARCH METHOD</div><h1 data-i18n="methodTitle">Evidence before<br><em>interpretation.</em></h1><p data-i18n="methodLead">A transparent process for turning market observations into defensible intelligence — without overstating what the evidence can say.</p></div>
+        <div class="method-steps"><div><span>01</span><b data-i18n="defineQuestion">Define the question</b><p data-i18n="defineDesc">Start with a specific operational or market question.</p></div><div><span>02</span><b data-i18n="collectEvidence">Collect evidence</b><p data-i18n="collectDesc">Prioritise primary sources and record dates, context and limitations.</p></div><div><span>03</span><b data-i18n="testInterpretation">Test interpretation</b><p data-i18n="testDesc">Separate verified facts, unknowns and competing hypotheses.</p></div><div><span>04</span><b data-i18n="decideStatus">Decide the status</b><p data-i18n="decideDesc">Publish, continue research, monitor, reject or archive.</p></div><div><span>05</span><b data-i18n="maintainTrail">Maintain the trail</b><p data-i18n="maintainDesc">Link the registry record to its detailed research and source trail.</p></div></div>
+        <div class="evidence-legend"><h2 data-i18n="evidenceStatuses">Evidence statuses</h2><div><b class="status-pill verified">VERIFIED</b><span data-i18n="verifiedDef">Directly supported by reliable evidence for the stated claim.</span></div><div><b class="status-pill partial">PARTIALLY VERIFIED</b><span data-i18n="partialDef">Some elements are supported; material questions remain unresolved.</span></div><div><b class="status-pill unverified">UNVERIFIED</b><span data-i18n="unverifiedDef">Identified, but not sufficiently corroborated.</span></div><div><b class="status-pill hypothesis">HYPOTHESIS</b><span data-i18n="hypothesisDef">An explanation to be tested, not a fact.</span></div><div><b class="status-pill disputed">DISPUTED</b><span data-i18n="disputedDef">Credible sources conflict or the claim is contested.</span></div><div><b class="status-pill historical">HISTORICAL</b><span data-i18n="historicalDef">Accurate for a past period; current status not confirmed.</span></div></div>
+        <div class="method-footer"><span class="section-kicker" data-i18n="nonNegotiable">NON-NEGOTIABLE</span><p data-i18n="methodPrinciple">A technology announcement does not prove production deployment. A job description does not prove actual workflow. A TPA appointment does not prove delegated decision authority.</p></div>
+      </section>
+    </main>
+  </div>
+  <div class="mobile-overlay" id="mobile-overlay"></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
