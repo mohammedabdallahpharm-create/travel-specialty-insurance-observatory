@@ -1,0 +1,12 @@
+{
+  "name": "Travel & Specialty Insurance Observatory",
+  "version": "1.0",
+  "initial_market": "UAE",
+  "markets": ["UAE"],
+  "domains": ["TRAVEL", "PET"],
+  "coverage_subdomains": ["BAGGAGE"],
+  "research_priority": "CLAIMS_OPERATIONS",
+  "languages": ["en", "ar"],
+  "architecture": "static-first",
+  "record_status": "foundation"
+}
