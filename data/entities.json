@@ -86,17 +86,18 @@
   },
   {
     "entity_id": "ENTITY-006",
-    "official_name": "Metropolitan Life Insurance Company, Dubai, United Arab Emirates (MetLife UAE)",
-    "entity_type": "Insurance provider",
+    "official_name": "American Life Insurance Company (MetLife UAE Branch)",
+    "entity_type": "Insurer / underwriting entity",
     "market": "United Arab Emirates",
     "verified_roles": [
-      "Offers pet insurance for dogs and cats in the UAE",
-      "States that approved pet claims are reimbursed to the policyholder",
-      "Names MedNet as its claims partner for pet-claim submission"
+      "Named as the insurance company in the UAE Pet Insurance policy wording",
+      "Insures the policyholder for covered veterinary expenses under the policy terms",
+      "States that approved claims are reimbursed to the policyholder"
     ],
     "official_website": "https://www.metlife.ae/",
     "relevant_sources": [
-      "https://www.metlife.ae/en/pet-insurance/"
+      "https://www.metlife.ae/en/pet-insurance/",
+      "https://www.metlife-gulf.com/content/dam/metlifecom/metlifegulf/product/uae/pet-insurance/metlife-pet-ins-dtc-acc-and-sick-v8.pdf"
     ],
     "related_signals": [],
     "verification_status": "Verified",
@@ -146,6 +147,23 @@
     "official_website": "https://www.moocover.com/",
     "relevant_sources": [
       "https://www.moocover.com/moopet-claim"
+    ],
+    "related_signals": [],
+    "verification_status": "Verified",
+    "last_reviewed": "2026-11-11"
+  },
+  {
+    "entity_id": "ENTITY-010",
+    "official_name": "Sanadak — Ombudsman Unit",
+    "entity_type": "Insurance and financial consumer complaint resolution body",
+    "market": "United Arab Emirates",
+    "verified_roles": [
+      "Receives eligible complaints against CBUAE-licensed insurance companies after the complainant first raises the issue with the company and waits 15 calendar days"
+    ],
+    "official_website": "https://www.sanadak.gov.ae/",
+    "relevant_sources": [
+      "https://www.sanadak.gov.ae/en/make-a-complaint/",
+      "https://www.sanadak.gov.ae/en/make-a-complaint/complaint-eligibility/"
     ],
     "related_signals": [],
     "verification_status": "Verified",
