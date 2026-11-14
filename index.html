@@ -108,6 +108,21 @@
         <div class="scope-grid" id="travel-scope"></div>
         <div class="section-heading"><div><span class="section-kicker" data-i18n="openQuestions">OPEN QUESTIONS</span><h2 data-i18n="questionsToResolve">Questions to resolve</h2></div></div>
         <div class="question-list"><div><b>01</b><span data-i18n="travelQ1">Where does assistance coordination end and claims decision authority begin?</span></div><div><b>02</b><span data-i18n="travelQ2">How are baggage evidence, airline reports and policy exclusions validated?</span></div><div><b>03</b><span data-i18n="travelQ3">Which party owns customer communication, settlement and complaint escalation?</span></div></div>
+        <div class="section-heading intelligence-heading"><div><span class="section-kicker" data-i18n="frameworkKicker">INTELLIGENCE FRAMEWORK</span><h2 data-i18n="frameworkTitle">From disruption to claims decision</h2></div><span class="updated-stamp" data-i18n="frameworkScope">UAE-FIRST · EVIDENCE-LED</span></div>
+        <div class="framework-flow">
+          <article class="framework-node"><span>01</span><b data-i18n="frameworkStep1">Aviation signal</b><small data-i18n="frameworkStep1Desc">What happened?</small></article>
+          <i>→</i>
+          <article class="framework-node"><span>02</span><b data-i18n="frameworkStep2">UAE exposure</b><small data-i18n="frameworkStep2Desc">Who may be affected?</small></article>
+          <i>→</i>
+          <article class="framework-node"><span>03</span><b data-i18n="frameworkStep3">Policy response</b><small data-i18n="frameworkStep3Desc">What does the wording say?</small></article>
+          <i>→</i>
+          <article class="framework-node"><span>04</span><b data-i18n="frameworkStep4">Claims operations</b><small data-i18n="frameworkStep4Desc">What evidence and recovery apply?</small></article>
+          <i>→</i>
+          <article class="framework-node"><span>05</span><b data-i18n="frameworkStep5">Intelligence</b><small data-i18n="frameworkStep5Desc">What decision or gap emerges?</small></article>
+        </div>
+        <div class="section-heading"><div><span class="section-kicker" data-i18n="policyKicker">POLICY INTELLIGENCE</span><h2 data-i18n="policyTitle">Company-neutral policy comparison</h2></div><span class="updated-stamp" data-i18n="policyVersionNote">INITIAL REVIEW · REVALIDATION REQUIRED</span></div>
+        <div id="policy-comparison" class="policy-grid"></div>
+        <div class="research-caveat"><span>!</span><p data-i18n="policyCaveat">Initial comparison only. No claim eligibility decision can be made without the complete policy wording, schedule, definitions, exclusions, endorsements and passenger-specific evidence.</p></div>
       </section>
 
       <section class="view" id="view-pet">
@@ -143,7 +158,8 @@
       <section class="view" id="view-signals">
         <div class="view-header"><div class="eyebrow"><span class="eyebrow-line"></span>INTELLIGENCE / SIGNAL REGISTER</div><h1 data-i18n="signalsTitle">Signals, not noise.</h1><p data-i18n="signalsLead">A signal enters the register only when the evidence trail, competing explanations and research decision are documented.</p></div>
         <div class="signal-status"><div><span class="signal-number" id="signal-total">00</span><span data-i18n="registeredSignals">REGISTERED SIGNALS</span></div><div class="status-key"><i class="key-verified"></i><span data-i18n="verified">Verified</span><i class="key-review"></i><span data-i18n="underReview">Under review</span><i class="key-hypothesis"></i><span data-i18n="hypothesis">Hypothesis</span></div></div>
-        <div id="signals-list" class="empty-state"><div class="empty-orbit">⌁</div><span class="section-kicker" data-i18n="registerIsOpen">REGISTER IS OPEN</span><h2 data-i18n="noSignalsYet">No signals have been published yet.</h2><p data-i18n="noSignalsDesc">Research is underway. Findings will appear here only after evidence review and a documented decision to publish.</p><a class="text-link" href="#methodology" data-go="methodology"><span data-i18n="howSignalsQualify">HOW SIGNALS QUALIFY</span> ↗</a></div>
+        <div id="signals-list" class="signal-list"></div>
+        <div id="signals-empty" class="empty-state" hidden><div class="empty-orbit">⌁</div><span class="section-kicker" data-i18n="registerIsOpen">REGISTER IS OPEN</span><h2 data-i18n="noSignalsYet">No signals have been published yet.</h2><p data-i18n="noSignalsDesc">Research is underway. Findings will appear here only after evidence review and a documented decision to publish.</p><a class="text-link" href="#methodology" data-go="methodology"><span data-i18n="howSignalsQualify">HOW SIGNALS QUALIFY</span> ↗</a></div>
       </section>
 
       <section class="view" id="view-entities">
