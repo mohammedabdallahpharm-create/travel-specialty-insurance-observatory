@@ -24,11 +24,67 @@ function renderSignals(){
  }).join("");
  if(empty)empty.hidden=items.length>0;
 }
+
+function renderSignals(){
+ const list=$("#signals-list"),empty=$("#signals-empty");if(!list)return;
+ const items=signals.filter(s=>s.domain==="TRAVEL");
+ list.innerHTML=items.map(s=>{
+  const status=s.evidence_status||"Under review";
+  const statusLabel=currentLang==="ar"?(status==="Partially Verified"?"موثق جزئياً":status==="Verified"?"موثق":status):status;
+  const facts=(s.verified_facts||[]).map(x=>"<li>"+escapeHtml(x)+"</li>").join("");
+  const gaps=(s.unestablished_claims||[]).map(x=>"<li>"+escapeHtml(x)+"</li>").join("");
+  const implications=(s.operational_implications||[]).map(x=>"<li>"+escapeHtml(x)+"</li>").join("");
+  const sources=(s.primary_sources||[]).map(x=>'<a href="'+escapeHtml(x.url)+'" target="_blank" rel="noopener">'+escapeHtml(x.publisher)+' · '+escapeHtml(x.publication_date||"Source")+' ↗</a>').join("");
+  const related=(s.organisations||[]).length ? s.organisations.map(escapeHtml).join(", ") : "No entity relationship has been verified for this event.";
+  return '<details class="signal-card signal-record" data-signal-id="'+escapeHtml(s.signal_id)+'"><summary><div class="signal-card-top"><span class="signal-id">'+escapeHtml(s.signal_id)+'</span><span class="status-pill partial">'+escapeHtml(statusLabel)+'</span></div><h3>'+escapeHtml(s.title)+'</h3><div class="signal-date">EVENT DATE · '+escapeHtml(s.event_date||"—")+' · '+escapeHtml(s.market||"")+'</div><p class="signal-summary">'+escapeHtml(s.evidence_summary)+'</p><span class="signal-open-hint">OPEN INVESTIGATION ↗</span></summary><div class="signal-investigation"><div class="signal-detail-grid"><div><b>'+escapeHtml(tr("signalFacts"))+'</b><ul>'+facts+'</ul></div><div><b>'+escapeHtml(tr("signalUnknowns"))+'</b><ul>'+gaps+'</ul></div></div><div class="investigation-columns"><section><b>OPERATIONAL IMPLICATIONS</b><ul>'+implications+'</ul></section><section><b>ENTITY RELATIONSHIPS</b><p>'+escapeHtml(related)+'</p><b>POLICY CROSS-REFERENCE</b><p>POLICY-A / POLICY-B — provisional research comparison only; not a coverage conclusion.</p><b>RESEARCH DECISION</b><p>'+escapeHtml(s.research_decision||s.record_status||"Under review")+'</p></section></div><div class="signal-source-row"><b>'+escapeHtml(tr("signalSources"))+'</b>'+sources+'</div></div></details>';
+ }).join("");
+ if(empty)empty.hidden=items.length>0;
+ const count=$("#signal-filter-count");if(count)count.textContent=items.length+" RECORDS";
+}
+function renderEntities(){
+ const body=$("#entity-rows");if(!body)return;
+ const q=($("#entity-search")?.value||"").toLowerCase(),f=$("#entity-filter")?.value||"all";
+ const filtered=entities.filter(e=>{const text=[e.official_name,e.entity_type,...(e.verified_roles||[])].join(" ").toLowerCase();return text.includes(q)&&(f==="all"||e.entity_type===f||(f==="Insurer"&&e.entity_type.includes("Insurer")))});
+ body.innerHTML=filtered.map(e=>{
+  const role=(e.verified_roles||[]).join("; "),type=entityTypeLabels[e.entity_type]?.[currentLang]||e.entity_type;
+  return '<tr class="entity-row" data-entity-id="'+escapeHtml(e.entity_id)+'" tabindex="0"><td>'+escapeHtml(e.official_name)+'</td><td>'+escapeHtml(type)+'</td><td>'+escapeHtml(role)+'</td><td><span class="status-pill '+(e.verification_status==="Verified"?"verified":"partial")+'">'+escapeHtml(currentLang==="ar"?(e.verification_status==="Verified"?"موثق":e.verification_status):e.verification_status)+'</span></td><td><button class="entity-open" type="button" data-entity-open="'+escapeHtml(e.entity_id)+'">INSPECT ↗</button></td></tr>';
+ }).join("");
+ $("#entity-empty").hidden=filtered.length>0;
+ $("#entity-total").textContent=String(entities.length).padStart(2,"0");
+}
+function renderIntelligenceHome(){
+ const active=$("#overview-active-signals"),gaps=$("#overview-evidence-gaps");
+ if(active)active.innerHTML=signals.filter(s=>s.domain==="TRAVEL").slice().sort((a,b)=>(b.event_date||"").localeCompare(a.event_date||"")).map(s=>'<button class="intel-item" data-open-signal="'+escapeHtml(s.signal_id)+'"><span><b>'+escapeHtml(s.signal_id)+'</b><small>'+escapeHtml(s.event_date||"")+'</small></span><strong>'+escapeHtml(s.title.replace(/^\w+-\d+ — /,""))+'</strong><i>↗</i></button>').join("")||'<p class="empty-inline">No active signals.</p>';
+ const allGaps=signals.filter(s=>s.domain==="TRAVEL").flatMap(s=>(s.evidence_gaps||[]).slice(0,2).map(g=>({id:s.signal_id,text:g}))).slice(0,5);
+ if(gaps)gaps.innerHTML=allGaps.map(g=>'<button class="gap-item" data-open-signal="'+escapeHtml(g.id)+'"><b>'+escapeHtml(g.id)+'</b><span>'+escapeHtml(g.text)+'</span><i>↗</i></button>').join("")||'<p class="empty-inline">No recorded evidence gaps.</p>';
+}
+function showEntity(entityId){
+ const e=entities.find(x=>x.entity_id===entityId),panel=$("#entity-detail-panel");if(!e||!panel)return;
+ const linked=(e.related_signals||[]).map(id=>signals.find(s=>s.signal_id===id)).filter(Boolean);
+ panel.hidden=false;
+ panel.innerHTML='<div class="entity-detail-head"><div><span class="section-kicker">'+escapeHtml(e.entity_id)+'</span><h2>'+escapeHtml(e.official_name)+'</h2><p>'+escapeHtml(e.entity_type)+' · '+escapeHtml(e.market||"")+'</p></div><button type="button" id="close-entity-detail">CLOSE ×</button></div><div class="investigation-columns"><section><b>VERIFIED ROLES</b><ul>'+(e.verified_roles||[]).map(x=>'<li>'+escapeHtml(x)+'</li>').join("")+'</ul><b>VERIFICATION</b><p>'+escapeHtml(e.verification_status||"Not stated")+' · Reviewed '+escapeHtml(e.last_reviewed||"date not recorded")+'</p></section><section><b>RELATED SIGNALS</b>'+(linked.length?linked.map(s=>'<button class="intel-item" data-open-signal="'+escapeHtml(s.signal_id)+'">'+escapeHtml(s.signal_id)+' · '+escapeHtml(s.title)+'</button>').join(""):'<p>No verified signal links are recorded for this entity yet. The Observatory will not infer a relationship from sector proximity alone.</p>')+'<b>SOURCE TRAIL</b><ul>'+(e.relevant_sources||[]).map(u=>'<li><a href="'+escapeHtml(u)+'" target="_blank" rel="noopener">Open source ↗</a></li>').join("")+'</ul></section></div>';
+ panel.scrollIntoView({behavior:"smooth",block:"start"});
+}
+function openSignal(id){
+ navigate("signals");
+ const card=document.querySelector('[data-signal-id="'+CSS.escape(id)+'"]');
+ if(card){card.open=true;card.scrollIntoView({behavior:"smooth",block:"start"});}
+}
+function runGlobalSearch(){
+ const input=$("#global-search"),box=$("#global-search-results");if(!input||!box)return;
+ const q=input.value.trim().toLowerCase();if(!q){box.hidden=true;return;}
+ const foundSignals=signals.filter(s=>(s.signal_id+" "+s.title+" "+s.evidence_summary).toLowerCase().includes(q)).slice(0,4);
+ const foundEntities=entities.filter(e=>(e.official_name+" "+e.entity_type+" "+(e.verified_roles||[]).join(" ")).toLowerCase().includes(q)).slice(0,5);
+ box.innerHTML=[...foundSignals.map(s=>'<button data-open-signal="'+escapeHtml(s.signal_id)+'"><small>SIGNAL</small><span>'+escapeHtml(s.signal_id+' · '+s.title)+'</span></button>'),...foundEntities.map(e=>'<button data-open-entity="'+escapeHtml(e.entity_id)+'"><small>ENTITY</small><span>'+escapeHtml(e.official_name)+'</span></button>')].join("")||'<p>No matching records. Try a signal ID, organisation or keyword.</p>';
+ box.hidden=false;
+}
+function openEntity(id){navigate("entities");showEntity(id);}
+
 function renderPolicies(){
  const root=$("#policy-comparison");if(!root)return;
  root.innerHTML=policies.map(p=>'<article class="policy-card"><div class="policy-card-head"><div><span class="section-kicker">'+escapeHtml(p.policy_id)+'</span><h3>'+escapeHtml(p.document_type)+'</h3></div><span class="status-pill partial">'+escapeHtml(tr("policyProvisional"))+'</span></div><div class="policy-row"><b>'+escapeHtml(tr("policyThreshold"))+'</b><p>'+escapeHtml(p.trip_delay_trigger)+'</p></div><div class="policy-row"><b>'+escapeHtml(tr("policyCauses"))+'</b><p>'+escapeHtml(p.covered_causes)+'</p></div><div class="policy-row"><b>'+escapeHtml(tr("policyAuthority"))+'</b><p>'+escapeHtml(p.authority_action)+'</p></div><div class="policy-row"><b>'+escapeHtml(tr("policyMissed"))+'</b><p>'+escapeHtml(p.missed_connection)+'</p></div><div class="policy-row"><b>'+escapeHtml(tr("policyLimit"))+'</b><p>'+escapeHtml(p.benefit_limit)+'</p></div><div class="policy-row"><b>'+escapeHtml(tr("policyEvidence"))+'</b><p>'+escapeHtml(p.evidence_requirements)+'</p></div></article>').join("");
 }
 
 function renderEntities(){const body=$("#entity-rows");if(!body)return;const q=($("#entity-search")?.value||"").toLowerCase(),f=$("#entity-filter")?.value||"all";const filtered=entities.filter(e=>{const text=[e.official_name,e.entity_type,...(e.verified_roles||[])].join(" ").toLowerCase();return text.includes(q)&&(f==="all"||e.entity_type===f||(f==="Insurer"&&e.entity_type.includes("Insurer")))});body.innerHTML=filtered.map(e=>{const role=(e.verified_roles||[]).join("; ");const type=entityTypeLabels[e.entity_type]?.[currentLang]||e.entity_type;return '<tr><td>'+escapeHtml(e.official_name)+'</td><td>'+escapeHtml(type)+'</td><td>'+escapeHtml(role)+'</td><td><span class="status-pill '+(e.verification_status==="Verified"?"verified":"partial")+'">'+escapeHtml(currentLang==="ar"?(e.verification_status==="Verified"?"موثق":e.verification_status):e.verification_status)+'</span></td><td>'+(e.official_website?'<a class="entity-link" href="'+escapeHtml(e.official_website)+'" target="_blank" rel="noopener">WEB ↗</a>':"")+'</td></tr>'}).join("");$("#entity-empty").hidden=filtered.length>0;$("#entity-total").textContent=String(entities.length).padStart(2,"0")}
-async function loadData(){const urls=["/data/domains.json","/data/entities.json","/data/signals.json","/data/policy-comparison.json"];const results=await Promise.all(urls.map(u=>fetch(u).then(r=>{if(!r.ok)throw Error(u+" "+r.status);return r.json()})));[domains,entities,signals]=results;policies=results[3].policies||[];$("#metric-domains").textContent=String(domains.length).padStart(2,"0");$("#metric-entities").textContent=String(entities.length).padStart(2,"0");$("#metric-signals").textContent=String(signals.length).padStart(2,"0");$("#signal-count").textContent=signals.length;$("#signal-total").textContent=String(signals.length).padStart(2,"0");renderScopes();renderEntities();renderSignals();renderPolicies()}
-$$(".nav-link").forEach(a=>a.addEventListener("click",e=>{e.preventDefault();navigate(a.dataset.section)}));$$("[data-go]").forEach(a=>a.addEventListener("click",e=>{e.preventDefault();navigate(a.dataset.go)}));$("#lang-toggle").addEventListener("click",()=>{currentLang=currentLang==="en"?"ar":"en";applyLanguage()});$("#entity-search").addEventListener("input",renderEntities);$("#entity-filter").addEventListener("change",renderEntities);$("#mobile-menu").addEventListener("click",()=>{$("#sidebar").classList.add("open");$("#mobile-overlay").classList.add("show")});$("#mobile-overlay").addEventListener("click",()=>{$("#sidebar").classList.remove("open");$("#mobile-overlay").classList.remove("show")});window.addEventListener("hashchange",()=>navigate(location.hash.slice(1)||"overview"));loadData().catch(err=>{console.error(err);$("#toast").textContent="Registry data could not be loaded. Please check the deployment paths.";$("#toast").classList.add("show")});if(location.hash)navigate(location.hash.slice(1));
+async function loadData(){const urls=["/data/domains.json","/data/entities.json","/data/signals.json","/data/policy-comparison.json"];const results=await Promise.all(urls.map(u=>fetch(u).then(r=>{if(!r.ok)throw Error(u+" "+r.status);return r.json()})));[domains,entities,signals]=results;policies=results[3].policies||[];$("#metric-domains").textContent=String(domains.length).padStart(2,"0");$("#metric-entities").textContent=String(entities.length).padStart(2,"0");$("#metric-signals").textContent=String(signals.length).padStart(2,"0");$("#signal-count").textContent=signals.length;$("#signal-total").textContent=String(signals.length).padStart(2,"0");renderScopes();renderEntities();renderSignals();renderPolicies();renderIntelligenceHome()}
+$$(".nav-link").forEach(a=>a.addEventListener("click",e=>{e.preventDefault();navigate(a.dataset.section)}));$$("[data-go]").forEach(a=>a.addEventListener("click",e=>{e.preventDefault();navigate(a.dataset.go)}));$("#lang-toggle").addEventListener("click",()=>{currentLang=currentLang==="en"?"ar":"en";applyLanguage()});$("#entity-search").addEventListener("input",renderEntities);$("#global-search").addEventListener("input",runGlobalSearch);$("#global-search").addEventListener("keydown",e=>{if(e.key==="Enter"){const first=$("#global-search-results button");if(first)first.click()}if(e.key==="Escape")$("#global-search-results").hidden=true});document.addEventListener("click",e=>{const sig=e.target.closest("[data-open-signal]");if(sig){openSignal(sig.dataset.openSignal);$("#global-search-results").hidden=true;return}const ent=e.target.closest("[data-open-entity],[data-entity-open]");if(ent){openEntity(ent.dataset.openEntity||ent.dataset.entityOpen);$("#global-search-results").hidden=true;return}if(e.target.id==="close-entity-detail"){$("#entity-detail-panel").hidden=true;return}if(!e.target.closest(".global-search-wrap"))$("#global-search-results").hidden=true});$("#entity-filter").addEventListener("change",renderEntities);$("#mobile-menu").addEventListener("click",()=>{$("#sidebar").classList.add("open");$("#mobile-overlay").classList.add("show")});$("#mobile-overlay").addEventListener("click",()=>{$("#sidebar").classList.remove("open");$("#mobile-overlay").classList.remove("show")});window.addEventListener("hashchange",()=>navigate(location.hash.slice(1)||"overview"));loadData().catch(err=>{console.error(err);$("#toast").textContent="Registry data could not be loaded. Please check the deployment paths.";$("#toast").classList.add("show")});if(location.hash)navigate(location.hash.slice(1));
