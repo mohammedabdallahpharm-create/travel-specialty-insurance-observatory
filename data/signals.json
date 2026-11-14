@@ -1,1 +1,213 @@
-[]
+[
+  {
+    "signal_id": "SIGNAL-001",
+    "title": "US-001 — FAA nationwide ground stop after ATC telecommunications instability",
+    "domain": "TRAVEL",
+    "subdomain": "FLIGHT_DELAY",
+    "market": "United States event with UAE travel-insurance relevance under investigation",
+    "signal_type": "Aviation infrastructure disruption",
+    "event_date": "2026-11-13",
+    "publication_date": "2026-11-14",
+    "observation_date": "2026-11-15",
+    "organisations": [],
+    "entity_roles": [],
+    "primary_sources": [
+      {
+        "title": "Update on restoration of airspace following nationwide ground stop",
+        "publisher": "U.S. Department of Transportation",
+        "url": "https://www.transportation.gov/briefing-room/icymi-us-transportation-secretary-sean-p-duffy-provides-update-restoration-airspace",
+        "publication_date": "2026-11-14",
+        "accessed_date": "2026-11-15",
+        "notes": "Official account of the event and recovery; includes preliminary explanation of telecommunications instability."
+      },
+      {
+        "title": "Announcement of lifting of nationwide ground stop",
+        "publisher": "U.S. Department of Transportation",
+        "url": "https://www.transportation.gov/briefing-room/icymi-us-transportation-secretary-sean-p-duffy-announces-lifting-nationwide-ground",
+        "publication_date": "2026-11-13",
+        "accessed_date": "2026-11-15",
+        "notes": "Official contemporaneous update; ground stop lifted at 8:15 p.m. Eastern Time."
+      }
+    ],
+    "evidence_summary": "The FAA issued a nationwide ground stop on 13 November 2026 after telecommunications instability affected the reliability of air-traffic-control communications and radar feeds. The U.S. Department of Transportation later reported that more than 3,500 flights were grounded swiftly and more than 8,000 flight operations resumed after the stop was lifted. These are U.S. operational measures, not counts of UAE policyholders or insured losses.",
+    "verified_facts": [
+      "U.S. DOT attributed the ground stop to telecommunications issues affecting the stability of ATC communications and radar systems.",
+      "The nationwide ground stop was issued on 13 November 2026 and was lifted at 8:15 p.m. Eastern Time, according to the contemporaneous DOT update.",
+      "U.S. DOT's 14 November update reported more than 3,500 flights grounded swiftly and more than 8,000 flight operations resumed after the stop was lifted."
+    ],
+    "unestablished_claims": [
+      "Any specific UAE-origin or UAE-destination flight was disrupted because of this event.",
+      "Any affected passenger held a UAE-issued travel-insurance policy.",
+      "Any UAE-issued policyholder submitted a claim or received a payment because of this event.",
+      "That the event necessarily falls within a particular policy definition such as equipment failure, travel delay or authority-ordered withdrawal."
+    ],
+    "competing_hypotheses": [
+      "Some passengers on affected U.S. routes may have experienced delay, cancellation or missed connections.",
+      "Residual disruption may have continued after the ground stop was lifted because aircraft and crew were out of position; this requires route-level verification."
+    ],
+    "operational_implications": [
+      "Claims assessment would need to distinguish an ATC infrastructure disruption from a carrier aircraft or equipment failure.",
+      "Airline rebooking, care and other recoveries should be identified before calculating any potentially unrecovered insured expense.",
+      "Event timing, route, carrier confirmation and the exact policy wording are material to eligibility."
+    ],
+    "commercial_implications": [
+      "The event is a useful stress test for travel-disruption wording and customer-assistance readiness; it is not evidence of a UAE market loss."
+    ],
+    "workforce_implications": [
+      "Claims and assistance teams may need clear escalation guidance for system-wide ATC disruptions and missed connections."
+    ],
+    "technology_implications": [
+      "Aviation-system incident data could be linked to policy triggers and claim evidence requirements in a future monitoring workflow."
+    ],
+    "confidence_level": "High",
+    "evidence_status": "Partially Verified",
+    "follow_up_indicators": [
+      "UAE–US route cancellations and delays for 13–15 November 2026",
+      "Official airline and airport notices",
+      "Any public assistance-provider or insurer travel advisory specific to UAE-issued products"
+    ],
+    "evidence_gaps": [
+      "No verified UAE route-level impact in the sources currently recorded.",
+      "No public evidence of affected UAE-issued policyholders or related claims.",
+      "No UAE policy wording has yet been matched clause-by-clause to this specific event."
+    ],
+    "next_research_question": "Did any UAE–US service experience a disruption directly attributable to the 13 November 2026 FAA ground stop, and can any UAE-issued policy exposure be independently evidenced?",
+    "research_decision": "Continue Research",
+    "record_status": "under_review"
+  },
+  {
+    "signal_id": "SIGNAL-002",
+    "title": "UAE-001 — Dubai airport disruption following extreme rainfall, April 2024",
+    "domain": "TRAVEL",
+    "subdomain": "TRIP_DELAY",
+    "market": "United Arab Emirates",
+    "signal_type": "Severe weather / airport operations disruption",
+    "event_date": "2024-04-16",
+    "publication_date": "2024-04-23",
+    "observation_date": "2026-11-15",
+    "organisations": [],
+    "entity_roles": [],
+    "primary_sources": [
+      {
+        "title": "Dubai Airports back to normal operations",
+        "publisher": "Dubai Airports",
+        "url": "https://media.dubaiairports.ae/dubai-airports-back-to-normal-operations/",
+        "publication_date": "2024-04-23",
+        "accessed_date": "2026-11-15",
+        "notes": "Official airport operator recovery statement with cancellation, diversion and passenger-support figures."
+      }
+    ],
+    "evidence_summary": "Dubai Airports reported that operations had returned to normal after the exceptional rainfall event. Its 23 April 2024 recovery statement recorded 2,155 cancelled flights, 115 diverted flights and more than 75,000 welfare packs distributed to disrupted guests. These figures describe airport operations and passenger support; they do not establish travel-insurance claims or payments.",
+    "verified_facts": [
+      "Dubai Airports reported 2,155 flight cancellations during the disruption.",
+      "Dubai Airports reported 115 diverted flights.",
+      "Dubai Airports reported distributing more than 75,000 welfare packs to disrupted guests.",
+      "Dubai Airports stated that normal operations had resumed by 23 April 2024."
+    ],
+    "unestablished_claims": [
+      "The number of affected passengers who held UAE-issued travel-insurance policies.",
+      "The number or value of travel-insurance claims arising from the event.",
+      "Whether any specific passenger expense was reimbursed by an airline, assistance provider or insurer."
+    ],
+    "competing_hypotheses": [
+      "Some affected passengers may have incurred additional accommodation, transport or rearrangement expenses.",
+      "Some passenger needs may have been addressed through airport or airline support rather than insurance."
+    ],
+    "operational_implications": [
+      "Claims review should separate the airport disruption record from individual passenger itinerary and expense evidence.",
+      "Any insurance assessment should identify airline assistance and other recoveries before considering unrecovered expenses.",
+      "Flight cancellation, diversion and delay should be recorded as distinct event outcomes."
+    ],
+    "commercial_implications": [
+      "The event is a strong UAE historical stress test for weather-related travel disruption benefits and operational coordination."
+    ],
+    "workforce_implications": [
+      "Assistance and claims teams may need surge handling, clear evidence checklists and escalation routes during multi-day airport disruption."
+    ],
+    "technology_implications": [
+      "Airport operational notices and disruption timelines can provide context for validating individual claim timelines, but cannot replace passenger-specific evidence."
+    ],
+    "confidence_level": "High",
+    "evidence_status": "Partially Verified",
+    "follow_up_indicators": [
+      "UAE passenger welfare and airline assistance guidance",
+      "Applicable UAE passenger welfare requirements",
+      "Historical travel-policy wording and claim evidence requirements"
+    ],
+    "evidence_gaps": [
+      "No public aggregate travel-insurance claims dataset has been linked to this event.",
+      "The precise insured passenger population is unknown.",
+      "Policy coverage and airline responsibility must be evaluated at individual itinerary and policy level."
+    ],
+    "next_research_question": "What passenger-care obligations and policy conditions applied to disrupted travellers, and what expenses could remain unrecovered after airline support?",
+    "research_decision": "Continue Research",
+    "record_status": "under_review"
+  },
+  {
+    "signal_id": "SIGNAL-003",
+    "title": "UAE-002 — GCAA temporarily suspends ADS-B OUT mandate amid GPS interference, June 2025",
+    "domain": "TRAVEL",
+    "subdomain": "FLIGHT_DELAY",
+    "market": "United Arab Emirates",
+    "signal_type": "Aviation safety / navigation-system resilience",
+    "event_date": "2025-06-26",
+    "publication_date": "2025-06-26",
+    "observation_date": "2026-11-15",
+    "organisations": [],
+    "entity_roles": [],
+    "primary_sources": [
+      {
+        "title": "Safety Decision 2025-02 — Temporary Suspension of ADS-B OUT Mandatory Requirement for Operation within UAE Airspace",
+        "publisher": "UAE General Civil Aviation Authority",
+        "url": "https://www.gcaa.gov.ae/en/epublication/EPublications/Safety%20Decisions/2025/SAFETY%20DECISION%202025-02%20-%20TEMPORARY%20SUSPENSION%20OF%20ADS-B%20OUT%20MANDATORY%20REQUIREMENT%20FOR%20OPERATION%20WITHIN%20UAE%20AIRSPACE%20-%20ISSUE%2001.pdf",
+        "publication_date": "2025-06-26",
+        "accessed_date": "2026-11-15",
+        "notes": "Official safety decision citing increased GPS interference/jamming and requiring alternative approved surveillance means during the suspension."
+      }
+    ],
+    "evidence_summary": "The UAE GCAA issued Safety Decision 2025-02 on 26 June 2025, temporarily suspending the mandatory ADS-B OUT requirement for specified operations within UAE airspace. The decision cited increased GPS interference/jamming affecting the reliability of ADS-B OUT and directed operators to use alternative approved surveillance means and comply with ATC instructions. The decision documents an aviation-system resilience measure; it does not itself establish passenger cancellations, travel-insurance exposure or claims.",
+    "verified_facts": [
+      "The GCAA Safety Decision is dated 26 June 2025 and applies to specified IFR operations within UAE controlled airspace and the Emirates FIR, and to air navigation service providers.",
+      "The GCAA cited increased GPS interference/jamming as adversely affecting ADS-B OUT reliability.",
+      "The decision temporarily suspended specified ADS-B OUT requirements and directed reliance on alternative approved surveillance means."
+    ],
+    "unestablished_claims": [
+      "That the decision caused a specific passenger flight cancellation or delay.",
+      "That a UAE travel-insurance claim arose from the decision.",
+      "That the measure represented a complete closure of UAE airspace."
+    ],
+    "competing_hypotheses": [
+      "Navigation-system degradation may create operational constraints or additional workload even where flights continue safely.",
+      "Passenger-facing consequences, if any, would depend on route, operator decisions and subsequent ATC measures."
+    ],
+    "operational_implications": [
+      "Differentiate an aviation safety mitigation from an actual flight disruption when assessing a travel claim.",
+      "Do not infer a passenger loss from a regulator's technical safety decision alone.",
+      "Monitor NOTAMs, airline operational notices and airport flight records to establish any passenger-facing consequence."
+    ],
+    "commercial_implications": [
+      "This is a UAE-specific resilience signal for monitoring aviation-system risks; it is not a demonstrated insurance loss event."
+    ],
+    "workforce_implications": [
+      "Claims and assistance staff need to distinguish regulatory or technical aviation notices from evidence of an insured travel interruption."
+    ],
+    "technology_implications": [
+      "The case illustrates the importance of resilient navigation and surveillance systems and the need to connect technical aviation notices with verified operational outcomes."
+    ],
+    "confidence_level": "High",
+    "evidence_status": "Partially Verified",
+    "follow_up_indicators": [
+      "NOTAMs and GCAA follow-up notices",
+      "Operator or airport records of actual disruption",
+      "UAE passenger welfare guidance and policy wording on authority action"
+    ],
+    "evidence_gaps": [
+      "No passenger-level disruption evidence is attached to the safety decision.",
+      "No evidence of related UAE travel-insurance claims has been located.",
+      "The decision's operational duration and subsequent amendments require separate verification."
+    ],
+    "next_research_question": "Did this safety decision or related GPS interference produce documented passenger-facing flight disruption, and what policy triggers could be relevant if it did?",
+    "research_decision": "Continue Research",
+    "record_status": "under_review"
+  }
+]
