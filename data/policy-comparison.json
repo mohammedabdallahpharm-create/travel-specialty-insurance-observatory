@@ -1,0 +1,38 @@
+{
+  "framework": "UAE Travel Insurance Policy Comparison",
+  "version": "1.0",
+  "public_naming": "Company-neutral; source identities are intentionally not displayed in this public comparison.",
+  "disclaimer": "This is an initial research comparison, not a coverage determination. Figures and clause interpretations below are provisional and must be rechecked against the complete policy wording, schedule, definitions, endorsements and applicable version before publication or claim assessment.",
+  "policies": [
+    {
+      "policy_id": "POLICY-A",
+      "market": "United Arab Emirates",
+      "document_type": "Travel insurance policy wording",
+      "document_version": "2023 wording copy; version V1.4 noted in prior review",
+      "last_reviewed": "2026-11-15",
+      "evidence_status": "Provisional — revalidation required",
+      "trip_delay_trigger": "4 hours — provisional; verify against complete wording and plan schedule",
+      "covered_causes": "Specified causes in the reviewed wording included weather, industrial action, natural disaster and certain equipment-related events; exact definitions require recheck.",
+      "authority_action": "A clause concerning withdrawal of a means of transport from service on authority order/recommendation was noted; exact scope and interaction with ATC disruption require recheck.",
+      "missed_connection": "Not established in this initial record.",
+      "benefit_limit": "Plan-dependent; do not publish an amount until the schedule and benefit table are revalidated.",
+      "evidence_requirements": "Carrier confirmation, delay duration and receipts may be relevant; exact requirements must be verified in the complete wording.",
+      "source_reference": "POLICY-SOURCE-A-2023"
+    },
+    {
+      "policy_id": "POLICY-B",
+      "market": "United Arab Emirates",
+      "document_type": "Travel insurance policy wording",
+      "document_version": "Reviewed copy; exact version/date to confirm",
+      "last_reviewed": "2026-11-15",
+      "evidence_status": "Provisional — revalidation required",
+      "trip_delay_trigger": "More than 6 hours — provisional; verify against complete wording and plan schedule",
+      "covered_causes": "Reviewed extract referred to specified causes including bad weather, flood, strike and mechanical breakdown; exact definitions require recheck.",
+      "authority_action": "An authority-withdrawal limitation was noted in the reviewed extract; exact clause and scope require recheck.",
+      "missed_connection": "A limitation was noted in the reviewed extract; confirm exact wording and whether any separate benefit applies.",
+      "benefit_limit": "Not entered; confirm schedule and benefit table.",
+      "evidence_requirements": "Carrier confirmation and supporting receipts may be relevant; exact requirements must be verified.",
+      "source_reference": "POLICY-SOURCE-B-REVIEWED"
+    }
+  ]
+}
