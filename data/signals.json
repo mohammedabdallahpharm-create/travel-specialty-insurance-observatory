@@ -4,8 +4,8 @@
     "title": "US-001 — FAA nationwide ground stop after ATC telecommunications instability",
     "domain": "TRAVEL",
     "subdomain": "FLIGHT_DELAY",
-    "market": "United States event with UAE travel-insurance relevance under investigation",
-    "signal_type": "Aviation infrastructure disruption",
+    "market": "United States event; UAE route and policyholder exposure not established",
+    "signal_type": "ATC communications infrastructure disruption / nationwide ground stop",
     "event_date": "2026-11-13",
     "publication_date": "2026-11-14",
     "observation_date": "2026-11-15",
@@ -46,32 +46,37 @@
       "Residual disruption may have continued after the ground stop was lifted because aircraft and crew were out of position; this requires route-level verification."
     ],
     "operational_implications": [
-      "Claims assessment would need to distinguish an ATC infrastructure disruption from a carrier aircraft or equipment failure.",
-      "Airline rebooking, care and other recoveries should be identified before calculating any potentially unrecovered insured expense.",
-      "Event timing, route, carrier confirmation and the exact policy wording are material to eligibility."
+      "Keep the event-level finding separate from passenger-level impact: the recorded DOT figures describe US aviation operations, not UAE routes, insured travellers or losses.",
+      "For any affected itinerary, establish the operating carrier, origin/destination, scheduled and actual times, cancellation or delay reason, and passenger-specific additional expense.",
+      "Test whether the documented cause is treated as an aviation-system / ATC disruption, carrier equipment failure, authority action, or another defined cause; do not assume these categories are interchangeable.",
+      "Identify airline rebooking, care, refunds and other recoveries before assessing any potentially unrecovered expense.",
+      "Policy cross-reference: POLICY-A and POLICY-B contain provisional delay / authority-action observations only; neither has been validated against this event or a complete current schedule."
     ],
     "commercial_implications": [
-      "The event is a useful stress test for travel-disruption wording and customer-assistance readiness; it is not evidence of a UAE market loss."
+      "Global benchmark for testing whether UAE travel products and assistance operations can classify system-wide ATC disruption; not evidence of UAE market loss or a UAE claims event."
     ],
     "workforce_implications": [
-      "Claims and assistance teams may need clear escalation guidance for system-wide ATC disruptions and missed connections."
+      "A claims or assistance handler would need to distinguish system-level ATC restrictions from carrier-specific technical failure and capture the airline's stated disruption reason.",
+      "Escalation should preserve itinerary-level evidence and all airline assistance / recovery records before any coverage decision."
     ],
     "technology_implications": [
-      "Aviation-system incident data could be linked to policy triggers and claim evidence requirements in a future monitoring workflow."
+      "Potential monitoring workflow: link official ATC / airport event notices to route-level flight records, then require passenger-specific itinerary and expense evidence before opening an insurance-exposure assessment."
     ],
     "confidence_level": "High",
     "evidence_status": "Partially Verified",
     "follow_up_indicators": [
-      "UAE–US route cancellations and delays for 13–15 November 2026",
-      "Official airline and airport notices",
-      "Any public assistance-provider or insurer travel advisory specific to UAE-issued products"
+      "Official UAE–US route-level cancellation, delay and diversion records for 13–15 November 2026.",
+      "Airline operational notices identifying whether any UAE-linked service was directly affected by the FAA ground stop.",
+      "Complete, version-matched UAE policy wording and schedule for POLICY-A and POLICY-B, including definitions, exclusions and authority-action clauses.",
+      "Any public UAE assistance, insurer or claims disclosure directly attributable to this event."
     ],
     "evidence_gaps": [
-      "No verified UAE route-level impact in the sources currently recorded.",
-      "No public evidence of affected UAE-issued policyholders or related claims.",
-      "No UAE policy wording has yet been matched clause-by-clause to this specific event."
+      "No verified UAE-origin or UAE-destination flight impact directly attributable to the FAA ground stop is recorded.",
+      "No affected passenger population, UAE-issued policyholder count, claim count or insured loss is established.",
+      "The cause-to-clause mapping for POLICY-A and POLICY-B remains provisional and cannot support a coverage conclusion.",
+      "The operational recovery and residual disruption on any UAE-linked itinerary have not been evidenced."
     ],
-    "next_research_question": "Did any UAE–US service experience a disruption directly attributable to the 13 November 2026 FAA ground stop, and can any UAE-issued policy exposure be independently evidenced?",
+    "next_research_question": "Can an official UAE-linked itinerary be shown to have been disrupted directly by the 13 November 2026 FAA ground stop, and if so, what passenger-specific unrecovered expense and current policy wording would need to be tested?",
     "research_decision": "Continue Research",
     "record_status": "under_review"
   },
@@ -79,9 +84,9 @@
     "signal_id": "SIGNAL-002",
     "title": "UAE-001 — Dubai airport disruption following extreme rainfall, April 2024",
     "domain": "TRAVEL",
-    "subdomain": "TRIP_DELAY",
+    "subdomain": null,
     "market": "United Arab Emirates",
-    "signal_type": "Severe weather / airport operations disruption",
+    "signal_type": "Severe weather / airport-wide operational disruption",
     "event_date": "2024-04-16",
     "publication_date": "2024-04-23",
     "observation_date": "2026-11-15",
@@ -114,32 +119,37 @@
       "Some passenger needs may have been addressed through airport or airline support rather than insurance."
     ],
     "operational_implications": [
-      "Claims review should separate the airport disruption record from individual passenger itinerary and expense evidence.",
-      "Any insurance assessment should identify airline assistance and other recoveries before considering unrecovered expenses.",
-      "Flight cancellation, diversion and delay should be recorded as distinct event outcomes."
+      "Treat the 2,155 cancellations, 115 diversions and 75,000+ welfare packs as airport-level operational / support measures, not insured passenger or claims counts.",
+      "For an individual case, reconstruct the passenger itinerary and distinguish cancellation, delay, diversion, missed connection and trip interruption; these are not interchangeable outcomes.",
+      "Capture carrier confirmation, booking and ticket records, actual departure / arrival times, rebooking or refund offers, accommodation and transport receipts, and any support already provided.",
+      "Identify which expenses were met by the airline, airport or another party before calculating any potentially unrecovered expense.",
+      "Policy cross-reference: POLICY-A and POLICY-B have provisional delay / cause observations only. Their current wording, cancellation / interruption benefits, definitions, exclusions and schedules must be checked before drawing a coverage conclusion."
     ],
     "commercial_implications": [
-      "The event is a strong UAE historical stress test for weather-related travel disruption benefits and operational coordination."
+      "A UAE historical operational stress test for travel-insurance assistance and claims readiness during prolonged airport disruption; public evidence currently does not quantify insurance penetration, claims frequency, paid losses or insurer exposure."
     ],
     "workforce_implications": [
-      "Assistance and claims teams may need surge handling, clear evidence checklists and escalation routes during multi-day airport disruption."
+      "Claims and assistance teams may need surge triage, itinerary-level case classification, customer communication and clear handoffs between airline support and insurer / assistance channels.",
+      "A consistent evidence checklist should prevent airport-wide statistics from being used as a substitute for an individual claimant's proof."
     ],
     "technology_implications": [
-      "Airport operational notices and disruption timelines can provide context for validating individual claim timelines, but cannot replace passenger-specific evidence."
+      "Airport disruption timelines can contextualise an individual claim, while booking records, carrier confirmations and receipts remain necessary to establish that claimant's own loss."
     ],
     "confidence_level": "High",
     "evidence_status": "Partially Verified",
     "follow_up_indicators": [
-      "UAE passenger welfare and airline assistance guidance",
-      "Applicable UAE passenger welfare requirements",
-      "Historical travel-policy wording and claim evidence requirements"
+      "Applicable UAE passenger-welfare and airline-care requirements during the April 2024 disruption.",
+      "Official airline notices and passenger assistance records distinguishing rebooking, refunds, accommodation, meals and transport.",
+      "Complete and version-matched policy wordings for POLICY-A and POLICY-B, including cancellation, interruption, delay, exclusions and other-insurance / recovery provisions.",
+      "Any public aggregate claims or assistance disclosures directly linked to the April 2024 event."
     ],
     "evidence_gaps": [
-      "No public aggregate travel-insurance claims dataset has been linked to this event.",
-      "The precise insured passenger population is unknown.",
-      "Policy coverage and airline responsibility must be evaluated at individual itinerary and policy level."
+      "No verified count of affected travellers who held UAE-issued travel-insurance policies.",
+      "No public aggregate travel-insurance claim count, paid amount or insurer loss attributable to this event is linked to the record.",
+      "No passenger-level evidence establishes what expenses remained unrecovered after airline or airport support.",
+      "Policy-A and POLICY-B have not been fully revalidated against complete wording, schedules and the relevant 2024 policy period."
     ],
-    "next_research_question": "What passenger-care obligations and policy conditions applied to disrupted travellers, and what expenses could remain unrecovered after airline support?",
+    "next_research_question": "What passenger-care and recovery arrangements applied during the April 2024 Dubai disruption, and what individual expenses, if any, remained unrecovered and potentially relevant under the applicable policy wording?",
     "research_decision": "Continue Research",
     "record_status": "under_review"
   },
@@ -147,9 +157,9 @@
     "signal_id": "SIGNAL-003",
     "title": "UAE-002 — GCAA temporarily suspends ADS-B OUT mandate amid GPS interference, June 2025",
     "domain": "TRAVEL",
-    "subdomain": "FLIGHT_DELAY",
+    "subdomain": null,
     "market": "United Arab Emirates",
-    "signal_type": "Aviation safety / navigation-system resilience",
+    "signal_type": "Aviation safety / navigation and surveillance-system resilience",
     "event_date": "2025-06-26",
     "publication_date": "2025-06-26",
     "observation_date": "2026-11-15",
@@ -181,32 +191,37 @@
       "Passenger-facing consequences, if any, would depend on route, operator decisions and subsequent ATC measures."
     ],
     "operational_implications": [
-      "Differentiate an aviation safety mitigation from an actual flight disruption when assessing a travel claim.",
-      "Do not infer a passenger loss from a regulator's technical safety decision alone.",
-      "Monitor NOTAMs, airline operational notices and airport flight records to establish any passenger-facing consequence."
+      "Classify the GCAA decision as a technical safety mitigation and regulatory response, not as proof of a flight cancellation, delay or passenger loss.",
+      "Before considering insurance relevance, identify a subsequent operational consequence using NOTAMs, air navigation service notices, operator statements or airport / flight records.",
+      "If an individual itinerary was affected, establish the specific restriction, carrier explanation, route, actual schedule and passenger expense; a GPS-interference notice alone is insufficient.",
+      "Only after a passenger-facing disruption is evidenced should the relevant policy trigger, authority-action wording and evidence requirements be tested.",
+      "Policy cross-reference: POLICY-A and POLICY-B contain provisional authority-action observations; neither clause has been fully revalidated or matched to a documented passenger event."
     ],
     "commercial_implications": [
-      "This is a UAE-specific resilience signal for monitoring aviation-system risks; it is not a demonstrated insurance loss event."
+      "UAE-specific aviation resilience signal relevant to monitoring travel-risk conditions; no passenger-facing insurance exposure or claims impact is established by the safety decision itself."
     ],
     "workforce_implications": [
-      "Claims and assistance staff need to distinguish regulatory or technical aviation notices from evidence of an insured travel interruption."
+      "Claims and assistance staff should distinguish a regulator's technical safety instruction from an actual interruption of the insured journey.",
+      "A technical aviation notice should trigger verification and monitoring, not automatic claim classification or coverage escalation."
     ],
     "technology_implications": [
-      "The case illustrates the importance of resilient navigation and surveillance systems and the need to connect technical aviation notices with verified operational outcomes."
+      "Monitoring can connect GCAA safety decisions and NOTAMs to operator / airport operational notices, but must not infer passenger disruption without itinerary-level corroboration."
     ],
     "confidence_level": "High",
     "evidence_status": "Partially Verified",
     "follow_up_indicators": [
-      "NOTAMs and GCAA follow-up notices",
-      "Operator or airport records of actual disruption",
-      "UAE passenger welfare guidance and policy wording on authority action"
+      "Subsequent GCAA safety decisions, amendments or notices clarifying the suspension period and operational scope.",
+      "NOTAMs and air navigation service notices linked to GPS interference during the relevant period.",
+      "Airline, airport or flight movement evidence demonstrating any specific passenger-facing delay, cancellation, diversion or route change.",
+      "Complete, version-matched POLICY-A and POLICY-B clauses on authority action, delay and relevant exclusions."
     ],
     "evidence_gaps": [
-      "No passenger-level disruption evidence is attached to the safety decision.",
-      "No evidence of related UAE travel-insurance claims has been located.",
-      "The decision's operational duration and subsequent amendments require separate verification."
+      "The subsequent duration, amendments and operational close-out of the decision are not established in this record.",
+      "No linked NOTAM, operator restriction or flight-level record demonstrates a passenger-facing disruption caused by this decision.",
+      "No affected passenger, UAE-issued policyholder, travel-insurance claim or insured loss is established.",
+      "The policy implications remain conditional because there is no evidenced passenger event and the relevant wording comparisons are provisional."
     ],
-    "next_research_question": "Did this safety decision or related GPS interference produce documented passenger-facing flight disruption, and what policy triggers could be relevant if it did?",
+    "next_research_question": "Did the GCAA safety decision or associated GPS interference produce a documented operational restriction affecting a specific passenger itinerary, and only if so, which current policy terms could become relevant?",
     "research_decision": "Continue Research",
     "record_status": "under_review"
   }
