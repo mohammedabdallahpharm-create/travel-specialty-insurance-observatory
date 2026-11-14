@@ -1,52 +1,88 @@
 # SIGNAL-001 — US-001: FAA nationwide ground stop after ATC telecommunications instability
 
 - **Domain:** Travel Insurance
+- **Subdomain:** Flight delay (potential benefit area only; not a coverage classification)
 - **Event date:** 13 November 2026
 - **Publication / observation:** 14–15 November 2026
-- **Market lens:** UAE travel-insurance relevance under investigation
+- **Market lens:** United States event; UAE route and policyholder exposure not established
+- **Signal type:** ATC communications infrastructure disruption / nationwide ground stop
 - **Evidence status:** Partially Verified
-- **Confidence:** High for the US event; no verified UAE policyholder exposure
+- **Confidence:** High for the reported US event; no verified UAE passenger or insurance impact
 - **Research decision:** Continue Research
+- **Record status:** Under review
 
 ## Executive assessment
 
 The FAA issued a nationwide ground stop on 13 November 2026 after telecommunications instability affected the reliability of air-traffic-control communications and radar feeds. The US Department of Transportation subsequently reported that more than 3,500 flights were grounded swiftly and more than 8,000 flight operations resumed after the stop was lifted.
 
-These figures describe US aviation operations. They do not establish UAE route disruption, UAE-issued policyholder exposure, insurance claims or payments.
+These figures describe US aviation operations. The evidence currently recorded does not establish that a UAE-origin or UAE-destination service was disrupted, that an affected passenger held a UAE-issued travel policy, or that an insurance claim or payment resulted.
+
+**Intelligence assessment:** retain this as a global aviation-infrastructure benchmark with UAE relevance under investigation. It is not a verified UAE market-loss signal.
 
 ## Verified facts
 
-- US DOT attributed the ground stop to telecommunications issues affecting ATC communications and radar-system stability.
+- US DOT attributed the ground stop to telecommunications issues affecting the stability of ATC communications and radar systems.
 - The contemporaneous DOT update stated that the ground stop was lifted at 8:15 p.m. Eastern Time.
-- The 14 November DOT update reported 3,500+ flights grounded swiftly and 8,000+ flight operations resumed after the stop was lifted.
+- The 14 November DOT update reported more than 3,500 flights grounded swiftly and more than 8,000 flight operations resumed after the stop was lifted.
 
-## What is not established
+## Not established
 
-- Whether a UAE-origin or UAE-destination service was directly disrupted by this event.
-- Whether any affected passenger held a UAE-issued travel-insurance policy.
-- Whether any UAE-issued policyholder submitted a claim or received a payment.
-- Whether the event meets a particular policy definition or exclusion.
+- A UAE-origin or UAE-destination flight was directly disrupted by this event.
+- Any affected passenger held a UAE-issued travel-insurance policy.
+- Any UAE-issued policyholder submitted a claim or received payment.
+- The event falls within a particular policy definition, covered cause or exclusion.
+- Any UAE insurer or assistance provider incurred a loss attributable to the event.
 
-## Insurance and operations questions
+## Link to the existing observatory structure
 
-1. Is an ATC communications-system disruption treated differently from a carrier aircraft/equipment failure?
-2. What airline rebooking, care or other recovery was available to the passenger?
-3. Which additional expenses remained unrecovered?
-4. What event evidence, itinerary evidence and policy clauses are required to assess eligibility?
+### Domain and coverage lens
+- **Domain:** Travel Insurance.
+- **Closest potential subdomain:** Flight delay. This is a research lens only; the event itself is an ATC infrastructure disruption, not proof of an insured delay.
+- Cancellation, missed connection and trip interruption should be considered only if a passenger-level itinerary demonstrates those outcomes.
 
-## Operational hypothesis — not a coverage decision
+### Entity Registry
+- No UAE insurer, TPA or assistance provider is linked to this event on the evidence currently recorded.
+- US public authorities are cited as event sources, not presented as UAE insurance-market participants.
 
-The incident is a useful stress test for distinguishing aviation-system disruption from carrier equipment failure, and for coordinating airline recovery with any potentially insured unrecovered expense. No coverage conclusion can be made without the full policy, schedule, definitions, exclusions and passenger-specific facts.
+### Policy Intelligence
+- **POLICY-A:** the existing comparison records a provisional delay trigger and an authority-action clause observation. Neither has been validated against the complete current wording and the facts of this event.
+- **POLICY-B:** the existing comparison records a provisional delay trigger and authority-withdrawal limitation observation. Exact version, scope and definitions require revalidation.
+- The distinction between ATC infrastructure disruption, carrier equipment failure and authority action must be tested against the actual definitions. These categories must not be treated as interchangeable.
+- No coverage determination is possible from the current comparison.
 
-## Evidence gaps and next action
+### Claims Operations
+For any affected passenger, the operational file would need to establish:
+1. Booking, ticket, itinerary and operating carrier.
+2. Scheduled and actual departure / arrival times.
+3. Carrier-confirmed reason for delay or cancellation.
+4. Rebooking, refund, meals, accommodation, transport or other assistance provided.
+5. Receipts and the amount of any remaining unrecovered expense.
+6. The applicable policy schedule, wording, definitions, exclusions and endorsements.
 
-- Verify UAE–US route-level cancellations, delays and diversions for 13–15 November 2026.
-- Check official airline and airport updates.
-- Search for public assistance or claims disclosures relevant to UAE-issued products.
-- Compare the exact event facts with complete UAE policy wordings.
+Airline recovery and other payments must be identified before any potentially insured unrecovered expense is assessed.
+
+## Competing hypotheses — not findings
+
+- Some passengers on affected US routes may have experienced delay, cancellation or missed connections.
+- Residual disruption may have continued after the ground stop was lifted because aircraft or crew were out of position.
+- A UAE-linked itinerary could have been affected indirectly, but no route-level evidence currently establishes this.
+
+## Operational and commercial implications
+
+- This is a useful stress test for whether travel-assistance and claims workflows can distinguish system-wide ATC disruption from carrier-specific technical failure.
+- It may require clear evidence capture and escalation guidance for missed connections and residual disruption.
+- It is not evidence of UAE market loss, UAE claims volume or product weakness.
+
+## Evidence gaps and next research
+
+- Verify official UAE–US route-level cancellations, delays and diversions for 13–15 November 2026.
+- Check airline operational notices for a direct causal link to the FAA ground stop.
+- Obtain complete, version-matched UAE policy wording and schedules for POLICY-A and POLICY-B.
+- Search for public assistance, insurer or claims disclosures directly attributable to this event.
+
+**Next research question:** Can an official UAE-linked itinerary be shown to have been disrupted directly by the 13 November 2026 FAA ground stop, and if so, what passenger-specific unrecovered expense and current policy wording would need to be tested?
 
 ## Sources
 
-- [US Department of Transportation — 14 November 2026 update](https://www.transportation.gov/briefing-room/icymi-us-transportation-secretary-sean-p-duffy-provides-update-restoration-airspace)
-- [US Department of Transportation — 13 November 2026 ground-stop update](https://www.transportation.gov/briefing-room/icymi-us-transportation-secretary-sean-p-duffy-announces-lifting-nationwide-ground)
-
+- [US Department of Transportation — Update on restoration of airspace following nationwide ground stop, 14 November 2026](https://www.transportation.gov/briefing-room/icymi-us-transportation-secretary-sean-p-duffy-provides-update-restoration-airspace)
+- [US Department of Transportation — Announcement of lifting of nationwide ground stop, 13 November 2026](https://www.transportation.gov/briefing-room/icymi-us-transportation-secretary-sean-p-duffy-announces-lifting-nationwide-ground)
