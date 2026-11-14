@@ -2,11 +2,24 @@
   "name": "Travel & Specialty Insurance Observatory",
   "version": "1.0",
   "initial_market": "UAE",
-  "markets": ["UAE"],
-  "domains": ["TRAVEL", "PET"],
-  "coverage_subdomains": ["BAGGAGE"],
+  "markets": [
+    "UAE"
+  ],
+  "domains": [
+    "TRAVEL",
+    "PET"
+  ],
+  "coverage_subdomains": [
+    "BAGGAGE"
+  ],
   "research_priority": "CLAIMS_OPERATIONS",
-  "languages": ["en", "ar"],
+  "languages": [
+    "en",
+    "ar"
+  ],
   "architecture": "static-first",
-  "record_status": "foundation"
+  "record_status": "initial-mvp-live",
+  "last_updated": "2026-11-15",
+  "initial_signal_count": 3,
+  "policy_comparison_records": 2
 }
