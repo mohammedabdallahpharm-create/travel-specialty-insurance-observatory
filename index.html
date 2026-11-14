@@ -43,7 +43,7 @@
       <header class="topbar">
         <button class="mobile-menu" id="mobile-menu" aria-label="Open menu">☰</button>
         <div class="breadcrumb"><span>OBSERVATORY</span><b>/</b><strong id="breadcrumb-current">OVERVIEW</strong></div>
-        <div class="top-actions">
+        <div class="top-actions"><div class="global-search-wrap"><input id="global-search" type="search" placeholder="Search signals, entities, evidence…" aria-label="Search the observatory"><div id="global-search-results" class="global-search-results" hidden></div></div>
           <span class="live-label"><i></i><span data-i18n="evidenceLed">EVIDENCE-LED RESEARCH</span></span>
           <button class="lang-toggle" id="lang-toggle" type="button">العربية <span>↗</span></button>
         </div>
@@ -77,6 +77,8 @@
           <article class="metric-card"><div class="metric-top"><span data-i18n="publishedSignals">PUBLISHED SIGNALS</span><span class="metric-symbol">⌁</span></div><strong id="metric-signals">00</strong><small data-i18n="noInflatedCounts">No unverified counts</small></article>
           <article class="metric-card metric-priority"><div class="metric-top"><span data-i18n="researchPriority">RESEARCH PRIORITY</span><span class="metric-symbol">↗</span></div><strong data-i18n="claims">Claims</strong><small data-i18n="operationsDecisionRights">Operations & decision rights</small></article>
         </div>
+
+        <div class="intelligence-dashboard"><div class="section-heading"><div><span class="section-kicker">LIVE INTELLIGENCE</span><h2>What needs attention</h2></div><a class="text-link" href="#signals" data-go="signals">OPEN SIGNAL REGISTER ↗</a></div><div class="intelligence-grid"><article class="intelligence-panel"><span class="panel-kicker">ACTIVE SIGNALS</span><div id="overview-active-signals"></div></article><article class="intelligence-panel"><span class="panel-kicker">EVIDENCE GAPS</span><div id="overview-evidence-gaps"></div></article><article class="intelligence-panel"><span class="panel-kicker">RESEARCH PATHWAYS</span><div class="pathway-links"><button data-go="signals">01 / Explore by signal <b>↗</b></button><button data-go="entities">02 / Explore by entity <b>↗</b></button><button data-go="claims">03 / Explore operations <b>↗</b></button><button data-go="travel">04 / Explore policy intelligence <b>↗</b></button></div></article></div></div>
 
         <div class="section-heading domain-heading">
           <div><span class="section-kicker" data-i18n="exploreTheMarket">EXPLORE THE MARKET</span><h2 data-i18n="twoLenses">Two domains. One methodology.</h2></div>
@@ -158,14 +160,14 @@
       <section class="view" id="view-signals">
         <div class="view-header"><div class="eyebrow"><span class="eyebrow-line"></span>INTELLIGENCE / SIGNAL REGISTER</div><h1 data-i18n="signalsTitle">Signals, not noise.</h1><p data-i18n="signalsLead">A signal enters the register only when the evidence trail, competing explanations and research decision are documented.</p></div>
         <div class="signal-status"><div><span class="signal-number" id="signal-total">00</span><span data-i18n="registeredSignals">REGISTERED SIGNALS</span></div><div class="status-key"><i class="key-verified"></i><span data-i18n="verified">Verified</span><i class="key-review"></i><span data-i18n="underReview">Under review</span><i class="key-hypothesis"></i><span data-i18n="hypothesis">Hypothesis</span></div></div>
-        <div id="signals-list" class="signal-list"></div>
+        <div class="signal-filter-bar"><span>SELECT A SIGNAL TO TRACE ITS EVIDENCE AND OPEN QUESTIONS</span><span id="signal-filter-count"></span></div><div id="signals-list" class="signal-list"></div>
         <div id="signals-empty" class="empty-state" hidden><div class="empty-orbit">⌁</div><span class="section-kicker" data-i18n="registerIsOpen">REGISTER IS OPEN</span><h2 data-i18n="noSignalsYet">No signals have been published yet.</h2><p data-i18n="noSignalsDesc">Research is underway. Findings will appear here only after evidence review and a documented decision to publish.</p><a class="text-link" href="#methodology" data-go="methodology"><span data-i18n="howSignalsQualify">HOW SIGNALS QUALIFY</span> ↗</a></div>
       </section>
 
       <section class="view" id="view-entities">
         <div class="view-header compact-header"><div class="eyebrow"><span class="eyebrow-line"></span>INTELLIGENCE / ENTITY REGISTER</div><h1 data-i18n="entitiesTitle">Who does what?</h1><p data-i18n="entitiesLead">A working map of insurers, administrators, assistance providers and oversight bodies — with roles limited to what the sources establish.</p></div>
         <div class="registry-toolbar"><div class="registry-count"><strong id="entity-total">—</strong><span data-i18n="entitiesInRegistry">ENTITIES IN REGISTRY</span></div><input type="search" id="entity-search" data-i18n-placeholder="searchEntities" placeholder="Search organisations or roles…" aria-label="Search entities"><select id="entity-filter" aria-label="Filter by entity type"><option value="all">All entity types</option><option value="Insurer">Insurers</option><option value="Claims administrator / assistance services provider">Administrators / assistance</option><option value="Regulator">Regulators</option></select></div>
-        <div class="entity-table-wrap"><table class="entity-table"><thead><tr><th data-i18n="organisation">ORGANISATION</th><th data-i18n="entityType">ENTITY TYPE</th><th data-i18n="verifiedRole">VERIFIED ROLE</th><th data-i18n="status">STATUS</th><th></th></tr></thead><tbody id="entity-rows"></tbody></table></div>
+        <div id="entity-detail-panel" class="entity-detail-panel" hidden></div><div class="entity-table-wrap"><table class="entity-table"><thead><tr><th data-i18n="organisation">ORGANISATION</th><th data-i18n="entityType">ENTITY TYPE</th><th data-i18n="verifiedRole">VERIFIED ROLE</th><th data-i18n="status">STATUS</th><th></th></tr></thead><tbody id="entity-rows"></tbody></table></div>
         <div id="entity-empty" class="empty-inline" hidden>No matching entities found.</div>
         <p class="small-note" data-i18n="entityCaveat">A listed role is not a complete account of an organisation's contractual authority or operational responsibilities.</p>
       </section>
