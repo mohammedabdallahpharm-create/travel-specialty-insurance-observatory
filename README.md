@@ -20,8 +20,9 @@ An independent, evidence-led research observatory examining how travel and compa
 
 ## Repository map
 
-- `data/` — structured registry consumed by the interface.
+- `data/` — structured signal, entity, domain and company-neutral policy registries consumed by the interface.
 - `research/` — methodology, market context, domain research and detailed signal records.
+- `data/policy-comparison.json` — initial anonymized UAE travel-policy comparison (provisional; revalidation required).
 - `schemas/` — JSON schemas for validating structured records.
 - `assets/` — frontend CSS, JavaScript and images.
 
@@ -38,6 +39,8 @@ No signal is considered verified merely because it is present in the interface. 
 
 The MVP does not provide quotations, policy recommendations, claims processing, customer-data collection, claim-outcome prediction, automated scraping or a claim of comprehensive UAE market coverage.
 
+The Travel Insurance Intelligence Framework currently includes a five-stage analytical flow, three initial research signals, and an anonymized comparison of two reviewed policy documents. The policy comparison is provisional and is not a coverage determination.
+
 ## Local development
 
 This is a static application. Serve the repository root with any static HTTP server. No package installation or backend is required for the initial MVP.
@@ -48,7 +51,9 @@ The intended hosting platform is Vercel. The site should deploy from the reposit
 
 ## Status
 
-Repository foundation initialized. Research records and interface features will be added only after evidence and data structures are defined and validated.
+Initial Travel Insurance Intelligence Framework deployed. Three signals and two provisional policy records are registered. Signal evidence is separated from unestablished insurance exposure; policy terms remain subject to full-document revalidation.
+
+**Live observatory:** https://travel-specialty-insurance-observat.vercel.app
 
 ## Strategic principle
 
