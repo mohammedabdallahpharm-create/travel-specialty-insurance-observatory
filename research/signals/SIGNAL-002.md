@@ -88,6 +88,24 @@ These hypotheses require passenger-level or aggregate claims evidence; the airpo
 
 **Next research question:** What passenger-care and recovery arrangements applied during the April 2024 Dubai disruption, and what individual expenses, if any, remained unrecovered and potentially relevant under the applicable policy wording?
 
+## UAE passenger-welfare framework applicable at the event date
+
+The applicable GCAA instrument for the 16 April 2024 disruption was **CAR-PWP Issue 01**, issued on 28 January 2022 and applicable from 1 November 2022. Issue 02 was not applicable until 1 January 2025 and must not be applied retrospectively to this event.
+
+Issue 01:
+- Applied to commercial air transport operators operating to/from UAE airports, operators diverting to UAE airports, and UAE airport operators.
+- Established passenger-care and assistance requirements for delay, cancellation and diversion, subject to the regulation's scope and passenger conditions.
+- Required UAE commercial operators to establish and maintain a Passenger Welfare Program. They could contract delivery to a third party, but remained ultimately responsible and accountable for effective implementation.
+- Required foreign commercial operators flying to/from the UAE to provide the airport operator with an equivalent Passenger Welfare Program.
+
+**Analytical consequence:** passenger-welfare services, airline re-routing/refunds and other support must be established before calculating any passenger's potentially unrecovered expense. These obligations and services are not themselves proof of travel-insurance cover or of a claim payment.
+
+The public airport recovery statement does not establish which individual passengers received which forms of care, how each airline performed, or what expense remained unrecovered. No carrier-specific activation/compliance record or passenger-level record is currently linked to this signal.
+
+## Additional source
+
+- [UAE GCAA — CAR-PWP Issue 01: Passenger Welfare Program](https://www.gcaa.gov.ae/en/epublication/EPublications/Civil%20Aviation%20Regulations%20%28CARs%29/CAR%20III%20-%20GENERAL%20REGULATIONS/CAR-PWP%20%E2%80%93%20PASSENGER%20WELFARE%20PROGRAM%20%E2%80%93%20ISSUE%2001.pdf) — issued 28 January 2022; applicable from 1 November 2022; relevant to the April 2024 event.
+
 ## Source
 
 - [Dubai Airports — Back to normal operations, 23 April 2024](https://media.dubaiairports.ae/dubai-airports-back-to-normal-operations/)
