@@ -100,6 +100,14 @@
         "publication_date": "2024-04-23",
         "accessed_date": "2026-11-15",
         "notes": "Official airport operator recovery statement with cancellation, diversion and passenger-support figures."
+      },
+      {
+        "title": "CAR-PWP Issue 01 — Passenger Welfare Program",
+        "publisher": "UAE General Civil Aviation Authority",
+        "url": "https://www.gcaa.gov.ae/en/epublication/EPublications/Civil%20Aviation%20Regulations%20%28CARs%29/CAR%20III%20-%20GENERAL%20REGULATIONS/CAR-PWP%20%E2%80%93%20PASSENGER%20WELFARE%20PROGRAM%20%E2%80%93%20ISSUE%2001.pdf",
+        "publication_date": "2022-01-28",
+        "accessed_date": "2026-11-15",
+        "notes": "Issue 01 became applicable on 1 November 2022 and therefore formed the UAE passenger-welfare regulatory baseline at the time of the 16 April 2024 disruption. It addresses delays, cancellations and diversions; it is not an insurance coverage determination."
       }
     ],
     "evidence_summary": "Dubai Airports reported that operations had returned to normal after the exceptional rainfall event. Its 23 April 2024 recovery statement recorded 2,155 cancelled flights, 115 diverted flights and more than 75,000 welfare packs distributed to disrupted guests. These figures describe airport operations and passenger support; they do not establish travel-insurance claims or payments.",
@@ -107,7 +115,10 @@
       "Dubai Airports reported 2,155 flight cancellations during the disruption.",
       "Dubai Airports reported 115 diverted flights.",
       "Dubai Airports reported distributing more than 75,000 welfare packs to disrupted guests.",
-      "Dubai Airports stated that normal operations had resumed by 23 April 2024."
+      "Dubai Airports stated that normal operations had resumed by 23 April 2024.",
+      "GCAA CAR-PWP Issue 01 was applicable from 1 November 2022 and covered commercial air transport operators operating to/from UAE airports, operators diverting to UAE airports, and UAE airport operators.",
+      "Under Issue 01, UAE commercial air transport operators could contract all or part of passenger-welfare delivery to a third party but remained ultimately responsible and accountable for effective implementation.",
+      "Issue 01 required foreign commercial operators flying to/from the UAE to provide the airport operator with a passenger-welfare program equivalent to the program described in the regulation."
     ],
     "unestablished_claims": [
       "The number of affected passengers who held UAE-issued travel-insurance policies.",
@@ -123,14 +134,19 @@
       "For an individual case, reconstruct the passenger itinerary and distinguish cancellation, delay, diversion, missed connection and trip interruption; these are not interchangeable outcomes.",
       "Capture carrier confirmation, booking and ticket records, actual departure / arrival times, rebooking or refund offers, accommodation and transport receipts, and any support already provided.",
       "Identify which expenses were met by the airline, airport or another party before calculating any potentially unrecovered expense.",
-      "Policy cross-reference: POLICY-A and POLICY-B have provisional delay / cause observations only. Their current wording, cancellation / interruption benefits, definitions, exclusions and schedules must be checked before drawing a coverage conclusion."
+      "Policy cross-reference: POLICY-A and POLICY-B have provisional delay / cause observations only. Their current wording, cancellation / interruption benefits, definitions, exclusions and schedules must be checked before drawing a coverage conclusion.",
+      "For the April 2024 event, assess airline and airport passenger-welfare arrangements against CAR-PWP Issue 01, which was the applicable version at the event date; do not retrospectively apply Issue 02, which became applicable on 1 January 2025.",
+      "Passenger-welfare support and airline re-routing/refund arrangements must be identified as potential recoveries or assistance before calculating an individual's remaining expense; they are distinct from a travel-insurance coverage decision.",
+      "For UAE commercial operators, outsourcing passenger-welfare delivery did not remove the operator's ultimate accountability under Issue 01; actual contractual and operational execution in this event remains to be evidenced."
     ],
     "commercial_implications": [
-      "A UAE historical operational stress test for travel-insurance assistance and claims readiness during prolonged airport disruption; public evidence currently does not quantify insurance penetration, claims frequency, paid losses or insurer exposure."
+      "A UAE historical operational stress test for travel-insurance assistance and claims readiness during prolonged airport disruption; public evidence currently does not quantify insurance penetration, claims frequency, paid losses or insurer exposure.",
+      "The event can be used to examine the boundary between airline/airport passenger-welfare obligations, outsourced assistance delivery and residual travel-insurance exposure; no aggregate insured loss is established."
     ],
     "workforce_implications": [
       "Claims and assistance teams may need surge triage, itinerary-level case classification, customer communication and clear handoffs between airline support and insurer / assistance channels.",
-      "A consistent evidence checklist should prevent airport-wide statistics from being used as a substitute for an individual claimant's proof."
+      "A consistent evidence checklist should prevent airport-wide statistics from being used as a substitute for an individual claimant's proof.",
+      "Issue 01 established a coordinated operating model across carriers, airports, ground handlers and support providers, including third-party delivery under retained operator accountability; this is a regulatory requirement, not proof of how each party performed during the event."
     ],
     "technology_implications": [
       "Airport disruption timelines can contextualise an individual claim, while booking records, carrier confirmations and receipts remain necessary to establish that claimant's own loss."
@@ -141,13 +157,17 @@
       "Applicable UAE passenger-welfare and airline-care requirements during the April 2024 disruption.",
       "Official airline notices and passenger assistance records distinguishing rebooking, refunds, accommodation, meals and transport.",
       "Complete and version-matched policy wordings for POLICY-A and POLICY-B, including cancellation, interruption, delay, exclusions and other-insurance / recovery provisions.",
-      "Any public aggregate claims or assistance disclosures directly linked to the April 2024 event."
+      "Any public aggregate claims or assistance disclosures directly linked to the April 2024 event.",
+      "Any public or obtainable CAR-PWP Issue 01 activation, compliance or passenger-support records for relevant operators and airports during 16–23 April 2024.",
+      "Carrier-specific evidence of rebooking, refunds, accommodation, meals, ground transport and baggage recovery, separated from any insurance payment."
     ],
     "evidence_gaps": [
       "No verified count of affected travellers who held UAE-issued travel-insurance policies.",
       "No public aggregate travel-insurance claim count, paid amount or insurer loss attributable to this event is linked to the record.",
       "No passenger-level evidence establishes what expenses remained unrecovered after airline or airport support.",
-      "Policy-A and POLICY-B have not been fully revalidated against complete wording, schedules and the relevant 2024 policy period."
+      "Policy-A and POLICY-B have not been fully revalidated against complete wording, schedules and the relevant 2024 policy period.",
+      "The applicable passenger-welfare framework is identified, but no carrier-specific activation/compliance record or passenger-level evidence is linked to this signal.",
+      "The public airport recovery figures do not establish how much support each passenger received or what expense remained unrecovered after airline and airport assistance."
     ],
     "next_research_question": "What passenger-care and recovery arrangements applied during the April 2024 Dubai disruption, and what individual expenses, if any, remained unrecovered and potentially relevant under the applicable policy wording?",
     "research_decision": "Continue Research",
@@ -173,13 +193,31 @@
         "publication_date": "2025-06-26",
         "accessed_date": "2026-11-15",
         "notes": "Official safety decision citing increased GPS interference/jamming and requiring alternative approved surveillance means during the suspension."
+      },
+      {
+        "title": "GNSS Interference & GPS Anomalies — UAE paper to ICAO PBN SG/8",
+        "publisher": "International Civil Aviation Organization (paper presented by UAE)",
+        "url": "https://www.icao.int/MID/Documents/2023/PBN%20SG8-PBN%20Airspace%20Design%20Workshop/WP%2011%20-%20GNSS%20Anomalies%20UAE%20GCAA.pdf",
+        "publication_date": "2023-11-21",
+        "accessed_date": "2026-11-15",
+        "notes": "The UAE submission documents a Learjet 45 entering Emirates FIR via SIR VOR on 3 October 2023; the pilot reported GPS jamming before entry and ATC provided radar vectors. This is evidence of an aircraft-level navigation event, not a passenger claim or insured loss."
+      },
+      {
+        "title": "UAE Best Practices for Enhancing Surveillance Data Integrity Against GNSS Interference",
+        "publisher": "International Civil Aviation Organization (paper presented by UAE)",
+        "url": "https://www.icao.int/sites/default/files/MID/MeetingDocs/2025/Fourteenth%20Meeting%20of%20the%20of%20the%20MIDANPIRG%20Communication%2C%20Navigation%20and%20Surveillance%20Sub-Group%20%28CNS%20SG/2-%20Documentation/WP05.pdf",
+        "publication_date": "2025-10-10",
+        "accessed_date": "2026-11-15",
+        "notes": "Describes UAE operational processes for detecting and investigating GNSS anomalies using multi-sensor validation (radar, ADS-B and multilateration), recorded data and technical analysis, isolation of corrupted feeds and coordination with the telecom authority. This is a technical resilience process, not proof of passenger disruption or insurance loss."
       }
     ],
     "evidence_summary": "The UAE GCAA issued Safety Decision 2025-02 on 26 June 2025, temporarily suspending the mandatory ADS-B OUT requirement for specified operations within UAE airspace. The decision cited increased GPS interference/jamming affecting the reliability of ADS-B OUT and directed operators to use alternative approved surveillance means and comply with ATC instructions. The decision documents an aviation-system resilience measure; it does not itself establish passenger cancellations, travel-insurance exposure or claims.",
     "verified_facts": [
       "The GCAA Safety Decision is dated 26 June 2025 and applies to specified IFR operations within UAE controlled airspace and the Emirates FIR, and to air navigation service providers.",
       "The GCAA cited increased GPS interference/jamming as adversely affecting ADS-B OUT reliability.",
-      "The decision temporarily suspended specified ADS-B OUT requirements and directed reliance on alternative approved surveillance means."
+      "The decision temporarily suspended specified ADS-B OUT requirements and directed reliance on alternative approved surveillance means.",
+      "A UAE paper submitted to ICAO records that on 3 October 2023 a Learjet 45 entering the Emirates FIR reported GPS jamming before entry and received radar-vectoring assistance from Emirates ACC.",
+      "A UAE paper presented to ICAO in October 2025 describes a structured GNSS-interference investigation workflow using radar, ADS-B and multilateration data, controller-position recordings and technical playback/analysis."
     ],
     "unestablished_claims": [
       "That the decision caused a specific passenger flight cancellation or delay.",
@@ -195,7 +233,8 @@
       "Before considering insurance relevance, identify a subsequent operational consequence using NOTAMs, air navigation service notices, operator statements or airport / flight records.",
       "If an individual itinerary was affected, establish the specific restriction, carrier explanation, route, actual schedule and passenger expense; a GPS-interference notice alone is insufficient.",
       "Only after a passenger-facing disruption is evidenced should the relevant policy trigger, authority-action wording and evidence requirements be tested.",
-      "Policy cross-reference: POLICY-A and POLICY-B contain provisional authority-action observations; neither clause has been fully revalidated or matched to a documented passenger event."
+      "Policy cross-reference: POLICY-A and POLICY-B contain provisional authority-action observations; neither clause has been fully revalidated or matched to a documented passenger event.",
+      "The 2023 documented aircraft event and 2025 technical workflow establish a longer UAE evidence trail for GNSS resilience than the June 2025 regulatory decision alone; they still do not establish a passenger-facing disruption or insurance claim."
     ],
     "commercial_implications": [
       "UAE-specific aviation resilience signal relevant to monitoring travel-risk conditions; no passenger-facing insurance exposure or claims impact is established by the safety decision itself."
@@ -213,13 +252,17 @@
       "Subsequent GCAA safety decisions, amendments or notices clarifying the suspension period and operational scope.",
       "NOTAMs and air navigation service notices linked to GPS interference during the relevant period.",
       "Airline, airport or flight movement evidence demonstrating any specific passenger-facing delay, cancellation, diversion or route change.",
-      "Complete, version-matched POLICY-A and POLICY-B clauses on authority action, delay and relevant exclusions."
+      "Complete, version-matched POLICY-A and POLICY-B clauses on authority action, delay and relevant exclusions.",
+      "Clarify the status and subsequent amendments/close-out of Safety Decision 2025-02 against the current UAE AIP and later GCAA notices.",
+      "Seek anonymised trend or occurrence data from the UAE GNSS monitoring and investigation workflow, while keeping aircraft-safety events separate from passenger disruption records."
     ],
     "evidence_gaps": [
       "The subsequent duration, amendments and operational close-out of the decision are not established in this record.",
       "No linked NOTAM, operator restriction or flight-level record demonstrates a passenger-facing disruption caused by this decision.",
       "No affected passenger, UAE-issued policyholder, travel-insurance claim or insured loss is established.",
-      "The policy implications remain conditional because there is no evidenced passenger event and the relevant wording comparisons are provisional."
+      "The policy implications remain conditional because there is no evidenced passenger event and the relevant wording comparisons are provisional.",
+      "The 2023 ICAO example concerns one Learjet 45 aircraft and does not establish a scheduled passenger flight, passenger count, delay, diversion or insurance loss.",
+      "The 2025 ICAO paper describes the UAE technical workflow but does not publish a complete event-level dataset or quantified passenger-facing outcomes."
     ],
     "next_research_question": "Did the GCAA safety decision or associated GPS interference produce a documented operational restriction affecting a specific passenger itinerary, and only if so, which current policy terms could become relevant?",
     "research_decision": "Continue Research",
