@@ -47,3 +47,29 @@ html[dir=rtl] body{font-family:"Noto Sans Arabic",var(--font)}html[dir=rtl] .sid
 @media(max-width:1000px){.intelligence-grid{grid-template-columns:1fr 1fr}.intelligence-panel:last-child{grid-column:span 2}}
 @media(max-width:760px){.top-actions{flex:1;justify-content:flex-end}.global-search-wrap{width:min(230px,48vw)}.global-search-wrap input{font-size:9px}.intelligence-grid{grid-template-columns:1fr}.intelligence-panel:last-child{grid-column:auto}.investigation-columns{grid-template-columns:1fr}.signal-record summary{padding:15px}.signal-investigation{padding:0 15px 15px}.signal-filter-bar{font-size:7px}}
 @media(max-width:390px){.global-search-wrap{width:135px}.global-search-wrap input{padding:0 7px}}
+
+
+/* Signal intelligence: expose the full analytical record without changing the data model */
+.signal-record{padding:0;overflow:hidden}
+.signal-record summary{list-style:none;cursor:pointer;padding:20px}
+.signal-record summary::-webkit-details-marker{display:none}
+.signal-record summary:hover{background:#132438}
+.signal-record details[open]>summary{border-bottom:1px solid #2b4357}
+.signal-meta-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin:16px 0}
+.signal-meta-grid>div{border:1px solid #2a4055;background:#122236;border-radius:6px;padding:10px}
+.signal-meta-grid small{display:block;font:8px var(--mono);letter-spacing:.08em;color:#8299aa;margin-bottom:5px}
+.signal-meta-grid strong{font-size:11px;color:#e3edf1;font-weight:600}
+.signal-analysis-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:12px}
+.signal-analysis-block{border:1px solid #293e52;border-radius:7px;background:#111f30;padding:14px;min-width:0}
+.signal-analysis-block>b,.signal-next-question>b{font:9px var(--mono);letter-spacing:.08em;color:var(--cyan)}
+.signal-analysis-block ul{padding-left:17px;margin:9px 0 0;color:#b7c6d0;font-size:10px;line-height:1.75}
+.signal-analysis-block li{margin:0 0 7px}
+.signal-empty-value{font-size:10px;color:#72879a;font-style:italic}
+.signal-next-question{border:1px solid #3a6265;background:#132b35;border-radius:7px;padding:15px;margin-top:12px}
+.signal-next-question p{font-size:11px;line-height:1.75;color:#d3e0e4;margin:7px 0 0}
+.signal-source-list{list-style:none;padding:0;margin:0;display:grid;gap:10px;width:100%}
+.signal-source-list li{display:grid;gap:4px}
+.signal-source-list a{font-size:10px;color:var(--cyan)}
+.signal-source-list small{font:8px var(--mono);color:#8296a8}
+.signal-source-list p{font-size:9px;line-height:1.6;color:#9aabba;margin:0}
+@media(max-width:760px){.signal-meta-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.signal-analysis-grid{grid-template-columns:1fr}.signal-record summary{padding:15px}.signal-investigation{padding:0 15px 15px}}
