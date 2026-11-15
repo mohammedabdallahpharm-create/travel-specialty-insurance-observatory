@@ -61,6 +61,14 @@ For any affected passenger, the operational file would need to establish:
 
 Airline recovery and other payments must be identified before any potentially insured unrecovered expense is assessed.
 
+## UAE-linked route impact check
+
+A contemporaneous Gulf News review of the FAA event reported that the effect on UAE–US flights had **not been confirmed** and that neither Emirates nor Etihad had confirmed specific cancellations or delays attributable to the ground stop. This is a secondary media check, not a complete flight-movement dataset and not proof that no indirect schedule effects occurred.
+
+The FAA order applied to departures from US airports; inbound international flights were handled case by case. Therefore, a valid UAE exposure assessment still requires flight-number, operating-carrier, route and actual schedule evidence rather than assuming that all UAE–US services were stopped.
+
+- [Gulf News — US orders nationwide flight ground stop: Are UAE flights affected?](https://gulfnews.com/amp/story/business%2Faviation%2Fus-orders-nationwide-flight-ground-stop-are-uae-flights-affected-1.500746844) — secondary reporting; UAE route impact not confirmed in the report reviewed.
+
 ## Competing hypotheses — not findings
 
 - Some passengers on affected US routes may have experienced delay, cancellation or missed connections.
