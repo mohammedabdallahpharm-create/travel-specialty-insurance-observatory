@@ -14,29 +14,48 @@ function escapeHtml(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;",
 function renderSignals(){
  const list=$("#signals-list"),empty=$("#signals-empty");if(!list)return;
  const items=signals.filter(s=>s.domain==="TRAVEL");
+ const labels=currentLang==="ar"?{
+  event:"تاريخ الحدث",published:"تاريخ النشر",observed:"تاريخ الرصد",confidence:"مستوى الثقة",
+  facts:"الوقائع المثبتة",unknowns:"ما لم يثبت بعد",hypotheses:"الفرضيات قيد الاختبار",
+  operational:"التأثيرات التشغيلية",commercial:"التأثيرات التجارية",workforce:"تأثيرات القوى العاملة",
+  technology:"التأثيرات التقنية",gaps:"فجوات الأدلة",followup:"مؤشرات المتابعة",
+  entities:"علاقات الجهات",decision:"قرار البحث",next:"سؤال البحث التالي",
+  sources:"مصادر الأدلة",noData:"لا توجد بيانات مسجلة",open:"افتح التحقيق",
+  market:"السوق / نطاق الحدث"
+ }:{
+  event:"EVENT DATE",published:"PUBLICATION DATE",observed:"OBSERVATION DATE",confidence:"CONFIDENCE",
+  facts:"VERIFIED FACTS",unknowns:"NOT ESTABLISHED",hypotheses:"COMPETING HYPOTHESES",
+  operational:"OPERATIONAL IMPLICATIONS",commercial:"COMMERCIAL IMPLICATIONS",workforce:"WORKFORCE IMPLICATIONS",
+  technology:"TECHNOLOGY IMPLICATIONS",gaps:"EVIDENCE GAPS",followup:"FOLLOW-UP INDICATORS",
+  entities:"ENTITY RELATIONSHIPS",decision:"RESEARCH DECISION",next:"NEXT RESEARCH QUESTION",
+  sources:"SOURCE TRAIL",noData:"No information recorded",open:"OPEN INVESTIGATION",
+  market:"MARKET / EVENT SCOPE"
+ };
+ const asList=values=>(values&&values.length)?'<ul>'+values.map(x=>"<li>"+escapeHtml(x)+"</li>").join("")+"</ul>":'<p class="signal-empty-value">'+labels.noData+"</p>";
+ const block=(title,values)=>'<section class="signal-analysis-block"><b>'+title+'</b>'+asList(values)+'</section>';
  list.innerHTML=items.map(s=>{
   const status=s.evidence_status||"Under review";
-  const statusLabel=currentLang==="ar"?(status==="Partially Verified"?"موثق جزئياً":status==="Verified"?"موثق":status):status;
-  const facts=(s.verified_facts||[]).slice(0,3).map(x=>"<li>"+escapeHtml(x)+"</li>").join("");
-  const gaps=(s.unestablished_claims||[]).slice(0,2).map(x=>"<li>"+escapeHtml(x)+"</li>").join("");
-  const sources=(s.primary_sources||[]).map(x=>'<a href="'+escapeHtml(x.url)+'" target="_blank" rel="noopener">'+escapeHtml(x.publisher)+' ↗</a>').join("");
-  return '<article class="signal-card"><div class="signal-card-top"><span class="signal-id">'+escapeHtml(s.signal_id)+'</span><span class="status-pill partial">'+escapeHtml(statusLabel)+'</span></div><h3>'+escapeHtml(s.title)+'</h3><div class="signal-date">'+escapeHtml(currentLang==="ar"?"تاريخ الحدث: ":"Event date: ")+escapeHtml(s.event_date||"—")+'</div><p class="signal-summary">'+escapeHtml(s.evidence_summary)+'</p><div class="signal-detail-grid"><div><b>'+escapeHtml(tr("signalFacts"))+'</b><ul>'+facts+'</ul></div><div><b>'+escapeHtml(tr("signalUnknowns"))+'</b><ul>'+gaps+'</ul></div></div><div class="signal-source-row"><b>'+escapeHtml(tr("signalSources"))+'</b>'+sources+'</div></article>';
- }).join("");
- if(empty)empty.hidden=items.length>0;
-}
-
-function renderSignals(){
- const list=$("#signals-list"),empty=$("#signals-empty");if(!list)return;
- const items=signals.filter(s=>s.domain==="TRAVEL");
- list.innerHTML=items.map(s=>{
-  const status=s.evidence_status||"Under review";
-  const statusLabel=currentLang==="ar"?(status==="Partially Verified"?"موثق جزئياً":status==="Verified"?"موثق":status):status;
-  const facts=(s.verified_facts||[]).map(x=>"<li>"+escapeHtml(x)+"</li>").join("");
-  const gaps=(s.unestablished_claims||[]).map(x=>"<li>"+escapeHtml(x)+"</li>").join("");
-  const implications=(s.operational_implications||[]).map(x=>"<li>"+escapeHtml(x)+"</li>").join("");
-  const sources=(s.primary_sources||[]).map(x=>'<a href="'+escapeHtml(x.url)+'" target="_blank" rel="noopener">'+escapeHtml(x.publisher)+' · '+escapeHtml(x.publication_date||"Source")+' ↗</a>').join("");
-  const related=(s.organisations||[]).length ? s.organisations.map(escapeHtml).join(", ") : "No entity relationship has been verified for this event.";
-  return '<details class="signal-card signal-record" data-signal-id="'+escapeHtml(s.signal_id)+'"><summary><div class="signal-card-top"><span class="signal-id">'+escapeHtml(s.signal_id)+'</span><span class="status-pill partial">'+escapeHtml(statusLabel)+'</span></div><h3>'+escapeHtml(s.title)+'</h3><div class="signal-date">EVENT DATE · '+escapeHtml(s.event_date||"—")+' · '+escapeHtml(s.market||"")+'</div><p class="signal-summary">'+escapeHtml(s.evidence_summary)+'</p><span class="signal-open-hint">OPEN INVESTIGATION ↗</span></summary><div class="signal-investigation"><div class="signal-detail-grid"><div><b>'+escapeHtml(tr("signalFacts"))+'</b><ul>'+facts+'</ul></div><div><b>'+escapeHtml(tr("signalUnknowns"))+'</b><ul>'+gaps+'</ul></div></div><div class="investigation-columns"><section><b>OPERATIONAL IMPLICATIONS</b><ul>'+implications+'</ul></section><section><b>ENTITY RELATIONSHIPS</b><p>'+escapeHtml(related)+'</p><b>POLICY CROSS-REFERENCE</b><p>POLICY-A / POLICY-B — provisional research comparison only; not a coverage conclusion.</p><b>RESEARCH DECISION</b><p>'+escapeHtml(s.research_decision||s.record_status||"Under review")+'</p></section></div><div class="signal-source-row"><b>'+escapeHtml(tr("signalSources"))+'</b>'+sources+'</div></div></details>';
+  const statusClass=status==="Verified"?"verified":status==="Partially Verified"?"partial":status==="Hypothesis"?"hypothesis":status==="Historical"?"historical":status==="Disputed"?"disputed":"unverified";
+  const statusLabel=currentLang==="ar"?(status==="Partially Verified"?"موثق جزئياً":status==="Verified"?"موثق":status==="Unverified"?"غير موثق":status==="Hypothesis"?"فرضية":status==="Disputed"?"متنازع عليه":status==="Historical"?"تاريخي":status):status;
+  const sources=(s.primary_sources||[]).map(x=>'<li><a href="'+escapeHtml(x.url)+'" target="_blank" rel="noopener">'+escapeHtml(x.publisher)+' · '+escapeHtml(x.title)+' ↗</a><small>'+escapeHtml(x.publication_date||"")+(x.accessed_date?" · "+escapeHtml(x.accessed_date):"")+'</small>'+(x.notes?'<p>'+escapeHtml(x.notes)+'</p>':"")+'</li>').join("");
+  const entityRoles=(s.entity_roles||[]).map(x=>escapeHtml(x.entity_id)+" — "+escapeHtml(x.role));
+  const entities=(s.organisations||[]).map(escapeHtml);
+  const relationItems=[...entities,...entityRoles];
+  const meta=[
+   [labels.event,s.event_date],
+   [labels.published,s.publication_date],
+   [labels.observed,s.observation_date],
+   [labels.confidence,s.confidence_level]
+  ].filter(x=>x[1]).map(x=>'<div><small>'+x[0]+'</small><strong>'+escapeHtml(x[1])+'</strong></div>').join("");
+  return '<article class="signal-card signal-record"><details data-signal-id="'+escapeHtml(s.signal_id)+'"><summary><div class="signal-card-top"><span class="signal-id">'+escapeHtml(s.signal_id)+'</span><span class="status-pill '+statusClass+'">'+escapeHtml(statusLabel)+'</span></div><h3>'+escapeHtml(s.title)+'</h3><p class="signal-summary">'+escapeHtml(s.evidence_summary)+'</p><span class="signal-open-hint">'+labels.open+' ↗</span></summary><div class="signal-investigation"><div class="signal-meta-grid">'+meta+'</div><div class="signal-analysis-grid">'+
+   block(labels.facts,s.verified_facts)+block(labels.unknowns,s.unestablished_claims)+
+   block(labels.hypotheses,s.competing_hypotheses)+block(labels.operational,s.operational_implications)+
+   block(labels.commercial,s.commercial_implications)+block(labels.workforce,s.workforce_implications)+
+   block(labels.technology,s.technology_implications)+block(labels.gaps,s.evidence_gaps)+
+   block(labels.followup,s.follow_up_indicators)+
+   '</div><div class="investigation-columns"><section><b>'+labels.entities+'</b>'+asList(relationItems)+'</section><section><b>'+labels.decision+'</b><p>'+escapeHtml(s.research_decision||s.record_status||labels.noData)+'</p></section></div>'+
+   (s.next_research_question?'<div class="signal-next-question"><b>'+labels.next+'</b><p>'+escapeHtml(s.next_research_question)+'</p></div>':"")+
+   '<div class="signal-source-row"><b>'+labels.sources+'</b><ul class="signal-source-list">'+(sources||'<li>'+labels.noData+'</li>')+'</ul></div></div></details></article>';
  }).join("");
  if(empty)empty.hidden=items.length>0;
  const count=$("#signal-filter-count");if(count)count.textContent=items.length+" RECORDS";
