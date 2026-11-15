@@ -82,6 +82,23 @@ A technical notice alone is contextual evidence; it is not a substitute for proo
 
 **Next research question:** Did the GCAA safety decision or associated GPS interference produce a documented operational restriction affecting a specific passenger itinerary, and only if so, which current policy terms could become relevant?
 
+## Historical evidence and UAE operational response
+
+The June 2025 safety decision sits within a longer UAE-documented GNSS-interference record:
+
+1. **3 October 2023 — aircraft-level event:** a UAE paper presented to ICAO records that a Learjet 45 entering the Emirates FIR via SIR VOR reported GPS jamming before entry and required navigational assistance. Emirates ACC provided radar vectors and coordinated with the next FIR. This establishes one documented aircraft-level event; it does not establish a scheduled passenger disruption, passenger count, insurance claim or insured loss.
+2. **21 November 2023 — regional risk presentation:** the UAE submission to ICAO described GNSS interference and GPS anomalies as a growing aviation concern and discussed the effects on navigation, ADS-B surveillance and air traffic management.
+3. **October 2025 — operational resilience workflow:** a UAE paper presented to ICAO describes a structured process within the Surveillance Data Processing System for detecting and investigating GNSS anomalies. It uses multi-sensor validation across radar, ADS-B and multilateration, controller-position recordings, surveillance data extraction and technical playback/analysis. It also describes isolating a corrupted feed and coordinating with the telecommunications authority.
+
+**What this changes:** the evidence trail is no longer limited to a single regulatory notice in June 2025. It supports a broader UAE aviation-resilience narrative spanning a reported aircraft event in 2023, a formal safety decision in 2025 and a documented technical investigation workflow later in 2025.
+
+**What it does not change:** none of these sources, by themselves, proves a passenger-facing delay, cancellation, diversion, travel-insurance claim or insured loss. The signal remains partially verified because the regulatory and technical facts are supported while the passenger/insurance consequences are not established.
+
+## Additional sources
+
+- [ICAO — GNSS Interference & GPS Anomalies, UAE paper to PBN SG/8](https://www.icao.int/MID/Documents/2023/PBN%20SG8-PBN%20Airspace%20Design%20Workshop/WP%2011%20-%20GNSS%20Anomalies%20UAE%20GCAA.pdf) — paper dated 21 November 2023; includes the 3 October 2023 Learjet 45 event.
+- [ICAO — UAE Best Practices for Enhancing Surveillance Data Integrity Against GNSS Interference](https://www.icao.int/sites/default/files/MID/MeetingDocs/2025/Fourteenth%20Meeting%20of%20the%20of%20the%20MIDANPIRG%20Communication%2C%20Navigation%20and%20Surveillance%20Sub-Group%20%28CNS%20SG/2-%20Documentation/WP05.pdf) — UAE paper dated 10 October 2025; describes the technical investigation and mitigation workflow.
+
 ## Source
 
 - [UAE GCAA — Safety Decision 2025-02, 26 June 2025](https://www.gcaa.gov.ae/en/epublication/EPublications/Safety%20Decisions/2025/SAFETY%20DECISION%202025-02%20-%20TEMPORARY%20SUSPENSION%20OF%20ADS-B%20OUT%20MANDATORY%20REQUIREMENT%20FOR%20OPERATION%20WITHIN%20UAE%20AIRSPACE%20-%20ISSUE%2001.pdf)
