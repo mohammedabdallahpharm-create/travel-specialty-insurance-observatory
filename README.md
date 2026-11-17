@@ -41,6 +41,13 @@ The MVP does not provide quotations, policy recommendations, claims processing, 
 
 The Travel Insurance Intelligence Framework currently includes a five-stage analytical flow, three initial research signals, and an anonymized comparison of two reviewed policy documents. The policy comparison is provisional and is not a coverage determination.
 
+## Research prototype
+
+- **Travel Exposure Intelligence Simulator v0.1:** [Open simulator](https://travel-specialty-insurance-observat.vercel.app/travel-exposure-simulator.html)
+- Methodology and limitations: [`research/travel-exposure-intelligence-simulator.md`](research/travel-exposure-intelligence-simulator.md)
+
+The simulator separates historical aviation event evidence from synthetic itinerary inputs. It does not access live flight feeds or policyholder records and does not determine insurance coverage or claim outcomes.
+
 ## Local development
 
 This is a static application. Serve the repository root with any static HTTP server. No package installation or backend is required for the initial MVP.
