@@ -94,3 +94,30 @@ The FAA order applied to departures from US airports; inbound international flig
 
 - [US Department of Transportation — Update on restoration of airspace following nationwide ground stop, 14 November 2026](https://www.transportation.gov/briefing-room/icymi-us-transportation-secretary-sean-p-duffy-provides-update-restoration-airspace)
 - [US Department of Transportation — Announcement of lifting of nationwide ground stop, 13 November 2026](https://www.transportation.gov/briefing-room/icymi-us-transportation-secretary-sean-p-duffy-announces-lifting-nationwide-ground)
+
+
+## UAE Travel Insurance Market Implications
+
+**Exposure pathway:** Not established  
+**Event-to-market link:** Not established  
+**Claims / insured-loss evidence:** Unproven
+
+### Market exposure
+The event occurred in the United States. A UAE-market link requires evidence of a UAE-origin, UAE-destination or UAE-policyholder itinerary affected by the ground stop or its recovery effects; none is currently recorded.
+
+### Affected policyholders
+Potentially UAE residents travelling on affected US domestic or connecting itineraries, but no UAE-linked passenger or policyholder is identified.
+
+### Insurance impact
+If a UAE-insured itinerary is evidenced, review flight delay, cancellation, missed connection and additional-expense benefits against the carrier's stated cause, policy purchase date, waiting period and authority-action wording. Do not infer that an ATC ground stop is automatically covered.
+
+### Claims impact
+Potential passenger-level delay, missed connection, accommodation, meals or rebooking expense. No UAE claim, payment or unrecovered expense is evidenced.
+
+### Insurer impact
+A potential cross-border assistance and claims-triage scenario; no UAE insurer exposure or operational burden is measured.
+
+### Evidence required next
+UAE-linked flight-number movement data for 13–15 November; airline confirmation of causal link; passenger itinerary and expenses; applicable policy wording.
+
+**Assessment:** US aviation event; UAE exposure is not established. Treat as an international stress-test scenario, not a UAE market-loss signal.
