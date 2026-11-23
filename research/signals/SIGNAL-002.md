@@ -109,3 +109,30 @@ The public airport recovery statement does not establish which individual passen
 ## Source
 
 - [Dubai Airports — Back to normal operations, 23 April 2024](https://media.dubaiairports.ae/dubai-airports-back-to-normal-operations/)
+
+
+## UAE Travel Insurance Market Implications
+
+**Exposure pathway:** Direct  
+**Event-to-market link:** Verified UAE event; insurance link potential  
+**Claims / insured-loss evidence:** Unproven
+
+### Market exposure
+The disruption occurred at Dubai Airport and is directly located in the UAE travel market. Airport-level cancellations and diversions are verified, but the insured share of affected travellers is unknown.
+
+### Affected policyholders
+Potential UAE residents and inbound/outbound travellers holding travel policies that respond to cancellation, delay, diversion, interruption or additional expenses.
+
+### Insurance impact
+Relevant product sections may include trip cancellation/curtailment, travel delay, missed connection and emergency assistance. The applicable April 2024 wording and airline/airport passenger-welfare support must be considered before assessing residual loss.
+
+### Claims impact
+Additional accommodation, transport, meals, rebooking or missed-connection costs are plausible at passenger level. Airport statistics do not establish policyholder counts, claim frequency or paid losses.
+
+### Insurer impact
+A credible UAE operational stress test for assistance capacity, claims triage, documentation and coordination with airlines/airport support; no insurer-level loss or surge is quantified.
+
+### Evidence required next
+Carrier-level care and recovery records; passenger-level expenses after airline/airport support; UAE insurer/TPA disclosures or claims data attributable to the event.
+
+**Assessment:** Direct UAE aviation disruption is verified; insurance-market impact remains potential and unquantified.
