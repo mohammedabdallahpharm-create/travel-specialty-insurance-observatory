@@ -85,3 +85,16 @@ html[dir=rtl] body{font-family:"Noto Sans Arabic",var(--font)}html[dir=rtl] .sid
 .simulator-feature-link{white-space:nowrap;color:var(--cyan);font:10px var(--mono);letter-spacing:.08em}
 html[dir=rtl] .simulator-feature{direction:rtl}
 @media(max-width:760px){.simulator-feature{grid-template-columns:48px 1fr;gap:14px;padding:18px;margin:18px 0 28px}.simulator-feature-icon{width:46px;height:46px;font-size:22px}.simulator-feature-copy h2{font-size:19px}.simulator-feature-link{grid-column:2;justify-self:start}.simulator-feature-copy small{line-height:1.7;display:block}}
+
+/* UAE travel-insurance market implications — additive signal detail */
+.uae-market-implications{margin-top:14px;padding:16px;border:1px solid #3a6265;border-radius:8px;background:#122a35;min-width:0}
+.uae-market-implications h4{margin:0 0 12px;color:var(--cyan);font:10px var(--mono);letter-spacing:.09em}
+.uae-market-pathway{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 12px;margin-bottom:10px;border:1px solid #315465;border-radius:6px;background:#102333}
+.uae-market-pathway b,.uae-market-field>b{font:9px var(--mono);letter-spacing:.04em;color:#79c9ca}
+.uae-market-pathway span{font-size:10px;color:#e1ecee}
+.uae-market-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+.uae-market-field{padding:11px;border:1px solid #294354;border-radius:6px;background:#102131;min-width:0}
+.uae-market-field p{margin:7px 0 0;color:#b9c8d1;font-size:10px;line-height:1.7;overflow-wrap:anywhere}
+.uae-market-field:last-child{grid-column:1/-1}
+html[dir=rtl] .uae-market-implications{direction:rtl;text-align:right}
+@media(max-width:760px){.uae-market-grid{grid-template-columns:1fr}.uae-market-field:last-child{grid-column:auto}.uae-market-implications{padding:12px}}
