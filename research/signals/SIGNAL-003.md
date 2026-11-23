@@ -102,3 +102,30 @@ The June 2025 safety decision sits within a longer UAE-documented GNSS-interfere
 ## Source
 
 - [UAE GCAA — Safety Decision 2025-02, 26 June 2025](https://www.gcaa.gov.ae/en/epublication/EPublications/Safety%20Decisions/2025/SAFETY%20DECISION%202025-02%20-%20TEMPORARY%20SUSPENSION%20OF%20ADS-B%20OUT%20MANDATORY%20REQUIREMENT%20FOR%20OPERATION%20WITHIN%20UAE%20AIRSPACE%20-%20ISSUE%2001.pdf)
+
+
+## UAE Travel Insurance Market Implications
+
+**Exposure pathway:** Direct  
+**Event-to-market link:** Potential direct route/regulatory link  
+**Claims / insured-loss evidence:** Unproven
+
+### Market exposure
+The regulatory decision and GNSS-interference context are UAE-specific. The connection to the travel-insurance market is indirect unless an actual passenger flight restriction or itinerary impact is documented.
+
+### Affected policyholders
+Potential travellers on UAE-linked flights only if an operator or ATC measure caused a documented delay, cancellation, diversion or route change.
+
+### Insurance impact
+Do not map the ADS-B OUT safety mitigation itself to a delay or authority-action benefit. If a passenger disruption is evidenced, assess the carrier-confirmed cause and the exact policy definitions and exclusions.
+
+### Claims impact
+No passenger-facing disruption, additional expense, claim or insured loss is established by the safety decision.
+
+### Insurer impact
+Potential monitoring value for aviation-risk intelligence and claims cause classification; no claims or assistance workload is evidenced.
+
+### Evidence required next
+Subsequent GCAA/NOTAM notices, operator schedule changes, flight movement records and any passenger-specific expense.
+
+**Assessment:** Direct UAE regulatory/aviation signal; passenger and insurance consequences remain unproven.
