@@ -20,3 +20,29 @@ The NOTAM itself was not directly retrieved in this research pass; this record r
 - [Business Recorder](https://www.brecorder.com/news/40449738), 19 Nov 2026.
 
 **Next question:** Which routes show measurable schedule extension attributable to the restriction?
+
+## UAE Travel Insurance Market Implications
+
+**Exposure pathway:** Indirect  
+**Event-to-market link:** Potential  
+**Claims / insured-loss evidence:** Unproven
+
+### Market exposure
+The restriction applies to Indian aircraft using Pakistani airspace, not all airlines or all Pakistan airspace. UAE-market exposure requires an affected carrier/route or a UAE resident's itinerary on a rerouted service.
+
+### Affected policyholders
+Potential UAE residents travelling on Indian-operated/Indian-registered services affected by the restriction, or on connecting itineraries whose schedules change.
+
+### Insurance impact
+A longer route or airline fuel cost alone is not a passenger insured loss. Review delay/cancellation/missed-connection benefits only where a passenger's actual schedule and covered cause meet the wording.
+
+### Claims impact
+Potential delay or missed connection if rerouting changes arrival times; no specific UAE passenger impact or expense is documented. Underlying NOTAM was not directly retrieved in this research pass.
+
+### Insurer impact
+Potential monitoring of regional route changes and assistance queries; no measured insurer exposure.
+
+### Evidence required next
+Primary PAA NOTAM; airline-specific route maps and schedule notices; actual flight-time comparison; UAE-linked passenger itineraries and expenses.
+
+**Assessment:** Indirect, carrier-specific exposure with a primary-source gap; do not generalise the restriction to all UAE-linked flights.
