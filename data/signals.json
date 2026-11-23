@@ -537,5 +537,309 @@
     "next_research_question": "Did the planned 15% slot reduction produce measurable passenger disruption on UAE-linked itineraries, or was the impact largely absorbed through advance schedule planning?",
     "research_decision": "Monitor",
     "record_status": "under_review"
+  },
+  {
+    "signal_id": "SIGNAL-007",
+    "title": "INT-001 — Naples International Airport closed for runway and taxiway refurbishment",
+    "domain": "TRAVEL",
+    "subdomain": "AIRPORT_CLOSURE_AND_INFRASTRUCTURE",
+    "market": "Italy; international and domestic itineraries to/from Naples",
+    "signal_type": "Planned full airport closure for infrastructure works",
+    "event_date": "2026-11-01",
+    "publication_date": "2026-10-29",
+    "observation_date": "2026-11-23",
+    "organisations": [
+      "GESAC",
+      "EUROCONTROL"
+    ],
+    "entity_roles": [],
+    "primary_sources": [
+      {
+        "title": "Naples Airport: November closure",
+        "publisher": "GESAC / Napoli Salerno Airports",
+        "url": "https://www.aeroportodinapoli.it/documents/d/gesac/press_release_naples_airport_closure_november_2026_eng-pdf?download=true",
+        "publication_date": "2026-10-29",
+        "accessed_date": "2026-11-23",
+        "notes": "Airport operator confirms closure throughout November and transfer of some flights to Salerno Costa d’Amalfi Airport."
+      },
+      {
+        "title": "Public Airport Corner — Events",
+        "publisher": "EUROCONTROL",
+        "url": "https://ext.eurocontrol.int/airport_corner_public/events/",
+        "publication_date": null,
+        "accessed_date": "2026-11-23",
+        "notes": "Operational event register lists Naples closure 1–30 November for runway and taxiway works."
+      }
+    ],
+    "evidence_summary": "GESAC announced Naples Airport would be closed to air traffic throughout November 2026 for major runway and taxiway refurbishment. Some flights are transferred to Salerno Costa d’Amalfi Airport, which is scheduled to serve 15 domestic and international destinations during the closure. EUROCONTROL's event register independently lists the closure from 1 to 30 November.",
+    "verified_facts": [
+      "GESAC announced full air-traffic closure throughout November 2026.",
+      "The works include runway and taxiway refurbishment and replacement/modernisation of airfield ground lighting.",
+      "GESAC states some flights are transferred to Salerno Costa d’Amalfi Airport, with 15 domestic and international destinations.",
+      "EUROCONTROL lists the closure period as 1–30 November 2026."
+    ],
+    "unestablished_claims": [
+      "That all passengers are disrupted; some services are transferred to Salerno.",
+      "That the airport closure itself triggers travel-insurance benefits.",
+      "Any UAE-linked policyholder, claim or insured loss."
+    ],
+    "competing_hypotheses": [
+      "Passengers booked to Naples may face airport substitution, additional ground transfer time/cost or itinerary changes.",
+      "Advance notice and re-accommodation may absorb much of the passenger impact."
+    ],
+    "operational_implications": [
+      "For each booking, verify the operating airport, replacement airport, airline notice, rebooking/refund and ground-transfer arrangements.",
+      "Capture additional transfer expense and assess whether it is recoverable from airline or supplier before considering insurance."
+    ],
+    "commercial_implications": [
+      "Useful case for examining whether travel products and assistance services account for airport substitution and onward ground transport, rather than treating airport closure as a generic delay."
+    ],
+    "workforce_implications": [
+      "Claims and assistance teams should distinguish the documented travel/aviation event from passenger-specific disruption, recoveries and insured loss."
+    ],
+    "technology_implications": [
+      "Monitor official notices and operator updates, then match them to individual itineraries before assessing insurance exposure."
+    ],
+    "confidence_level": "High",
+    "evidence_status": "Partially Verified",
+    "follow_up_indicators": [
+      "GESAC post-closure completion statement and any extension.",
+      "Airline-specific rerouting and passenger-care arrangements.",
+      "Evidence of passenger additional transfer costs and any insurer/assistance response."
+    ],
+    "evidence_gaps": [
+      "No individual passenger itinerary, policyholder, claim or insured loss is linked to the closure.",
+      "No evidence yet of the number of UAE-origin travellers affected."
+    ],
+    "next_research_question": "Did airport substitution to Salerno create unrecovered passenger transfer costs or missed connections on itineraries insured by UAE or international travel policies?",
+    "research_decision": "Continue Research",
+    "record_status": "under_review"
+  },
+  {
+    "signal_id": "SIGNAL-008",
+    "title": "INT-002 — Chiang Mai flight schedule changes for Yi Peng / Loy Krathong sky-lantern activity",
+    "domain": "TRAVEL",
+    "subdomain": "AVIATION_SAFETY_AND_SCHEDULE_RESTRICTIONS",
+    "market": "Thailand; Chiang Mai and Lamphun provinces",
+    "signal_type": "Temporary aviation operating restrictions due to unpredictable sky-lantern releases",
+    "event_date": "2026-11-24",
+    "publication_date": "2026-07-23",
+    "observation_date": "2026-11-23",
+    "organisations": [
+      "Civil Aviation Authority of Thailand",
+      "Airports of Thailand"
+    ],
+    "entity_roles": [],
+    "primary_sources": [
+      {
+        "title": "AIP Supplement A 27/26 — Warning of Sky Lantern Activity in Chiang Mai Province",
+        "publisher": "Civil Aviation Authority of Thailand",
+        "url": "https://aip.caat.or.th/2026-11-24/html/eSUP/VT-eSUP-26-27-A-en-GB.html",
+        "publication_date": "2026-07-23",
+        "accessed_date": "2026-11-23",
+        "notes": "Official aeronautical supplement gives affected dates, UTC periods and safety rationale."
+      },
+      {
+        "title": "Chiang Mai airport flights cancelled and retimed for Yi Peng",
+        "publisher": "Airspace Times",
+        "url": "https://airspacetimes.com/en/disruptions/chiang-mai-airport-flights-cancelled-and-retimed-for-yi-peng-sky-lanterns-2026-11-24/",
+        "publication_date": "2026-11-22",
+        "accessed_date": "2026-11-23",
+        "notes": "Secondary operational roundup reports AOT figures as of 10 November: 62 cancelled, 90 retimed and 57 added flights."
+      }
+    ],
+    "evidence_summary": "CAAT's AIP Supplement A 27/26 warns of sky-lantern releases in Chiang Mai and Lamphun and specifies periods affecting Chiang Mai Airport on 24–25 November. The supplement explains that lantern height and drift are unpredictable and may affect aircraft operations. Secondary reporting attributes schedule adjustments to the festival and reports AOT figures of 62 cancelled, 90 retimed and 57 additional flights as of 10 November; these counts should remain attributed to AOT reporting, not treated as a CAAT statistic.",
+    "verified_facts": [
+      "CAAT AIP Supplement A 27/26 is effective 24–25 November 2026.",
+      "The supplement identifies Chiang Mai Airport and gives restricted activity periods: 24 November 0300–0500 UTC and 1200–1800 UTC; 25 November 1200–1800 UTC.",
+      "CAAT says lantern drift and height are unpredictable and may affect aircraft operations.",
+      "Secondary reporting cites AOT figures as of 10 November: 62 cancellations, 90 retimings and 57 additional flights at Chiang Mai."
+    ],
+    "unestablished_claims": [
+      "That every flight at Chiang Mai is cancelled or delayed.",
+      "That all schedule changes were caused solely by the lantern activity without checking individual airline notices.",
+      "Any insured passenger count, claim or loss."
+    ],
+    "competing_hypotheses": [
+      "Airlines may have pre-adjusted schedules, limiting disruption on the day.",
+      "Passengers may face rescheduling, missed connections or extra accommodation if schedule changes are late or onward travel is separate-ticketed."
+    ],
+    "operational_implications": [
+      "Verify airline-specific schedule changes and actual flight movement before attributing an individual disruption to the festival.",
+      "For affected passengers, retain original and revised itinerary, notice timing, actual times and any extra expenses."
+    ],
+    "commercial_implications": [
+      "A useful seasonal-risk case for travel assistance monitoring around festivals and local aviation-safety restrictions; not evidence of a claims spike."
+    ],
+    "workforce_implications": [
+      "Claims and assistance teams should distinguish the documented travel/aviation event from passenger-specific disruption, recoveries and insured loss."
+    ],
+    "technology_implications": [
+      "Monitor official notices and operator updates, then match them to individual itineraries before assessing insurance exposure."
+    ],
+    "confidence_level": "High",
+    "evidence_status": "Partially Verified",
+    "follow_up_indicators": [
+      "AOT post-event operational summary and final cancellation/retiming counts.",
+      "Airline-specific notices and final flight movements for 24–25 November.",
+      "Passenger-level evidence of additional costs and insurer response."
+    ],
+    "evidence_gaps": [
+      "No final realised flight movement data is available at observation time.",
+      "No passenger-level UAE or international policyholder/claim data is established."
+    ],
+    "next_research_question": "How many actual flight changes occurred during the CAAT restriction windows, and did any passenger incur unrecovered expenses after airline rebooking?",
+    "research_decision": "Monitor",
+    "record_status": "under_review"
+  },
+  {
+    "signal_id": "SIGNAL-009",
+    "title": "INT-003 — Pakistan extends airspace restriction on Indian aircraft through 24 December",
+    "domain": "TRAVEL",
+    "subdomain": "AIRSPACE_RESTRICTION_AND_REROUTING",
+    "market": "South Asia; India–Europe, Middle East and Central Asia corridors",
+    "signal_type": "Bilateral airspace restriction requiring alternative routings",
+    "event_date": "2026-11-19",
+    "publication_date": "2026-11-19",
+    "observation_date": "2026-11-23",
+    "organisations": [
+      "Pakistan Airports Authority"
+    ],
+    "entity_roles": [],
+    "primary_sources": [
+      {
+        "title": "Pakistan extends airspace ban on Indian aircraft",
+        "publisher": "The Express Tribune",
+        "url": "https://tribune.com.pk/story/2641285/pakistan-extends-airspace-ban-on-indian-aircraft?amp=1",
+        "publication_date": "2026-11-20",
+        "accessed_date": "2026-11-23",
+        "notes": "Reports the Pakistan Airports Authority NOTAM extension through 24 December at 04:59."
+      },
+      {
+        "title": "Indian aircraft barred from Pakistani airspace until Dec 24",
+        "publisher": "Business Recorder",
+        "url": "https://www.brecorder.com/news/40449738",
+        "publication_date": "2026-11-19",
+        "accessed_date": "2026-11-23",
+        "notes": "Reports scope covering Indian-registered aircraft and aircraft owned, operated or leased by Indian airlines."
+      }
+    ],
+    "evidence_summary": "Pakistan extended its restriction on Indian-registered aircraft and aircraft owned, operated or leased by Indian airlines using Pakistani airspace until 04:59 on 24 December 2026, according to reporting of a Pakistan Airports Authority NOTAM. The restriction can require affected operators to use alternative routings. Public reporting describes longer flight times and additional fuel costs, but this record does not quantify passenger-level delays or insured losses.",
+    "verified_facts": [
+      "Pakistan Airports Authority issued a NOTAM extending the restriction until 04:59 on 24 December 2026, as reported on 19–20 November.",
+      "The reported scope covers Indian-registered aircraft and aircraft owned, operated or leased by Indian airlines.",
+      "The restriction is a continuation of an existing measure, not a newly imposed closure on 23 November."
+    ],
+    "unestablished_claims": [
+      "That every India–Europe or India–Middle East flight is delayed; route and operator determine exposure.",
+      "That any passenger delay reaches a travel-policy threshold.",
+      "Any UAE-issued policyholder count, claims or insured loss."
+    ],
+    "competing_hypotheses": [
+      "Longer routings may increase block time and create connection pressure on selected services.",
+      "Airlines may adjust schedules in advance, absorbing some of the effect without passenger-facing delay.",
+      "Alternative routings may increase airline operating costs without creating a passenger insurance claim."
+    ],
+    "operational_implications": [
+      "Identify affected airline and route before attributing a delay to the restriction.",
+      "Compare scheduled and actual arrival times, connection protection and any passenger expenses.",
+      "Separate airline fuel/operating cost from insured passenger loss."
+    ],
+    "commercial_implications": [
+      "A cross-border airspace restriction can create systemic route-cost and schedule exposure across corridors connecting South Asia with Europe and the Middle East; passenger insurance impact remains conditional."
+    ],
+    "workforce_implications": [
+      "Claims and assistance teams should distinguish the documented travel/aviation event from passenger-specific disruption, recoveries and insured loss."
+    ],
+    "technology_implications": [
+      "Monitor official notices and operator updates, then match them to individual itineraries before assessing insurance exposure."
+    ],
+    "confidence_level": "Medium",
+    "evidence_status": "Partially Verified",
+    "follow_up_indicators": [
+      "Official NOTAM text and any subsequent extension or amendment.",
+      "Flight tracking evidence for selected affected routes and schedule changes.",
+      "Any airline notice attributing a specific delay to rerouting.",
+      "Policy-specific delay threshold and missed-connection terms."
+    ],
+    "evidence_gaps": [
+      "The full NOTAM text was not directly retrieved in this research pass; current record relies on two reports quoting the Pakistan Airports Authority notice.",
+      "No flight-level or passenger-level outcome has been verified."
+    ],
+    "next_research_question": "Which high-volume India–Europe and India–Gulf routes show measurable schedule extension attributable to the restriction, and do any passenger itineraries cross policy delay thresholds?",
+    "research_decision": "Monitor",
+    "record_status": "under_review"
+  },
+  {
+    "signal_id": "SIGNAL-010",
+    "title": "INT-004 — Plus Ultra route suspensions and reported cessation risk",
+    "domain": "TRAVEL",
+    "subdomain": "AIRLINE_FINANCIAL_DISTRESS_AND_ROUTE_SUSPENSION",
+    "market": "Spain and Latin America; Madrid–Lima, Buenos Aires, Bogotá, Montevideo and Caracas routes",
+    "signal_type": "Airline financial distress / route suspension / potential cessation",
+    "event_date": "2026-11-13",
+    "publication_date": "2026-11-23",
+    "observation_date": "2026-11-23",
+    "organisations": [
+      "Plus Ultra Líneas Aéreas",
+      "Peru consumer regulator Indecopi"
+    ],
+    "entity_roles": [],
+    "primary_sources": [
+      {
+        "title": "Plus Ultra seeks creditor protection and drops most routes",
+        "publisher": "Airspace Times",
+        "url": "https://airspacetimes.com/en/disruptions/plus-ultra-seeks-creditor-protection-and-drops-most-routes-2026-11-13/",
+        "publication_date": "2026-11-13",
+        "accessed_date": "2026-11-23",
+        "notes": "Secondary tracker summarises route suspensions and conflicting reports; explicitly notes no formal cessation confirmation from the airline."
+      }
+    ],
+    "evidence_summary": "Plus Ultra has suspended multiple routes, including Lima–Madrid and Buenos Aires–Madrid from 17 November, while other Latin American routes were already suspended. As of 23 November, the airline's formal cessation had not been conclusively confirmed; reports of staff being told not to report and aircraft returning to base remain press-reported. The airline's website reportedly stopped selling tickets. This is a watchlist signal for airline financial distress and passenger disruption, not a confirmed insolvency or total shutdown.",
+    "verified_facts": [
+      "Secondary tracking reports Lima–Madrid and Buenos Aires–Madrid suspensions from 17 November with no confirmed resumption date.",
+      "The tracker reports that ticket sales were unavailable on the airline website as of 23 November.",
+      "As of the latest update, formal cessation of operations had not been confirmed by the airline."
+    ],
+    "unestablished_claims": [
+      "That Plus Ultra has legally ceased operations or entered formal insolvency proceedings.",
+      "That all passengers have lost their bookings or refunds.",
+      "That a particular passenger's travel insurance covers airline insolvency or supplier failure."
+    ],
+    "competing_hypotheses": [
+      "Passengers may need refunds, chargeback, alternative transport or assistance if flights are cancelled.",
+      "If the airline ceases operations, stranded passengers and refund delays may increase.",
+      "Travel insurance supplier-failure protection may vary substantially by policy and payment method."
+    ],
+    "operational_implications": [
+      "Verify formal airline, court or regulator announcements before describing cessation as fact.",
+      "Identify whether tickets were purchased directly, through an agent or by card and what refund/chargeback options apply.",
+      "Check whether policy includes Scheduled Airline Failure / End Supplier Failure and whether the carrier qualifies."
+    ],
+    "commercial_implications": [
+      "Potential stress test for airline insolvency and supplier-failure benefits, distinct from ordinary flight delay or cancellation.",
+      "No evidence yet of UAE market exposure or insured loss."
+    ],
+    "workforce_implications": [
+      "Claims and assistance teams should distinguish the documented travel/aviation event from passenger-specific disruption, recoveries and insured loss."
+    ],
+    "technology_implications": [
+      "Monitor official notices and operator updates, then match them to individual itineraries before assessing insurance exposure."
+    ],
+    "confidence_level": "Medium",
+    "evidence_status": "Partially Verified",
+    "follow_up_indicators": [
+      "Formal statement from Plus Ultra and Spanish aviation/insolvency authorities.",
+      "Peru Indecopi investigation and passenger-protection actions.",
+      "Route-level passenger numbers, refunds, alternative transport and assistance.",
+      "Complete policy wording for airline failure / end supplier failure."
+    ],
+    "evidence_gaps": [
+      "Formal cessation and legal status not established.",
+      "No verified passenger count, UAE/GCC policyholder, claim or paid loss."
+    ],
+    "next_research_question": "Has Plus Ultra formally ceased or entered insolvency, and what passenger-protection/refund pathways apply to affected international travellers?",
+    "research_decision": "Continue Research",
+    "record_status": "under_review"
   }
 ]
