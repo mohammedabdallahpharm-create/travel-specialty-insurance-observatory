@@ -21,7 +21,7 @@ function renderSignals(){
   technology:"التأثيرات التقنية",gaps:"فجوات الأدلة",followup:"مؤشرات المتابعة",
   entities:"علاقات الجهات",decision:"قرار البحث",next:"سؤال البحث التالي",
   sources:"مصادر الأدلة",noData:"لا توجد بيانات مسجلة",open:"افتح التحقيق",
-  market:"السوق / نطاق الحدث"
+  market:"السوق / نطاق الحدث",uaeMarket:"الآثار على سوق تأمين السفر في الإمارات",exposurePathway:"مسار التعرض",marketExposure:"نطاق التعرض في السوق",affectedPolicyholders:"حملة الوثائق المتأثرون",insuranceImpact:"الأثر التأميني",claimsImpact:"أثر المطالبات",insurerImpact:"أثر شركات التأمين",eventLink:"العلاقة بين الحدث والسوق",claimsEvidence:"أدلة المطالبات والخسائر",nextEvidence:"الأدلة المطلوبة لاحقاً",summary:"الخلاصة",direct:"مباشر",indirect:"غير مباشر",notEstablished:"غير مثبت"
  }:{
   event:"EVENT DATE",published:"PUBLICATION DATE",observed:"OBSERVATION DATE",confidence:"CONFIDENCE",
   facts:"VERIFIED FACTS",unknowns:"NOT ESTABLISHED",hypotheses:"COMPETING HYPOTHESES",
@@ -29,10 +29,17 @@ function renderSignals(){
   technology:"TECHNOLOGY IMPLICATIONS",gaps:"EVIDENCE GAPS",followup:"FOLLOW-UP INDICATORS",
   entities:"ENTITY RELATIONSHIPS",decision:"RESEARCH DECISION",next:"NEXT RESEARCH QUESTION",
   sources:"SOURCE TRAIL",noData:"No information recorded",open:"OPEN INVESTIGATION",
-  market:"MARKET / EVENT SCOPE"
+  market:"MARKET / EVENT SCOPE",uaeMarket:"UAE TRAVEL INSURANCE MARKET IMPLICATIONS",exposurePathway:"Exposure pathway",marketExposure:"Market exposure",affectedPolicyholders:"Affected policyholders",insuranceImpact:"Insurance impact",claimsImpact:"Claims impact",insurerImpact:"Insurer impact",eventLink:"Event-to-market link",claimsEvidence:"Claims and loss evidence",nextEvidence:"Next evidence",summary:"Summary",direct:"Direct",indirect:"Indirect",notEstablished:"Not established"
  };
  const asList=values=>(values&&values.length)?'<ul>'+values.map(x=>"<li>"+escapeHtml(x)+"</li>").join("")+"</ul>":'<p class="signal-empty-value">'+labels.noData+"</p>";
  const block=(title,values)=>'<section class="signal-analysis-block"><b>'+title+'</b>'+asList(values)+'</section>';
+ const marketValue=(value)=>'<p>'+escapeHtml(value||labels.noData)+'</p>';
+ const marketBlock=(s)=>{
+  const m=s.uae_market_implications;if(!m)return "";
+  const pathway=m.exposure_pathway==="direct"?labels.direct:m.exposure_pathway==="indirect"?labels.indirect:labels.notEstablished;
+  const fields=[[labels.marketExposure,m.market_exposure],[labels.affectedPolicyholders,m.affected_policyholders],[labels.insuranceImpact,m.insurance_impact],[labels.claimsImpact,m.claims_impact],[labels.insurerImpact,m.insurer_impact],[labels.eventLink,m.event_to_market_link],[labels.claimsEvidence,m.claims_and_loss_evidence],[labels.nextEvidence,m.next_evidence],[labels.summary,m.summary]];
+  return '<section class="uae-market-implications"><h4>'+labels.uaeMarket+'</h4><div class="uae-market-pathway"><b>'+labels.exposurePathway+'</b><span>'+pathway+'</span></div><div class="uae-market-grid">'+fields.map(([label,value])=>'<div class="uae-market-field"><b>'+label+'</b>'+marketValue(value)+'</div>').join("")+'</div></section>';
+ };
  list.innerHTML=items.map(s=>{
   const status=s.evidence_status||"Under review";
   const statusClass=status==="Verified"?"verified":status==="Partially Verified"?"partial":status==="Hypothesis"?"hypothesis":status==="Historical"?"historical":status==="Disputed"?"disputed":"unverified";
@@ -53,7 +60,7 @@ function renderSignals(){
    block(labels.commercial,s.commercial_implications)+block(labels.workforce,s.workforce_implications)+
    block(labels.technology,s.technology_implications)+block(labels.gaps,s.evidence_gaps)+
    block(labels.followup,s.follow_up_indicators)+
-   '</div><div class="investigation-columns"><section><b>'+labels.entities+'</b>'+asList(relationItems)+'</section><section><b>'+labels.decision+'</b><p>'+escapeHtml(s.research_decision||s.record_status||labels.noData)+'</p></section></div>'+
+   '</div>'+marketBlock(s)+'<div class="investigation-columns"><section><b>'+labels.entities+'</b>'+asList(relationItems)+'</section><section><b>'+labels.decision+'</b><p>'+escapeHtml(s.research_decision||s.record_status||labels.noData)+'</p></section></div>'+
    (s.next_research_question?'<div class="signal-next-question"><b>'+labels.next+'</b><p>'+escapeHtml(s.next_research_question)+'</p></div>':"")+
    '<div class="signal-source-row"><b>'+labels.sources+'</b><ul class="signal-source-list">'+(sources||'<li>'+labels.noData+'</li>')+'</ul></div></div></details></article>';
  }).join("");
