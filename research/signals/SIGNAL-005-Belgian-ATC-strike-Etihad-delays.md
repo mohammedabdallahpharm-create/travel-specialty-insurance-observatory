@@ -30,3 +30,29 @@ Final flight times, missed connections, passenger expenses, UAE policyholders, c
 - Etihad Airways, [Flight Status and latest travel updates](https://www.etihad.com/en-us/manage/flight-status), accessed 23 Nov 2026.
 
 **Next question:** Did the confirmed UAE–Brussels delays result in unrecovered passenger expense meeting a specific policy trigger?
+
+## UAE Travel Insurance Market Implications
+
+**Exposure pathway:** Direct  
+**Event-to-market link:** Potential direct route/regulatory link  
+**Claims / insured-loss evidence:** Unproven
+
+### Market exposure
+Etihad confirms disruption to EY057 Abu Dhabi–Brussels and the return EY058 due to Brussels ATC industrial action, creating a documented UAE-origin carrier connection.
+
+### Affected policyholders
+Potential UAE-based travellers on EY057/EY058 and connecting journeys affected by the final operating times.
+
+### Insurance impact
+Compare actual delay duration with policy thresholds (which vary by product), industrial-action definitions, pre-existing/announced-event exclusions and missed-connection benefits. Airline passenger-care and rebooking duties are separate from insurance.
+
+### Claims impact
+Potential delay benefit, missed connection, extra accommodation, meals or transport if the policy trigger is met and costs remain unrecovered. Final delay duration and claimant-level loss are not established.
+
+### Insurer impact
+Potential short-term assistance contacts and evidence review; no claims volume or insurer loss is known.
+
+### Evidence required next
+Final actual departure/arrival times; airline letters stating cause; onward itinerary and connection buffer; receipts and support/refunds; applicable policy schedule.
+
+**Assessment:** Direct UAE-carrier route link verified; insured impact depends on final delay and passenger-level evidence.
