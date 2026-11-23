@@ -33,3 +33,29 @@ No affected UAE policyholder count, claims, paid losses, or policy-specific cove
 - WAM, [GCAA suspension of Iranian airlines' flights to/from UAE](https://www.wam.ae/en/article/c2epfv7-general-civil-aviation-authority-announces), 24 Sep 2026.
 
 **Next question:** Which UAE-linked itineraries were actually disrupted, and what unrecovered passenger expense remains after airline remedies?
+
+## UAE Travel Insurance Market Implications
+
+**Exposure pathway:** Direct  
+**Event-to-market link:** Potential direct route/regulatory link  
+**Claims / insured-loss evidence:** Unproven
+
+### Market exposure
+The EASA advisory covers specified Gulf FIR/maritime airspace and Etihad confirms cancellations on Abu Dhabi–Riyadh and Abu Dhabi–Dammam through 30 November. This creates a direct UAE-origin route and regional-risk connection.
+
+### Affected policyholders
+Potential UAE residents and visitors holding policies for affected Abu Dhabi–Saudi journeys, connecting itineraries or trips routed through exposed Gulf airspace.
+
+### Insurance impact
+Review cancellation, delay, missed-connection and additional-expense benefits alongside war/hostilities, government/authority action, known-event and airspace-closure clauses. EASA's advisory is not a blanket closure of all Gulf airspace.
+
+### Claims impact
+Potential rebooking, accommodation, meals, ground transport or trip interruption. Airline refunds/re-routing and assistance may reduce residual expense; no UAE claims or paid loss is verified.
+
+### Insurer impact
+Potential assistance escalation and customer enquiries around route safety, exclusions and alternative routing; market-wide demand or loss is not measured.
+
+### Evidence required next
+Flight-number movement and cancellation data; passenger origin/destination and policy purchase dates; full current UAE policy wording; passenger expense net of airline remedies.
+
+**Assessment:** A direct regional UAE route exposure exists; coverage and claims outcomes remain policy- and itinerary-specific.
