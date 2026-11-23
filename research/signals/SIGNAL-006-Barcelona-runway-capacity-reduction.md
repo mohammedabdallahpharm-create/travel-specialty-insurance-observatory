@@ -33,3 +33,29 @@ No flight-level disruption count attributable to the works, UAE-linked passenger
 - Aena, [Barcelona–El Prat runway works announcement](https://www.aena.es/es/prensa/aena-comienza-la-construccion-de-la-nueva-salida-rapida-de-la-pista-02/20---del-aeropuerto-josep-tarradellas-barcelona-el-prat.html), 18 Sep 2026; accessed 23 Nov 2026.
 
 **Next question:** Did the planned capacity reduction produce measurable disruption on UAE-linked itineraries, or was the impact absorbed by advance scheduling?
+
+## UAE Travel Insurance Market Implications
+
+**Exposure pathway:** Indirect  
+**Event-to-market link:** Potential indirect itinerary link  
+**Claims / insured-loss evidence:** Unproven
+
+### Market exposure
+Barcelona's planned runway-capacity reduction may affect UAE residents travelling to/from Barcelona or connecting through the airport. Advance schedule adjustment was announced, so operational impact cannot be assumed.
+
+### Affected policyholders
+Potential UAE policyholders with itineraries involving Barcelona during 16–26 November, especially passengers whose schedules changed or connections were disrupted.
+
+### Insurance impact
+Review delay, cancellation and missed-connection benefits only after confirming actual flight-level disruption. Planned works known before booking or policy inception may interact with known-event and foreseeability clauses.
+
+### Claims impact
+Potential delay, missed connection or extra accommodation/transport, but no attributable UAE-linked flight disruption or claim is recorded.
+
+### Insurer impact
+Potential low-level monitoring/customer-information requirement; no market-wide impact or claims surge is evidenced.
+
+### Evidence required next
+Post-26 November Aena update; flight-level actual versus scheduled movements; UAE-linked itinerary evidence; passenger expenses and policy purchase dates.
+
+**Assessment:** Indirect UAE policyholder exposure through destination/connection itineraries; planned capacity reduction is not itself an insured loss.
