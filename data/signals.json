@@ -267,5 +267,275 @@
     "next_research_question": "Did the GCAA safety decision or associated GPS interference produce a documented operational restriction affecting a specific passenger itinerary, and only if so, which current policy terms could become relevant?",
     "research_decision": "Continue Research",
     "record_status": "under_review"
+  },
+  {
+    "signal_id": "SIGNAL-004",
+    "title": "GCC-001 — EASA extends conflict-zone advisory across Gulf maritime airspace; UAE–Saudi route suspensions persist",
+    "domain": "TRAVEL",
+    "subdomain": "AIRSPACE_RISK_AND_ROUTE_DISRUPTION",
+    "market": "Gulf region; UAE-origin and UAE-transit exposure",
+    "signal_type": "Conflict-zone aviation risk advisory and sustained airline route cancellations",
+    "event_date": "2026-11-16",
+    "publication_date": "2026-11-16",
+    "observation_date": "2026-11-23",
+    "organisations": [
+      "European Union Aviation Safety Agency (EASA)",
+      "Etihad Airways",
+      "General Civil Aviation Authority (UAE)"
+    ],
+    "entity_roles": [],
+    "primary_sources": [
+      {
+        "title": "Airspace of the Persian Gulf and Gulf of Oman — CZIB-2026-07R4",
+        "publisher": "European Union Aviation Safety Agency",
+        "url": "https://www.easa.europa.eu/en/domains/air-operations/czibs/czib-2026-07r4",
+        "publication_date": "2026-11-16",
+        "accessed_date": "2026-11-23",
+        "notes": "Official conflict-zone bulletin revision; validity extended to 31 January 2027. It recommends restrictions for applicable operators, not a blanket closure of all Gulf airspace."
+      },
+      {
+        "title": "Flight Status Tracker — latest travel updates",
+        "publisher": "Etihad Airways",
+        "url": "https://www.etihad.com/en-us/manage/flight-status",
+        "publication_date": "2026-11-23",
+        "accessed_date": "2026-11-23",
+        "notes": "Airline's own current notice confirms all passenger and cargo flights Abu Dhabi–Riyadh and Abu Dhabi–Dammam cancelled through 30 November; other Abu Dhabi–Saudi flights stated to operate as scheduled."
+      },
+      {
+        "title": "General Civil Aviation Authority announces suspension of Iranian airlines’ flights to, from UAE",
+        "publisher": "Emirates News Agency (WAM)",
+        "url": "https://www.wam.ae/en/article/c2epfv7-general-civil-aviation-authority-announces",
+        "publication_date": "2026-09-24",
+        "accessed_date": "2026-11-23",
+        "notes": "Official report of GCAA suspension of flights operated by Iranian airlines to/from UAE effective 24 September until further notice; background indicator, not a new 23 November event."
+      }
+    ],
+    "evidence_summary": "EASA's 16 November revision extended its active conflict-zone bulletin for specified maritime airspace in the Persian Gulf and Gulf of Oman until 31 January 2027. The bulletin describes missile/drone, interception, falling-debris and escalation risks and recommends that applicable operators avoid specified over-water airspace, with caution and risk assessment over land. Separately, Etihad's live travel notice confirms Abu Dhabi–Riyadh and Abu Dhabi–Dammam passenger and cargo cancellations through 30 November. These facts establish an ongoing aviation-risk and route-disruption environment, but not insured passenger counts, claims or losses.",
+    "verified_facts": [
+      "EASA CZIB-2026-07R4 was revised on 16 November and extended until 31 January 2027 without changing its recommendations.",
+      "The bulletin covers Bahrain, Kuwait, Qatar, UAE and Oman FIRs, with specific recommendations concerning maritime airspace and caution over land territory.",
+      "EASA describes risks including missile and drone activity, air-defence operations, falling debris and rapidly evolving military activity.",
+      "Etihad's current notice states that all passenger and cargo flights between Abu Dhabi and Riyadh and between Abu Dhabi and Dammam are cancelled through 30 November 2026.",
+      "Etihad states that its other Abu Dhabi–Saudi Arabia flights continue to operate as scheduled, while warning that conditions remain dynamic.",
+      "GCAA's suspension of Iranian airline flights to/from the UAE was announced on 24 September 2026 and remains an independently relevant background restriction; it should not be misdated as a new event on 23 November."
+    ],
+    "unestablished_claims": [
+      "That every UAE flight or all Gulf airspace is closed or unsafe; the EASA bulletin has a defined scope and applicability.",
+      "That any specific UAE-issued travel-insurance policy covers or excludes a loss arising from these developments.",
+      "Any count of affected UAE policyholders, submitted claims, paid claims or insured losses.",
+      "That the Etihad cancellations alone establish a covered trip-cancellation or travel-delay claim."
+    ],
+    "competing_hypotheses": [
+      "Further airspace restrictions or route suspensions could increase rerouting, journey duration, missed-connection and stranded-passenger exposure.",
+      "Passengers may be assisted through airline rebooking or refunds, reducing some expenses that might otherwise be presented to insurers.",
+      "Known-event timing, policy purchase date, destination advice and war/hostilities exclusions may materially affect individual coverage outcomes."
+    ],
+    "operational_implications": [
+      "Track airspace notices, airline route advisories and actual flight movements separately; do not equate a conflict-zone advisory with a complete airspace closure.",
+      "For each potential case, capture itinerary, operating carrier, booking date, policy inception date, route, official disruption reason, rebooking/refund options and unrecovered receipts.",
+      "Separate airline refund/rebooking and assistance from any residual travel-insurance claim.",
+      "Review war, hostilities, government/authority action, travel-advisory, trip cancellation/interruption and delay wording in the exact policy version; do not make a blanket coverage conclusion.",
+      "Escalate itinerary changes and missed connections for case-by-case assessment, particularly where a traveller transits through a restricted or affected hub."
+    ],
+    "commercial_implications": [
+      "Potential pressure on travel-insurance assistance, customer communications and claims triage for UAE-origin and connecting itineraries.",
+      "Potential product-design and distribution opportunity around clearer pre-trip warnings, disruption support and policy explanation; no evidence yet of UAE market pricing changes or insurer losses.",
+      "Useful UAE/GCC stress-test signal for assessing route concentration, transit dependencies and accumulated exposure across connected itineraries."
+    ],
+    "workforce_implications": [
+      "Claims and assistance staff need to distinguish conflict-zone risk notices, route suspensions, individual flight cancellations and passenger-incurred loss.",
+      "Case handlers should verify the policy purchase and inception timeline against when the disruption became known."
+    ],
+    "technology_implications": [
+      "Monitor EASA CZIB revisions, GCAA notices and airline flight-status feeds as separate evidence sources, then match them to itinerary-level records before flagging insurance exposure."
+    ],
+    "confidence_level": "High",
+    "evidence_status": "Partially Verified",
+    "follow_up_indicators": [
+      "Subsequent EASA revisions or expiry/replacement of CZIB-2026-07R4.",
+      "Official GCAA, airport and airline notices confirming any additional UAE route restrictions or resumptions.",
+      "Route-level flight cancellation, diversion and delay data for UAE–Saudi and other Gulf-linked itineraries.",
+      "Current complete UAE travel-policy wording and schedules, including war, known-event, authority-action and delay provisions.",
+      "Any public UAE insurer or assistance-provider disclosure directly attributable to the disruption."
+    ],
+    "evidence_gaps": [
+      "No passenger-level UAE itinerary or policyholder evidence is linked to the recorded airline cancellations.",
+      "No UAE travel-insurance claim frequency, paid loss or reserve data is public in the sources reviewed.",
+      "No policy wording has been validated against an identified claimant's policy period and facts.",
+      "The effect of the EASA bulletin on each non-EASA carrier's actual routing must be verified independently."
+    ],
+    "next_research_question": "Which UAE-origin or UAE-transit itineraries have demonstrably been disrupted by the current Gulf security and route restrictions, and what unrecovered passenger expenses remain after airline remedies?",
+    "research_decision": "Continue Research",
+    "record_status": "under_review"
+  },
+  {
+    "signal_id": "SIGNAL-005",
+    "title": "EU-001 — Belgian air-traffic-control strike grounds Brussels flights and delays UAE–Brussels service",
+    "domain": "TRAVEL",
+    "subdomain": "FLIGHT_DELAY_AND_CANCELLATION",
+    "market": "Belgium event; direct UAE–Belgium route connection",
+    "signal_type": "Air navigation service industrial action / airport-wide flight cancellation",
+    "event_date": "2026-11-23",
+    "publication_date": "2026-11-23",
+    "observation_date": "2026-11-23",
+    "organisations": [
+      "Brussels Airport",
+      "skeyes",
+      "Etihad Airways",
+      "Lufthansa Group"
+    ],
+    "entity_roles": [],
+    "primary_sources": [
+      {
+        "title": "National strike on Monday 23 November — airport operations update",
+        "publisher": "Brussels Airport",
+        "url": "https://www.brusselsairport.be/en/airport-operations/operations",
+        "publication_date": "2026-11-23",
+        "accessed_date": "2026-11-23",
+        "notes": "Airport operator states all arriving and departing flights from 07:00 to 21:00 local time were to be cancelled; 24 November expected to be especially busy."
+      },
+      {
+        "title": "Flight Status Tracker — latest travel updates",
+        "publisher": "Etihad Airways",
+        "url": "https://www.etihad.com/en-us/manage/flight-status",
+        "publication_date": "2026-11-23",
+        "accessed_date": "2026-11-23",
+        "notes": "Etihad confirms EY057 Abu Dhabi–Brussels on 23 November delayed due to Brussels ATC industrial action and return EY058 also delayed."
+      }
+    ],
+    "evidence_summary": "Brussels Airport reported that a national demonstration involving some skeyes air-traffic-control staff would disrupt operations on 23 November, with all arriving and departing flights from 07:00 to 21:00 local time cancelled. Etihad's own flight-status notice independently links the industrial action to a delay of EY057 from Abu Dhabi to Brussels and the corresponding EY058 return. This creates a directly evidenced UAE-linked passenger disruption, although the number of affected insured travellers and any insurance claims remain unknown.",
+    "verified_facts": [
+      "Brussels Airport identified participation by some skeyes air-traffic-control staff in the national demonstration on 23 November.",
+      "Brussels Airport stated all arriving and departing flights from 07:00 to 21:00 local time would be cancelled.",
+      "Brussels Airport warned that 24 November would be especially busy following the disruption.",
+      "Etihad's flight-status notice states EY057 Abu Dhabi–Brussels on 23 November was delayed due to Brussels ATC industrial action.",
+      "Etihad states the corresponding return flight EY058 on 23 November would also be delayed."
+    ],
+    "unestablished_claims": [
+      "The exact delay duration or final arrival/departure times for EY057 and EY058.",
+      "Whether passengers missed onward connections, incurred additional accommodation/transport costs or received airline assistance.",
+      "Whether any affected passenger held a UAE-issued travel-insurance policy or submitted a claim.",
+      "Whether any specific policy's delay or missed-connection benefit is triggered by the actual delay duration and facts."
+    ],
+    "competing_hypotheses": [
+      "Some passengers may experience missed connections or additional accommodation and transport costs, especially where onward travel is separately ticketed.",
+      "Airline rebooking or other assistance may resolve some passenger costs before an insurance claim arises.",
+      "Disruption may continue into 24 November through passenger backlogs even after the industrial action ends."
+    ],
+    "operational_implications": [
+      "Preserve airline delay confirmation and actual scheduled/actual times for each affected passenger.",
+      "Check whether the itinerary is on one ticket or separate tickets and identify the operating carrier for every segment.",
+      "Document missed connections, extra accommodation, meals and ground transport, while deducting airline-provided assistance and refunds.",
+      "Compare actual delay duration with the exact policy's travel-delay and missed-connection triggers; do not infer a benefit from the strike announcement alone.",
+      "Distinguish ATC industrial action from an airline's own employee strike when reviewing contractual and policy wording."
+    ],
+    "commercial_implications": [
+      "A concrete UAE–Europe route example for testing assistance response and travel-delay product wording against third-party ATC industrial action.",
+      "Potential demand for proactive disruption alerts and onward-connection support; no insured loss or claims volume is yet established."
+    ],
+    "workforce_implications": [
+      "Claims handlers need evidence of the actual delay, cause, itinerary structure and passenger expenses rather than relying only on airport-wide cancellation announcements.",
+      "Assistance teams may need to coordinate rebooking and accommodation support across the airline and separate-ticket providers."
+    ],
+    "technology_implications": [
+      "Join airport strike notices to airline flight-status updates and passenger itinerary data; trigger a missed-connection review only when the actual itinerary and times support it."
+    ],
+    "confidence_level": "High",
+    "evidence_status": "Partially Verified",
+    "follow_up_indicators": [
+      "Final arrival/departure times and operational outcome for Etihad EY057/EY058 on 23 November.",
+      "Brussels Airport and skeyes post-event operational recovery update and 24 November backlog.",
+      "Etihad passenger rebooking, refund or care arrangements for affected bookings.",
+      "Any public claim or assistance disclosure linked to the event.",
+      "Relevant UAE policy delay and missed-connection clauses and waiting-period thresholds."
+    ],
+    "evidence_gaps": [
+      "Final delay duration and actual flight movement data were not captured in this record.",
+      "No passenger-level missed-connection or additional-expense evidence is available.",
+      "No affected UAE policyholder count or insurance claim/payment data is established."
+    ],
+    "next_research_question": "What was the final delay and passenger-recovery outcome for EY057/EY058, and did any passenger incur an unrecovered expense that meets a specific UAE policy trigger?",
+    "research_decision": "Continue Research",
+    "record_status": "under_review"
+  },
+  {
+    "signal_id": "SIGNAL-006",
+    "title": "EU-002 — Planned Barcelona runway works reduce airport capacity by approximately 15%",
+    "domain": "TRAVEL",
+    "subdomain": "AIRPORT_CAPACITY_AND_SCHEDULE_DISRUPTION",
+    "market": "Spain event; international connecting and destination itineraries",
+    "signal_type": "Planned runway works / temporary airport capacity reduction",
+    "event_date": "2026-11-16",
+    "publication_date": "2026-09-18",
+    "observation_date": "2026-11-23",
+    "organisations": [
+      "Aena",
+      "Barcelona–El Prat Airport"
+    ],
+    "entity_roles": [],
+    "primary_sources": [
+      {
+        "title": "Aena begins construction of new rapid exit at runway 02/20 — Barcelona-El Prat",
+        "publisher": "Aena",
+        "url": "https://www.aena.es/es/prensa/aena-comienza-la-construccion-de-la-nueva-salida-rapida-de-la-pista-02/20---del-aeropuerto-josep-tarradellas-barcelona-el-prat.html",
+        "publication_date": "2026-09-18",
+        "accessed_date": "2026-11-23",
+        "notes": "Airport operator's advance notice says main operational impact runs 16–26 November; airport operates with one runway and 1,441 fewer slots, around 15%."
+      }
+    ],
+    "evidence_summary": "Aena announced in September that construction work at Barcelona–El Prat would create its main operational impact from 16 to 26 November 2026. During this period, two runways would be unavailable and the airport would operate with one runway; Aena forecast 1,441 fewer slots, approximately 15% of total capacity. Aena says airlines and slot coordinators had been informed and schedules adjusted in advance. This is a planned capacity constraint, not evidence of an unplanned airport shutdown or automatic passenger disruption.",
+    "verified_facts": [
+      "Aena announced the works on 18 September 2026.",
+      "The main operational impact period is 16–26 November 2026.",
+      "Aena stated Barcelona–El Prat would operate with one runway during the main impact period.",
+      "Aena forecast 1,441 fewer slots, approximately 15% of total slots, during the affected period.",
+      "Aena said airlines and slot coordinators had been informed in advance and schedules adjusted to available capacity.",
+      "Aena stated most other works would be concentrated at night and planned to minimise effects on normal operations."
+    ],
+    "unestablished_claims": [
+      "That all flights during the period are delayed or cancelled.",
+      "That the capacity reduction caused a specific UAE-origin or UAE-destination itinerary disruption.",
+      "That any passenger incurred an unrecovered expense or made a travel-insurance claim.",
+      "That the planned runway works constitute an insured event under any particular policy."
+    ],
+    "competing_hypotheses": [
+      "Advance schedule adjustment may absorb much of the capacity reduction, limiting passenger-facing disruption.",
+      "Residual delays or missed connections may still occur if actual operations, weather or schedule recovery differ from plan.",
+      "Passengers with tight connections or separate tickets may be more exposed than passengers on protected through-itineraries."
+    ],
+    "operational_implications": [
+      "Classify this as planned infrastructure work and reduced capacity, not an emergency closure.",
+      "Compare published schedule with actual flight movements and airline notices before attributing a delay or cancellation to the works.",
+      "For individual cases, capture itinerary structure, actual times, missed connections and unrecovered expenses after airline remedies.",
+      "Test any claim against the policy's covered delay causes, minimum waiting period and exclusions; do not assume planned works automatically qualify."
+    ],
+    "commercial_implications": [
+      "Useful test case for travel-insurance assistance providers and intermediaries to monitor planned airport-capacity constraints before departure.",
+      "Potential value in itinerary-risk alerts and connection-buffer guidance, but no current evidence of a claims spike, pricing change or insured loss."
+    ],
+    "workforce_implications": [
+      "Claims staff should distinguish a published capacity-management programme from a flight-specific operational disruption.",
+      "Customer-support teams can direct travellers to verify revised schedules and connection feasibility before travel."
+    ],
+    "technology_implications": [
+      "Combine airport works calendars and slot-capacity notices with airline schedule changes; flag only confirmed itinerary-level changes for assistance review."
+    ],
+    "confidence_level": "High",
+    "evidence_status": "Partially Verified",
+    "follow_up_indicators": [
+      "Aena operational update after 26 November confirming actual completion and operational impact.",
+      "Flight movement and cancellation data for Barcelona–El Prat from 16–26 November.",
+      "Airline notices linking any specific cancellation or delay to the runway works.",
+      "UAE-linked itineraries and any resulting missed connections or additional expenses.",
+      "Applicable policy wording for planned works, delay and missed connection."
+    ],
+    "evidence_gaps": [
+      "No actual flight-level disruption count attributable to the runway works is recorded.",
+      "No UAE-linked passenger itinerary, policyholder, claim or insured loss is established.",
+      "Forecast slot reduction is not equivalent to realised cancellations or passenger delay."
+    ],
+    "next_research_question": "Did the planned 15% slot reduction produce measurable passenger disruption on UAE-linked itineraries, or was the impact largely absorbed through advance schedule planning?",
+    "research_decision": "Monitor",
+    "record_status": "under_review"
   }
 ]
