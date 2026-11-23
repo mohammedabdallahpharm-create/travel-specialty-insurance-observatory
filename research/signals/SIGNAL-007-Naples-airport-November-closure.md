@@ -21,3 +21,29 @@ No UAE-linked passenger, policyholder, claim or insured loss.
 - EUROCONTROL, [Public Airport Corner — Events](https://ext.eurocontrol.int/airport_corner_public/events/), accessed 23 Nov 2026.
 
 **Next question:** Did airport substitution create unrecovered passenger transfer costs or missed connections?
+
+## UAE Travel Insurance Market Implications
+
+**Exposure pathway:** Indirect  
+**Event-to-market link:** Potential  
+**Claims / insured-loss evidence:** Unproven
+
+### Market exposure
+Naples Airport's closure and transfer of some services to Salerno may affect UAE residents travelling to the Naples area or connecting through affected services. No UAE route or passenger link is currently documented.
+
+### Affected policyholders
+Potential UAE residents with booked journeys to/from Naples or affected connections during November 2026.
+
+### Insurance impact
+Check cancellation, curtailment, delay, missed-connection and additional transport wording. Airport substitution/ground transfer may be handled by the carrier or travel supplier; policy response depends on the actual booking and expense.
+
+### Claims impact
+Potential extra ground transfer, accommodation, rebooking or missed-connection costs. No UAE policyholder, claim or insured loss is established.
+
+### Insurer impact
+Potential assistance enquiries about alternative airports and ground transport; no measured UAE insurer exposure.
+
+### Evidence required next
+Affected airline schedules and passenger notices; original and substitute airport itinerary; who pays transfer costs; passenger receipts and current policy wording.
+
+**Assessment:** Indirect destination-level exposure only; airport closure and transfer costs need itinerary-level validation.
