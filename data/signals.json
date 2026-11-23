@@ -88,7 +88,8 @@
       "next_evidence": "UAE-linked flight-number movement data for 13–15 November; airline confirmation of causal link; passenger itinerary and expenses; applicable policy wording.",
       "summary": "US aviation event; UAE exposure is not established. Treat as an international stress-test scenario, not a UAE market-loss signal.",
       "event_to_market_link": "Not established",
-      "claims_and_loss_evidence": "Unproven"
+      "claims_and_loss_evidence": "Unproven",
+      "exposure_pathway": "not_established"
     }
   },
   {
@@ -192,7 +193,8 @@
       "next_evidence": "Carrier-level care and recovery records; passenger-level expenses after airline/airport support; UAE insurer/TPA disclosures or claims data attributable to the event.",
       "summary": "Direct UAE aviation disruption is verified; insurance-market impact remains potential and unquantified.",
       "event_to_market_link": "Verified",
-      "claims_and_loss_evidence": "Unproven"
+      "claims_and_loss_evidence": "Unproven",
+      "exposure_pathway": "direct"
     }
   },
   {
@@ -298,7 +300,8 @@
       "next_evidence": "Subsequent GCAA/NOTAM notices, operator schedule changes, flight movement records and any passenger-specific expense.",
       "summary": "Direct UAE regulatory/aviation signal; passenger and insurance consequences remain unproven.",
       "event_to_market_link": "Potential",
-      "claims_and_loss_evidence": "Unproven"
+      "claims_and_loss_evidence": "Unproven",
+      "exposure_pathway": "direct"
     }
   },
   {
@@ -409,7 +412,8 @@
       "next_evidence": "Flight-number movement and cancellation data; passenger origin/destination and policy purchase dates; full current UAE policy wording; passenger expense net of airline remedies.",
       "summary": "A direct regional UAE route exposure exists; coverage and claims outcomes remain policy- and itinerary-specific.",
       "event_to_market_link": "Potential",
-      "claims_and_loss_evidence": "Unproven"
+      "claims_and_loss_evidence": "Unproven",
+      "exposure_pathway": "direct"
     }
   },
   {
@@ -510,7 +514,8 @@
       "next_evidence": "Final actual departure/arrival times; airline letters stating cause; onward itinerary and connection buffer; receipts and support/refunds; applicable policy schedule.",
       "summary": "Direct UAE-carrier route link verified; insured impact depends on final delay and passenger-level evidence.",
       "event_to_market_link": "Potential",
-      "claims_and_loss_evidence": "Unproven"
+      "claims_and_loss_evidence": "Unproven",
+      "exposure_pathway": "direct"
     }
   },
   {
@@ -601,7 +606,8 @@
       "next_evidence": "Post-26 November Aena update; flight-level actual versus scheduled movements; UAE-linked itinerary evidence; passenger expenses and policy purchase dates.",
       "summary": "Indirect UAE policyholder exposure through destination/connection itineraries; planned capacity reduction is not itself an insured loss.",
       "event_to_market_link": "Potential",
-      "claims_and_loss_evidence": "Unproven"
+      "claims_and_loss_evidence": "Unproven",
+      "exposure_pathway": "indirect"
     }
   },
   {
@@ -689,7 +695,8 @@
       "next_evidence": "Affected airline schedules and passenger notices; original and substitute airport itinerary; who pays transfer costs; passenger receipts and current policy wording.",
       "summary": "Indirect destination-level exposure only; airport closure and transfer costs need itinerary-level validation.",
       "event_to_market_link": "Potential",
-      "claims_and_loss_evidence": "Unproven"
+      "claims_and_loss_evidence": "Unproven",
+      "exposure_pathway": "indirect"
     }
   },
   {
@@ -777,7 +784,8 @@
       "next_evidence": "Post-event CAAT/AOT/airport operational results; flight-level actual movements; UAE-linked itineraries; expenses net of airline assistance.",
       "summary": "Indirect and near-term exposure; wait for post-event flight outcomes before judging passenger or insurance impact.",
       "event_to_market_link": "Potential",
-      "claims_and_loss_evidence": "Unproven"
+      "claims_and_loss_evidence": "Unproven",
+      "exposure_pathway": "indirect"
     }
   },
   {
@@ -866,7 +874,8 @@
       "next_evidence": "Primary PAA NOTAM; airline-specific route maps and schedule notices; actual flight-time comparison; UAE-linked passenger itineraries and expenses.",
       "summary": "Indirect, carrier-specific exposure with a primary-source gap; do not generalise the restriction to all UAE-linked flights.",
       "event_to_market_link": "Potential",
-      "claims_and_loss_evidence": "Unproven"
+      "claims_and_loss_evidence": "Unproven",
+      "exposure_pathway": "indirect"
     }
   },
   {
@@ -949,7 +958,8 @@
       "next_evidence": "Formal airline, regulator or court notice confirming legal/financial status; affected flight and ticket inventory; booking/payment channel; policy wording and alternative refund/chargeback remedies.",
       "summary": "Indirect supplier-failure watchpoint; route suspension is not proof of insolvency or an insured airline-failure event.",
       "event_to_market_link": "Potential",
-      "claims_and_loss_evidence": "Unproven"
+      "claims_and_loss_evidence": "Unproven",
+      "exposure_pathway": "indirect"
     }
   }
 ]
