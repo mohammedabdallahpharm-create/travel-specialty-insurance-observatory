@@ -78,7 +78,18 @@
     ],
     "next_research_question": "Can an official UAE-linked itinerary be shown to have been disrupted directly by the 13 November 2026 FAA ground stop, and if so, what passenger-specific unrecovered expense and current policy wording would need to be tested?",
     "research_decision": "Continue Research",
-    "record_status": "under_review"
+    "record_status": "under_review",
+    "uae_market_implications": {
+      "market_exposure": "The event occurred in the United States. A UAE-market link requires evidence of a UAE-origin, UAE-destination or UAE-policyholder itinerary affected by the ground stop or its recovery effects; none is currently recorded.",
+      "affected_policyholders": "Potentially UAE residents travelling on affected US domestic or connecting itineraries, but no UAE-linked passenger or policyholder is identified.",
+      "insurance_impact": "If a UAE-insured itinerary is evidenced, review flight delay, cancellation, missed connection and additional-expense benefits against the carrier's stated cause, policy purchase date, waiting period and authority-action wording. Do not infer that an ATC ground stop is automatically covered.",
+      "claims_impact": "Potential passenger-level delay, missed connection, accommodation, meals or rebooking expense. No UAE claim, payment or unrecovered expense is evidenced.",
+      "insurer_impact": "A potential cross-border assistance and claims-triage scenario; no UAE insurer exposure or operational burden is measured.",
+      "next_evidence": "UAE-linked flight-number movement data for 13–15 November; airline confirmation of causal link; passenger itinerary and expenses; applicable policy wording.",
+      "summary": "US aviation event; UAE exposure is not established. Treat as an international stress-test scenario, not a UAE market-loss signal.",
+      "event_to_market_link": "Not established",
+      "claims_and_loss_evidence": "Unproven"
+    }
   },
   {
     "signal_id": "SIGNAL-002",
@@ -171,7 +182,18 @@
     ],
     "next_research_question": "What passenger-care and recovery arrangements applied during the April 2024 Dubai disruption, and what individual expenses, if any, remained unrecovered and potentially relevant under the applicable policy wording?",
     "research_decision": "Continue Research",
-    "record_status": "under_review"
+    "record_status": "under_review",
+    "uae_market_implications": {
+      "market_exposure": "The disruption occurred at Dubai Airport and is directly located in the UAE travel market. Airport-level cancellations and diversions are verified, but the insured share of affected travellers is unknown.",
+      "affected_policyholders": "Potential UAE residents and inbound/outbound travellers holding travel policies that respond to cancellation, delay, diversion, interruption or additional expenses.",
+      "insurance_impact": "Relevant product sections may include trip cancellation/curtailment, travel delay, missed connection and emergency assistance. The applicable April 2024 wording and airline/airport passenger-welfare support must be considered before assessing residual loss.",
+      "claims_impact": "Additional accommodation, transport, meals, rebooking or missed-connection costs are plausible at passenger level. Airport statistics do not establish policyholder counts, claim frequency or paid losses.",
+      "insurer_impact": "A credible UAE operational stress test for assistance capacity, claims triage, documentation and coordination with airlines/airport support; no insurer-level loss or surge is quantified.",
+      "next_evidence": "Carrier-level care and recovery records; passenger-level expenses after airline/airport support; UAE insurer/TPA disclosures or claims data attributable to the event.",
+      "summary": "Direct UAE aviation disruption is verified; insurance-market impact remains potential and unquantified.",
+      "event_to_market_link": "Verified",
+      "claims_and_loss_evidence": "Unproven"
+    }
   },
   {
     "signal_id": "SIGNAL-003",
@@ -266,7 +288,18 @@
     ],
     "next_research_question": "Did the GCAA safety decision or associated GPS interference produce a documented operational restriction affecting a specific passenger itinerary, and only if so, which current policy terms could become relevant?",
     "research_decision": "Continue Research",
-    "record_status": "under_review"
+    "record_status": "under_review",
+    "uae_market_implications": {
+      "market_exposure": "The regulatory decision and GNSS-interference context are UAE-specific. The connection to the travel-insurance market is indirect unless an actual passenger flight restriction or itinerary impact is documented.",
+      "affected_policyholders": "Potential travellers on UAE-linked flights only if an operator or ATC measure caused a documented delay, cancellation, diversion or route change.",
+      "insurance_impact": "Do not map the ADS-B OUT safety mitigation itself to a delay or authority-action benefit. If a passenger disruption is evidenced, assess the carrier-confirmed cause and the exact policy definitions and exclusions.",
+      "claims_impact": "No passenger-facing disruption, additional expense, claim or insured loss is established by the safety decision.",
+      "insurer_impact": "Potential monitoring value for aviation-risk intelligence and claims cause classification; no claims or assistance workload is evidenced.",
+      "next_evidence": "Subsequent GCAA/NOTAM notices, operator schedule changes, flight movement records and any passenger-specific expense.",
+      "summary": "Direct UAE regulatory/aviation signal; passenger and insurance consequences remain unproven.",
+      "event_to_market_link": "Potential",
+      "claims_and_loss_evidence": "Unproven"
+    }
   },
   {
     "signal_id": "SIGNAL-004",
@@ -366,7 +399,18 @@
     ],
     "next_research_question": "Which UAE-origin or UAE-transit itineraries have demonstrably been disrupted by the current Gulf security and route restrictions, and what unrecovered passenger expenses remain after airline remedies?",
     "research_decision": "Continue Research",
-    "record_status": "under_review"
+    "record_status": "under_review",
+    "uae_market_implications": {
+      "market_exposure": "The EASA advisory covers specified Gulf FIR/maritime airspace and Etihad confirms cancellations on Abu Dhabi–Riyadh and Abu Dhabi–Dammam through 30 November. This creates a direct UAE-origin route and regional-risk connection.",
+      "affected_policyholders": "Potential UAE residents and visitors holding policies for affected Abu Dhabi–Saudi journeys, connecting itineraries or trips routed through exposed Gulf airspace.",
+      "insurance_impact": "Review cancellation, delay, missed-connection and additional-expense benefits alongside war/hostilities, government/authority action, known-event and airspace-closure clauses. EASA's advisory is not a blanket closure of all Gulf airspace.",
+      "claims_impact": "Potential rebooking, accommodation, meals, ground transport or trip interruption. Airline refunds/re-routing and assistance may reduce residual expense; no UAE claims or paid loss is verified.",
+      "insurer_impact": "Potential assistance escalation and customer enquiries around route safety, exclusions and alternative routing; market-wide demand or loss is not measured.",
+      "next_evidence": "Flight-number movement and cancellation data; passenger origin/destination and policy purchase dates; full current UAE policy wording; passenger expense net of airline remedies.",
+      "summary": "A direct regional UAE route exposure exists; coverage and claims outcomes remain policy- and itinerary-specific.",
+      "event_to_market_link": "Potential",
+      "claims_and_loss_evidence": "Unproven"
+    }
   },
   {
     "signal_id": "SIGNAL-005",
@@ -456,7 +500,18 @@
     ],
     "next_research_question": "What was the final delay and passenger-recovery outcome for EY057/EY058, and did any passenger incur an unrecovered expense that meets a specific UAE policy trigger?",
     "research_decision": "Continue Research",
-    "record_status": "under_review"
+    "record_status": "under_review",
+    "uae_market_implications": {
+      "market_exposure": "Etihad confirms disruption to EY057 Abu Dhabi–Brussels and the return EY058 due to Brussels ATC industrial action, creating a documented UAE-origin carrier connection.",
+      "affected_policyholders": "Potential UAE-based travellers on EY057/EY058 and connecting journeys affected by the final operating times.",
+      "insurance_impact": "Compare actual delay duration with policy thresholds (which vary by product), industrial-action definitions, pre-existing/announced-event exclusions and missed-connection benefits. Airline passenger-care and rebooking duties are separate from insurance.",
+      "claims_impact": "Potential delay benefit, missed connection, extra accommodation, meals or transport if the policy trigger is met and costs remain unrecovered. Final delay duration and claimant-level loss are not established.",
+      "insurer_impact": "Potential short-term assistance contacts and evidence review; no claims volume or insurer loss is known.",
+      "next_evidence": "Final actual departure/arrival times; airline letters stating cause; onward itinerary and connection buffer; receipts and support/refunds; applicable policy schedule.",
+      "summary": "Direct UAE-carrier route link verified; insured impact depends on final delay and passenger-level evidence.",
+      "event_to_market_link": "Potential",
+      "claims_and_loss_evidence": "Unproven"
+    }
   },
   {
     "signal_id": "SIGNAL-006",
@@ -536,7 +591,18 @@
     ],
     "next_research_question": "Did the planned 15% slot reduction produce measurable passenger disruption on UAE-linked itineraries, or was the impact largely absorbed through advance schedule planning?",
     "research_decision": "Monitor",
-    "record_status": "under_review"
+    "record_status": "under_review",
+    "uae_market_implications": {
+      "market_exposure": "Barcelona's planned runway-capacity reduction may affect UAE residents travelling to/from Barcelona or connecting through the airport. Advance schedule adjustment was announced, so operational impact cannot be assumed.",
+      "affected_policyholders": "Potential UAE policyholders with itineraries involving Barcelona during 16–26 November, especially passengers whose schedules changed or connections were disrupted.",
+      "insurance_impact": "Review delay, cancellation and missed-connection benefits only after confirming actual flight-level disruption. Planned works known before booking or policy inception may interact with known-event and foreseeability clauses.",
+      "claims_impact": "Potential delay, missed connection or extra accommodation/transport, but no attributable UAE-linked flight disruption or claim is recorded.",
+      "insurer_impact": "Potential low-level monitoring/customer-information requirement; no market-wide impact or claims surge is evidenced.",
+      "next_evidence": "Post-26 November Aena update; flight-level actual versus scheduled movements; UAE-linked itinerary evidence; passenger expenses and policy purchase dates.",
+      "summary": "Indirect UAE policyholder exposure through destination/connection itineraries; planned capacity reduction is not itself an insured loss.",
+      "event_to_market_link": "Potential",
+      "claims_and_loss_evidence": "Unproven"
+    }
   },
   {
     "signal_id": "SIGNAL-007",
@@ -613,7 +679,18 @@
     ],
     "next_research_question": "Did airport substitution to Salerno create unrecovered passenger transfer costs or missed connections on itineraries insured by UAE or international travel policies?",
     "research_decision": "Continue Research",
-    "record_status": "under_review"
+    "record_status": "under_review",
+    "uae_market_implications": {
+      "market_exposure": "Naples Airport closure and transfer of some services to Salerno may affect UAE residents travelling to the Naples area or connecting through affected services. No UAE route or passenger link is currently documented.",
+      "affected_policyholders": "Potential UAE residents with booked journeys to/from Naples or affected connecting itineraries during November 2026.",
+      "insurance_impact": "Check cancellation, curtailment, delay, missed connection and additional transport wording. Airport substitution/ground transfer may be handled by the carrier or travel supplier; policy response depends on the actual booking and expense.",
+      "claims_impact": "Potential extra ground transfer, accommodation, rebooking or missed-connection costs. No UAE policyholder, claim or insured loss is established.",
+      "insurer_impact": "Potential assistance enquiries about alternative airports and ground transport; no measured UAE insurer exposure.",
+      "next_evidence": "Affected airline schedules and passenger notices; original and substitute airport itinerary; who pays transfer costs; passenger receipts and current policy wording.",
+      "summary": "Indirect destination-level exposure only; airport closure and transfer costs need itinerary-level validation.",
+      "event_to_market_link": "Potential",
+      "claims_and_loss_evidence": "Unproven"
+    }
   },
   {
     "signal_id": "SIGNAL-008",
@@ -690,7 +767,18 @@
     ],
     "next_research_question": "How many actual flight changes occurred during the CAAT restriction windows, and did any passenger incur unrecovered expenses after airline rebooking?",
     "research_decision": "Monitor",
-    "record_status": "under_review"
+    "record_status": "under_review",
+    "uae_market_implications": {
+      "market_exposure": "The 24–25 November restrictions affect Chiang Mai aviation operations. UAE-market exposure would arise only where UAE residents hold affected itineraries, including onward connections; the event is future-dated relative to the 23 November observation.",
+      "affected_policyholders": "Potential UAE residents travelling to/from Chiang Mai or connecting through affected services on 24–25 November.",
+      "insurance_impact": "Assess delay, cancellation and missed-connection benefits against actual airline schedule changes, policy thresholds and known-event/advance-notice clauses. AIP restrictions and advance retiming may prevent passenger loss.",
+      "claims_impact": "Potential schedule change, missed connection, accommodation or transport expense. The reported cancellations/retimings are secondary-attributed to AOT and do not establish insured losses.",
+      "insurer_impact": "Potential travel-assistance monitoring around a time-limited aviation restriction; no claims or insurer cost is known.",
+      "next_evidence": "Post-event CAAT/AOT/airport operational results; flight-level actual movements; UAE-linked itineraries; expenses net of airline assistance.",
+      "summary": "Indirect and near-term exposure; wait for post-event flight outcomes before judging passenger or insurance impact.",
+      "event_to_market_link": "Potential",
+      "claims_and_loss_evidence": "Unproven"
+    }
   },
   {
     "signal_id": "SIGNAL-009",
@@ -768,7 +856,18 @@
     ],
     "next_research_question": "Which high-volume India–Europe and India–Gulf routes show measurable schedule extension attributable to the restriction, and do any passenger itineraries cross policy delay thresholds?",
     "research_decision": "Monitor",
-    "record_status": "under_review"
+    "record_status": "under_review",
+    "uae_market_implications": {
+      "market_exposure": "The restriction applies to Indian aircraft using Pakistani airspace, not all airlines or all Pakistan airspace. UAE-market exposure requires an affected carrier/route or a UAE resident's itinerary on a rerouted service.",
+      "affected_policyholders": "Potential UAE residents travelling on Indian-operated/Indian-registered services affected by the restriction, or on connecting itineraries whose schedules change.",
+      "insurance_impact": "A longer route or airline fuel cost alone is not a passenger insured loss. Review delay/cancellation/missed-connection benefits only where a passenger's actual schedule and covered cause meet the wording.",
+      "claims_impact": "Potential delay or missed connection if rerouting changes arrival times; no specific UAE passenger impact or expense is documented. Underlying NOTAM was not directly retrieved in this research pass.",
+      "insurer_impact": "Potential monitoring of regional route changes and assistance queries; no measured insurer exposure.",
+      "next_evidence": "Primary PAA NOTAM; airline-specific route maps and schedule notices; actual flight-time comparison; UAE-linked passenger itineraries and expenses.",
+      "summary": "Indirect, carrier-specific exposure with a primary-source gap; do not generalise the restriction to all UAE-linked flights.",
+      "event_to_market_link": "Potential",
+      "claims_and_loss_evidence": "Unproven"
+    }
   },
   {
     "signal_id": "SIGNAL-010",
@@ -840,6 +939,17 @@
     ],
     "next_research_question": "Has Plus Ultra formally ceased or entered insolvency, and what passenger-protection/refund pathways apply to affected international travellers?",
     "research_decision": "Continue Research",
-    "record_status": "under_review"
+    "record_status": "under_review",
+    "uae_market_implications": {
+      "market_exposure": "Reported Plus Ultra route suspensions may affect UAE residents only if they booked the airline directly or through an affected codeshare/agency itinerary. No UAE route or policyholder link is currently established.",
+      "affected_policyholders": "Potential UAE residents with tickets on suspended Plus Ultra services or connecting itineraries involving the airline; exposure depends on ticketing carrier, operating carrier and point of sale.",
+      "insurance_impact": "Separate ordinary cancellation/delay cover from airline insolvency or supplier-failure protection. Confirm whether the policy expressly includes financial failure, when the failure must occur, and any purchase-date or booking-channel conditions.",
+      "claims_impact": "Potential unrecovered ticket cost, replacement transport, accommodation or stranded-passenger expense only if a covered event and eligible booking are established. Formal cessation/insolvency is not confirmed.",
+      "insurer_impact": "Potential supplier-failure enquiries and assistance coordination; no UAE policy exposure, claims or loss is evidenced.",
+      "next_evidence": "Formal airline, regulator or court notice confirming legal/financial status; affected flight and ticket inventory; booking/payment channel; policy wording and alternative refund/chargeback remedies.",
+      "summary": "Indirect supplier-failure watchpoint; route suspension is not proof of insolvency or an insured airline-failure event.",
+      "event_to_market_link": "Potential",
+      "claims_and_loss_evidence": "Unproven"
+    }
   }
 ]
