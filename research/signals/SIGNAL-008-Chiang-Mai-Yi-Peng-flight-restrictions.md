@@ -21,3 +21,29 @@ No final flight-movement outcomes, passenger claims or insured losses.
 - Airspace Times, [Chiang Mai flight changes](https://airspacetimes.com/en/disruptions/chiang-mai-airport-flights-cancelled-and-retimed-for-yi-peng-sky-lanterns-2026-11-24/), 22 Nov 2026.
 
 **Next question:** What actual schedule changes occurred and did passengers incur unrecovered expenses?
+
+## UAE Travel Insurance Market Implications
+
+**Exposure pathway:** Indirect  
+**Event-to-market link:** Potential  
+**Claims / insured-loss evidence:** Unproven
+
+### Market exposure
+The 24–25 November restrictions affect Chiang Mai aviation operations. UAE-market exposure would arise only where UAE residents hold affected itineraries, including onward connections; the event is future-dated relative to the 23 November observation.
+
+### Affected policyholders
+Potential UAE residents travelling to/from Chiang Mai or connecting through affected services on 24–25 November.
+
+### Insurance impact
+Assess delay, cancellation and missed-connection benefits against actual airline schedule changes, policy thresholds and known-event/advance-notice clauses. AIP restrictions and advance retiming may prevent passenger loss.
+
+### Claims impact
+Potential schedule change, missed connection, accommodation or transport expense. The reported cancellations/retimings are secondary-attributed to AOT and do not establish insured losses.
+
+### Insurer impact
+Potential travel-assistance monitoring around a time-limited aviation restriction; no claims or insurer cost is known.
+
+### Evidence required next
+Post-event CAAT/AOT/airport operational results; flight-level actual movements; UAE-linked itineraries; expenses net of airline assistance.
+
+**Assessment:** Indirect and near-term exposure; wait for post-event flight outcomes before judging passenger or insurance impact.
